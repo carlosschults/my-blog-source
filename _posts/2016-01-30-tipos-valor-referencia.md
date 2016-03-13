@@ -113,7 +113,7 @@ Novamente, de acordo com o MSDN:
 
 Talvez você tenha se surpreendido em ver String listada como um tipo de referência. Afinal de contas, ela parece se comportar como um tipo de valor. Bom, a razão para isso é que a string é um tipo **imutável**. Como eu disse antes, não vou falar sobre isso hoje, mas em breve teremos um post inteiro sobre System.String.
 
-Bom, por hoje é só. Espero que tenham gostado do post, e eu adoraria ter o feedback de vocês. Eu me expressei claramente? Eu disse algo um pouco impreciso - ou mesmo totalmente errado? Deixe um comentário aqui embaixo ou envie um email para [carlos@carlosschults.net](mailto:carlos@carlosschults.net).
+Bom, por hoje é só. Espero que tenham gostado do post, e eu adoraria ter o feedback de vocês. Eu me expressei claramente? Eu disse algo um pouco impreciso - ou mesmo totalmente errado? Deixe um comentário aqui embaixo ou [me chame no twitter](http://twitter.com/carlosschults).
 
 ## Referências (em inglês): ##
 

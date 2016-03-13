@@ -120,7 +120,7 @@ Maybe you're surprised to see String listed as a reference type. After all, it s
 Well, the reason for this is because String is an **immutable type**. As I said, I won't talk about this today, but soon we'll have a post all about System.String.
 
 OK, that's it for today. I hope you guys enjoyed this post, and I'd love to hear your feedback.Have I expressed myself clearly enough? Have I said something innacurate - or even flat-out wrong?
-Let me know in the comments, or send an email to [carlos@carlosschults.net](mailto:carlos@carlosschults.net).
+Let me know in the comments, or [reach me on twitter](http://twitter.com/carlosschults).
 
 ## References: ##
 
