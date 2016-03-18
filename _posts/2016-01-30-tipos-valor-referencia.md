@@ -5,6 +5,7 @@ lang: pt
 layout: post
 permalink: /pt/tipos-valor-referencia-em-csharp/
 author: Carlos Schults
+img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1454161644/value-reference-types-1038x437_tutiht.png
 tags:
 - c#
 - iniciantes

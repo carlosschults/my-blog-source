@@ -5,6 +5,7 @@ ref: share
 permalink: /en/share-what-you-learn/
 lang: en
 author: Carlos Schults
+img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1440517439/share1038x437_mshqwf.jpg
 tags:
 - blogging
 - sharing
