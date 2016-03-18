@@ -15,12 +15,12 @@
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
 
    <!-- Facebook meta -->
-  {% assign language = "en-US" %}
+  {% assign language = "en_US" %}
   {% if page.lang %}
     {% if page.lang == "en" %}
-     {% assign language = "en-US" %}
+     {% assign language = "en_US" %}
     {% else %}
-     {% assign language = "pt-BR" %}
+     {% assign language = "pt_BR" %}
     {% endif %}
   {% endif %}
   <meta property="og:title" content="{{ page.title }}">
