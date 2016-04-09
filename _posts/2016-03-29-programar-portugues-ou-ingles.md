@@ -7,8 +7,8 @@ permalink: /pt/programar-portugues-ou-ingles/
 ref: idioma
 img: ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1458429920/portugues-ou-ingles-1038x437_izhi3i.png)
 tags: 
-- boas praticas
-- ingles
+- boas práticas
+- inglês
 ---
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1458429920/portugues-ou-ingles-1038x437_izhi3i.png)
@@ -60,6 +60,7 @@ Resumindo: uma equipe que tem domínio superficial do inglês necessariamente pr
 O [Tiago Albineli Motta, do blog "Programando Sem Cafeína"](http://programandosemcafeina.blogspot.com.br/2009/03/nomes-de-metodos-e-variaveis-devem-ser.html), traz um argumento bem interessante: de que o uso de idiomas diferentes prejudica a comunicação entre cliente e a equipe de desenvolvimento, principalmente quando o domínio do negócio é bastante específico. Para justificar, ele cita o exemplo de quando trabalhava em uma empresa que estava desenvolvimento um sistema para um laboratório geológico. Como os funcionários do laboratório usavam termos em português e a equipe de desenvolvimento em inglês, havia ruídos na comunicação.
 
 Destaco um trecho interessante abaixo (destaque meu):
+
 > Eis então a pergunta: Será que um código que mistura termos em inglês e português causa mais problemas que os ruídos na comunicação com o cliente? Pode-se alegar que o código nem será mostrado ao usuário, **mas na hora em que o desenvolvedor precisa se comunicar com o cliente, na mente dele ele não está trabalhando com amostras, ele está trabalhando com samples.**
 
 Ainda no tema do domínio, poderíamos imaginar o desenvolvimento de uma aplicação que se integra com a famigerada Nota Fiscal Eletrônica. Como o xml da nota já vem com os campos todos em português, utilizar nomes de variáveis em inglês poderia adicionar um esforço cognitivo desnecessário.
