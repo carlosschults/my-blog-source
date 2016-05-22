@@ -40,6 +40,7 @@ Vamos ver a definição da Wikipédia:
  Unit tests are typically written and run by software developers to ensure that code meets its design and behaves as intended.
 
 Em tradução livre:
+
 > Em programação de computadores, teste unitário é um método de teste de software pelo qual unidades individuais de código fonte [...] são testadas para determinar se são adequadas para o uso. Intuitivamente, pode-se considerar uma unidade como a menor parte testável de uma aplicação. [...]
  Testes unitários são tipicamente escritos e executados por desenvolvedores para garantir que o código está de acordo com o projeto e se comporta da maneira desejada.
 
