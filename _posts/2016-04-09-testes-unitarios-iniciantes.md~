@@ -41,7 +41,7 @@ Vamos ver a definição da Wikipédia:
 
 Em tradução livre:
 > Em programação de computadores, teste unitário é um método de teste de software pelo qual unidades individuais de código fonte [...] são testadas para determinar se são adequadas para o uso. Intuitivamente, pode-se considerar uma unidade como a menor parte testável de uma aplicação. [...]
-> Testes unitários são tipicamente escritos e executados por desenvolvedores para garantir que o código está de acordo com o projeto e se comporta da maneira desejada.
+ Testes unitários são tipicamente escritos e executados por desenvolvedores para garantir que o código está de acordo com o projeto e se comporta da maneira desejada.
 
 A primeira coisa que chama a atenção é que os testes unitários **não têm o propósito de testar o sistema como um todo**. Pelo contrário, eles testam pequenas partes do software - as tais das unidades. E o que é uma unidade? Existem diversos pontos de vista conflitantes sobre isso, diversas "escolas de pensamento". Mas é seguro dizer que, no contexto de programação orientada a objeto, a maioria das pessoas considera unidade como sendo uma **classe**.
 
