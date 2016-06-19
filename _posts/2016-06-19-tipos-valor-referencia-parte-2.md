@@ -82,6 +82,6 @@ Agora você entende as complicações envolvidas em representar `null` para um t
 
 Felizmente há uma solução fácil. Ainda que tipos de valor "normais" não são nuláveis, a versão 2 do C# introduziu a estrutura `Nullable<T>`, que permite atribuir `null` a praticamente qualquer coisa. 
 
-Falarei sobre isso no próximo artigo da série. Como bônus, você vai aprender um pouco sobre outra feature interessante chamada *generics**.
+Falarei sobre isso no próximo artigo da série. Como bônus, você vai aprender um pouco sobre outra feature interessante chamada **generics**.
 
 Até lá!
