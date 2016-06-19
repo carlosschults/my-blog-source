@@ -5,13 +5,15 @@ lang: pt
 layout: post
 permalink: /pt/tipos-valor-referencia-em-csharp/
 author: Carlos Schults
+img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png
 tags:
-- c#
+- csharp
 - iniciantes
-- oop
+- orientacao-a-objetos
 - tipagem
 ---
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1454161644/value-reference-types-1038x437_tutiht.png)
+![](img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png)
+
 Este é o meu primeiro post pra valer aqui no meu blog, e eu decidi escrever sobre tipos de valor e tipos de referência em C#. Isso é um assunto relativamente básico, no sentido de que é algo que você já deveria entender caso você programe em C# profissionalmente. Mas ao mesmo tempo, é algo que pode ser um pouco contra-intuitivo caso você não seja um desenvolvedor experiente.
 <!--more-->
 

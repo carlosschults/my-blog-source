@@ -5,14 +5,16 @@ lang: en
 layout: post
 author: Carlos Schults
 permalink: /en/value-reference-types-in-csharp/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1454161644/value-reference-types-1038x437_tutiht.png
+img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png
 tags:
-- c#
+- csharp
 - beginners
 - oop
 - type system
 ---
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1454161644/value-reference-types-1038x437_tutiht.png)
+
+![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png)
+
 This is my first "real" post here on my blog, and I decided to talk about value types and reference types. This is somewhat of a basic subject, in the sense that it is something that you should already know if you write C# code for a living.But at the same time, it can be a little non-intuitive if you're not an experienced developer.
 <!--more-->
 I'll try to make this as simple and short as possible, so I won't talk about string immutability, boxing, unboxing, and some other things with fancy names.
