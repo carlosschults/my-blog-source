@@ -21,8 +21,6 @@ Há uns dois meses, [Marcos Douglas](https://twitter.com/mdbs99) publicou um pos
 
 Marcos mostra várias orientações úteis, tais como o número ideal de argumentos em um método, o número ideal de métodos, em uma classe, e assim por diante. O artigo é muito bom, e eu recomendo a todos vocês que o [leiam ](https://gist.github.com/carlosschults/5f4ba7cfb2453977c8d11424b2926686), mas ele não é o foco do meu post hoje.
 
-Instead, I want to talk about a subject that showed up in the comment's thread: private methods as a [code smell](https://martinfowler.com/bliki/CodeSmell.html).
-
 Hoje, o que eu realmente quero falar é de um assunto que surgiu na área de comentários do artigo do Marcos: que diversas pessoas consideram métodos privados como um [*Code Smell* (algo como "mau-cheiro de código")](http://www.pedromendes.com.br/2013/11/04/code-smells/).
 
 Como eu nunca tinha ouvido ou lido nada nesse sentido antes, fiquei bastante surpreso e decidi pesquisar mais.
