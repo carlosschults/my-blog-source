@@ -1,12 +1,19 @@
-# Blogs em português sobre desenvolvimento de software que você deveria seguir!
-
-----
-
-Para o bem ou para o mal, o idioma da tecnologia é o inglês. Mas isso não significa que não existe conteúdo de qualidade sendo produzido na nossa língua.
-
-----
+---
+title: "Blogs em portugês sobre desenvolvimento de software que você deveria seguir!"
+ref: dicas-blogs
+lang: pt
+layout: post
+author: Carlos Schults
+permalink: /pt/blogs-desenvolvimento-portugues/
+img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1486838693/capa-min_gdaepw.jpg
+tags:
+- recomendacoes
+---
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1486838693/capa-min_gdaepw.jpg)
+
+Para o bem ou para o mal, o idioma da tecnologia é o inglês. Mas isso não significa que não existe conteúdo de qualidade sendo produzido na nossa língua.
+<!--more-->
 
 O inglês é a língua franca da tecnologia, como eu já [disse quando expus minha opinião sobre a controvérsia de se programar em inglês ou português.](http://carlosschults.net/pt/programar-portugues-ou-ingles/) 
 
