@@ -1,5 +1,5 @@
 ---
-title: "Blogs em portugês sobre desenvolvimento de software que você deveria seguir!"
+title: "Blogs em português sobre desenvolvimento de software que você deveria seguir!"
 ref: dicas-blogs
 lang: pt
 layout: post
