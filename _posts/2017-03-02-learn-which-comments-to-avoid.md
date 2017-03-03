@@ -21,7 +21,7 @@ Spoiler Alert: You should avoid most of them.
 
 When I was in college, I considered the comments indispensable when writing code. Otherwise, how could you understand what the code should do?
 
-After getting my degree and finding a job, things started to change. I was being exposed to * real code *; I was reading books, articles and blog posts written by influential people in our industry.
+After getting my degree and finding a job, things started to change. I was being exposed to *real code*; I was reading books, articles and blog posts written by influential people in our industry.
 
 These experiences shaped my current vision.
 
@@ -53,7 +53,7 @@ What do I mean by "Changelog" comments? Comments that just list the changes made
 
 Comments like this are just doing the same work as your VCS already does, but in a clumsy and error-prone way.
 
-Do not write these types of comments. Use [git] (https://git-scm.com/) and be happy.
+Do not write these types of comments. Use [git](https://git-scm.com/) and be happy.
 
 ### Redundant Comments
 

@@ -14,7 +14,7 @@ tags:
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg)
 
-Alerat de Spoiler: Você deveria evitar a maioria.
+Alerta de Spoiler: Você deveria evitar a maioria.
 <!--more-->
 
 "Comentar ou não comentar". Essa é uma questão que gera debates acalorados. Algumas pessoas dizem que comentários são indispensáveis. Outros defendem que comentários apenas mostram a incapacidade do desenvolvedor de se expressar claramente no código. Quem está certo?
@@ -53,7 +53,7 @@ O que eu quero dizer por comentários changelog? Comentários que servem apenas 
 
 Comentários desse tipo estão apenas fazendo o mesmo trabalho que seu controle de versão, mas de uma maneira desajeitada e propensa ao erro.
 
-Não escreve comentários como esses. Use [git] (https://git-scm.com/) e seja feliz.
+Não escreve comentários como esses. Use [git](https://git-scm.com/) e seja feliz.
 
 ### Comentários redundantes
 
@@ -100,7 +100,7 @@ Considere o código a seguir:
 <script src="https://gist.github.com/carlosschults/ec7db3ebadccded768f97933c88e704f.js"></script>
 
 
-Talvez você não considere o comentário no trecho acima tão ruim. Tudo bem, não é tão ruim. Mas pense na oportunidade perdida de extrair um método ou propriedade útil:
+Talvez você não considere o comentário no trecho acima tão ruim. Tudo bem, não é péssimo. Mas pense na oportunidade perdida de extrair um método ou propriedade útil:
 
 <script src="https://gist.github.com/carlosschults/b102a4f5c11ba7b1639410dcbb87830f.js"></script>
 
