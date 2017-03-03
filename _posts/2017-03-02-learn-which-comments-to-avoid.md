@@ -15,7 +15,7 @@ tags:
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg)
 
 Spoiler Alert: You should avoid most of them.
-<! - more ->
+<!--more-->
 
 "To comment or not to comment". This is a question that tends to spark heated debate. Some people say that comments are an indispensable tool. Others argue that the comments show the developer's inability to express himself clearly in the code. Who's right?
 
@@ -117,7 +117,7 @@ Not all comments are bad, though. In a future post, I'll write about situations 
 
 See you later!
 
-##Read More
+## Read More
 
 - [Apologies In Code, by Robert C. Martin](http://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode)
 - [Write comments that matter, by Sander Rossel](https://www.codeproject.com/tips/467657/write-comments-that-matter)

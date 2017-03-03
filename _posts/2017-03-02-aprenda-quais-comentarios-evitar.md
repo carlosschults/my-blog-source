@@ -15,7 +15,7 @@ tags:
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg)
 
 Alerat de Spoiler: Você deveria evitar a maioria.
-<! - more ->
+<!--more-->
 
 "Comentar ou não comentar". Essa é uma questão que gera debates acalorados. Algumas pessoas dizem que comentários são indispensáveis. Outros defendem que comentários apenas mostram a incapacidade do desenvolvedor de se expressar claramente no código. Quem está certo?
 
@@ -118,7 +118,7 @@ Nem todos os comentários são ruins. Em um post futuro, vou falar sobre os tipo
 
 Até mais!
 
-##Ler mais (todos os links em inglês)
+## Ler mais (todos os links em inglês)
 
 - [Apologies In Code, por Robert C. Martin](http://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode)
 - [Write comments that matter, por Sander Rossel](https://www.codeproject.com/tips/467657/write-comments-that-matter)
