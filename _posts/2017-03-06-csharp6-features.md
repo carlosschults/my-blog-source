@@ -1,9 +1,20 @@
-# It's about time you start using these C# 6 features
- 
+---
+title: It's about time you start using these C# 6 features
+ref: csharp6
+lang: en
+layout: post
+author: Carlos Schults
+permalink: /en/csharp-6-features/
+img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg
+tags:
+- csharp
+- beginners
+---
+  
+![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg)
+
 The 7th version of C# is coming, and it's expected to bring some new and exciting features to our tool sets. Here's the thing, though: Are you up to speed with its predecessor's features?
  <!--more-->
- 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg)
  
 A few days ago I was trying to figure out what my next post would be about. It seemed only natural to write about the features of C# 7 since we're [one day(!!!) from the release of Visual Studio 2017.]((https://blogs.msdn.microsoft.com/visualstudio/2017/02/09/visual-studio-2017-launch-event-and-20th-anniversary/))
  
