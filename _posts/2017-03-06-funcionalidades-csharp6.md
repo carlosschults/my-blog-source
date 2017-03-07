@@ -20,7 +20,7 @@ Alguns dias atrás eu estava pensando sobre qual seria o tema do próximo post. 
 
 Mas então eu percebi que, mesmo já fazendo cerca de dois anos desde o lançamento do C# 6, alguns desenvolvedores ainda não se sentem confortáveis o suficiente com as funcionalidades da versão, de maneira a não incorporá-las em seu código.
 
-Assim, eu decidi voltar um pouco e escrever sobre as funcionalidades do C# 6 no lugar disso. Não todas, mas aquelas que podem fazer seu código ficar mais limpo e expressivo, e que são simples o suficiente para você já sair usando!
+Assim, eu decidi voltar um pouco e escrever sobre as funcionalidades do C# 6 no lugar disso. Não todas, mas aquelas que podem tornar seu código mais limpo e expressivo, e que são simples o suficiente para você já sair usando!
  
 ## Interpolação de String
  
@@ -93,7 +93,7 @@ Ao invés disso, a intenção era permitir aos desenvolvedores escrever código 
 
 Você pode pensar que algumas das funcionalidades não fazem tanta diferença, na prática. Eu discordo. C# é frequentemente acusado de ser muito verboso. Existem situações nas quais você precisa escrever uma quantidade razoável de código para fazer algo que em Ruby ou Python poderia ser feito em uma linha.
 
-E isso é normal. Um pouco (a maioria) da já mencionada verbosidade é vem do fato de C# ser uma linguagem estaticamente tipada, e eu digo: **sou feliz por isso**. Eu não consigo contar a quantidade de vezes que o compilador meu salvou, pegando meus erros idiotas.
+E isso é normal. Um pouco (a maioria) da já mencionada verbosidade vem do fato de C# ser uma linguagem estaticamente tipada, e eu digo: **sou feliz por isso**. Eu não consigo contar a quantidade de vezes que o compilador me salvou, pegando meus erros idiotas.
 
 Se um pouco de verbosidade é o preço que tenho que pagar por isso, que seja.
  
