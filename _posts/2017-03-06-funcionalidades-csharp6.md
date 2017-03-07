@@ -17,8 +17,6 @@ A sétima versão do C# está chegando, e vai provavelmente trazer várias funci
  <!--more-->
 
 Alguns dias atrás eu estava pensando sobre qual seria o tema do próximo post. Nada mais natural que escrever sobre o C# 7, já que [seu lançamento, junto com o Visual Studio 2017, é amanhã.](https://blogs.msdn.microsoft.com/visualstudio/2017/02/09/visual-studio-2017-launch-event-and-20th-anniversary/)
- 
-But then I realized that, even though it's been almost two years since the release of C# 6, some developers still aren't comfortable with its features, and have not incorporated them into their code.
 
 Mas então eu percebi que, mesmo já fazendo cerca de dois anos desde o lançamento do C# 6, alguns desenvolvedores ainda não se sentem confortáveis o suficiente com as funcionalidades da versão, de maneira a não incorporá-las em seu código.
 
