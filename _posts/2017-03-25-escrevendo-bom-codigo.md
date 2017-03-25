@@ -19,7 +19,7 @@ tags:
 ----
 <p></p>
 
-Baixo número de bugs, boa performance, facilidade de modificação. Código bem feito gera alto impacto, e talvez seja a maior razão por trás da existência do famoso desenvolvedor "10x". E ainda assim, apesar de sua importância, código bom escapa a novos novos desenvolvedores. A literatura nessa área geralmente consistente de coleções de dicas desconexas. Como um novo desenvolvedor vai simplesmente memorizar isso tudo?  “[Code Complete](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=chrimaiospo06-20&linkId=6aabd46b91da513d86257af2c05b6585)“, o maior expoente nesta matéria, é um livro de 960 páginas!
+Baixo número de bugs, boa performance, facilidade de modificação. Código bem feito gera alto impacto, e talvez seja a maior razão por trás da existência do famoso desenvolvedor "10x". E ainda assim, apesar de sua importância, código bom escapa a novos desenvolvedores. A literatura nessa área geralmente consistente de coleções de dicas desconexas. Como um novo desenvolvedor vai simplesmente memorizar isso tudo?  “[Code Complete](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=chrimaiospo06-20&linkId=6aabd46b91da513d86257af2c05b6585)“, o maior expoente nesta matéria, é um livro de 960 páginas!
 
 **Eu acredito que é possível construir um framework mental simples que pode ser usado com qualquer linguagem ou biblioteca e que vai resultar em código de boa qualidade por padrão.** Há cinco conceitos principais sobre os quais vou falar aqui. Basta mantê-los em mente e escrever código de boa qualidade será moleza.
 
