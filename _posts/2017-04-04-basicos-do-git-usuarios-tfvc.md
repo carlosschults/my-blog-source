@@ -13,6 +13,8 @@ tags:
 - tfvcs
 ---
 
+![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1491343925/git-for-tfs-users-1038x437_ios03n.jpg)
+
 Aprender Git pode ser desafiador para desenvolvedores com experiência em versionadores centralizados. Mas não precisa ser assim. 
 <!--more-->
 
