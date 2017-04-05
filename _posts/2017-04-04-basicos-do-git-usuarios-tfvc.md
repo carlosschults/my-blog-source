@@ -1,4 +1,3 @@
-<!--
 ---
 title: Introdução ao Git para usuários de TFS/TFVC
 ref: git-tfs
@@ -13,7 +12,6 @@ tags:
 - tfs
 - tfvcs
 ---
--->
 
 Aprender Git pode ser desafiador para desenvolvedores com experiência em versionadores centralizados. Mas não precisa ser assim. 
 <!--more-->

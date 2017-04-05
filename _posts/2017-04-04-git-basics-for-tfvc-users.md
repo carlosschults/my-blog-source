@@ -1,4 +1,3 @@
-<!--
 ---
 title: Git basics for TFS/TFVC users
 ref: git-tfs
@@ -13,7 +12,6 @@ tags:
 - tfs
 - tfvcs
 ---
--->
 
 Learning Git can be a bit challenging for developers with a background in centralized version control systems. But it doesn't have to be that way.
 <!--more-->
