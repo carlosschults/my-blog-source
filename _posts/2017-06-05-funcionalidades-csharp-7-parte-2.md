@@ -19,7 +19,7 @@ Neste artigo, vamos continuar a ver algumas das features mais interessantes do C
 
 Na [primeira parte da série](http://carlosschults.net/pt/funcionalidades-csharp-7/), nós falamos sobre algumas das novas features do C#, a saber: melhorias em literais, variáveis de saída, mais membros "*expression-bodied*" e throw expressions.
 
-Hoje nós veremos: **Tuplas** e **Funções locais**.
+Hoje nós veremos: **Tuplas** e **Funções locais**. Mas antes de continuarmos, quero deixar meu agradecimento ao amigo Gunter Italiano Ribeiro, que gentilmente revisou este artigo.
 
 ## Tuplas
 
