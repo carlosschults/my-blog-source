@@ -18,7 +18,7 @@ In this post we'll see some more new features from C# 7.0.
 
 In [the first part of this series](http://carlosschults.net/en/csharp-7-features/), we talked about some new features from C#, namely: literal improvements, out variables, more *expression-bodied* members and throw expressions.
 
-Today we'll see: **Tuples** and **Local Functions**.
+Today we'll see: **Tuples** and **Local Functions**. But before we go on, I'd like to thank my friend Gunter Italiano Ribeiro for reviewing this article.
 
 ## Tuples
 
