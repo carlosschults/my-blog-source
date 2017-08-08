@@ -1,22 +1,17 @@
-<!--
 ---
 title: Unit testing for beginners - Part 2
 ref: unit2
 lang: en
 layout: post
 author: Carlos Schults
-permalink: /pt/testes-unitarios-iniciantes-parte-2
+permalink: /en/unit-testing-for-beginners-part2/
 img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
 tags:
-- csharp
-- iniciantes
-- testes de software
-- testes unitários
-- testes automatizados
-- csharp
-- metodologias ágeis
+- software testing
+- unit testing
+- automated tests
+- agile
 ---
--->
 
 # Unit Testing For Beginners - Part 2
 
@@ -80,15 +75,15 @@ This is it.
 
 ## Creating and running the first test
 
-Vamos começar a criar alguns testes. Primeiro, vamos adicionar uma nova classe ao nosso projeto de Produção. A classe se chamará `Employee` e terá o seguinte código:
+Let's create some tests. First, let's add a new class to our production project. The class's name will be `Employee` and its code will look like this:
 
 <script src="https://gist.github.com/carlosschults/3f42e324b10ceb42b360382686d314de.js"></script>
 
-Eu imagino que a classe seja simples o suficiente e não necessita de explicação. Agora, vamos criar nossa classe de teste. No projeto **ApplicationTest**, adicione uma nova classe com o nome de **EmployeeTest**. 
+I think the class is simple enough to not require aditional explanation. Now, it's time to create our test class. Add a new class called `EmployeeTest` to the **ApplicationTest** project. 
 
-> Este é um dos padrões de nomenclatura que eu também utilizo: nomear a classe de teste com o mesmo nome da classe de produção, acrescentando *Test* no final.
+> This is another naming convention I like to use: to name the test class after the production class, adding the word *Test* at the end. 
 
-Após a criação da classe, adicione o namespace *NUnit.Framework* na lista de usings da classe. Em seguida, crie um novo método público de retorno *void* chamado **MyFirstTestMethod** e adicione o atributo `[Test]` a ele.
+After the class is created, add the *NUnit.Framework* namespace to its using list. Then, create a new void returning public method called **MyFirstTestMethod** and add the `[Test]` attribute to it.
 
 Nesse ponto, o código da classe deve estar assim:
 
