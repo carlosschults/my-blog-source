@@ -112,7 +112,7 @@ Ao clicar no nome do teste, serão exibidas algumas informações adicionais, co
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498508050/MyFirstTestPass2_ageqqm.png)
 
-Note o uso da cor verde para sinalizar o sucesso do teste.
+Note o uso da cor verde para indicar o sucesso do teste.
 
 Vamos agora fazer o contrário: forçar a falha do teste. Substitua a linha no método por:
 
