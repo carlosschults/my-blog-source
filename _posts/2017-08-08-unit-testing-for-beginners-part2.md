@@ -143,78 +143,74 @@ In the first line, we create a new instance of `Employee`, specifying name, prof
 
 Finally, we use the `AreEqual` method from the `Assert` class to verify the equality of the two values. This method is, probably, the one you'll use the most during your tests.
 
-Now it's time to run the test. Use the shortcut **CTRL + R, A** or click on **Run All** na janela do Gerenciador de Teste. Se tudo der certo, você verá a barra verde e a mensagem indicando que os dois testes passaram.
+Now it's time to run the test. Use the shortcut **CTRL + R, A** or click on **Run All** in the Test Explorer window. If everything goes smoothly, you should see the green bar and the message indicating that both tests have passed.
 
-Vamos agora testar o teste: vamos "estragar" o método `Introduce` e ver se o método falha como deveria. De volta à classe de produção, vamos modificar o método da seguinte forma:
+Time to test our test! We're going to deliberately ruin the `Introduce` method to see if the test fails as expected. Back to the production class, edit the method like this:
 
 <script src="https://gist.github.com/carlosschults/02554ca9b8dd69f8c904dbbcc271c99e.js"></script>
 
-Como você viu, nós retiramos os colchetes ao redor de JobTitle. Desta forma, a interpolação de string não será realizada, fixando o texto "JobTitle" ao invés de substituí-lo pelo valor da variável.
+As you've seen, we've just removed the square brackets before and after "JobTitle". This way, the string interpolation won't work, hardcoding the string instead of replacing it by the value of the variable.
 
-Ao rodar os testes novamente, obtemos o seguinte resultado:
+When we run the tests again, we got the following result:
 
 > Mensagem:   Expected string length 48 but was 46. Strings differ at index 37.
 Expected: "Hi! My name is Alice and I work as a Programmer."
 But was:  "Hi! My name is Alice and I work as a JobTitle."
 ------------------------------------------------^
-  
-Em tradução livre, seria algo como:
 
-> O comprimento esperado da string era 48 mas o obtido foi 46. As string diferem a partir do índice 37.
-> Esperado: "Hi! My name is Alice and I work as a Programmer."
-> Mas foi: "Hi! My name is Alice and I work as a JobTitle."
+As you can see, the message is very detailed. It not only lets us know that the strings differed, but it also tells us exactly where they differ. It also shows the expected string and what we really got. It is important to notice that the parameter's orders in the `AreEqual` matters a lot, since it is used in the failure message.
   
-Como podemos ver, a mensagem é bem explicativa. Ela nos informa não apenas que as string divergiram mas exatamente em que parte elas começaram a divergir. Também nos informa exatamente o texto esperado e o que realmente foi obtido. É importante salientar que a ordem dos parâmetros do método `AreEqual` importa, pois isso influi na mensagem exibida quando o teste falha.
+> **The parameters' order in the `AreEqual` is very important. First specify the expected value, and then the actual result.**
   
-> **A ordem dos parâmetros no método `AreEqual` é muito importante. Passe primeiro o resultado esperado, e depois o que realmente foi obtido.**
-  
-Ótimo. Podemos voltar o método para sua implementação anterior e executar os testes novamente, para ver que o teste volte a passar.
+Great. Now you can switch the method back to the correct implementation and run the tests again, so the test can be green again.
 
-Como você pode ver, um teste de unidade envolve uma sequência de passos bem definida: **preparamos** o cenário, **executamos** a ação, e **verificamos** o resultado. Essa sequência de passos - ou fases - é muitas vezes chamada de AAA: **Arrange-Act-Assert**.
+As you can see, a unit test consists in a well defined sequence of steps: we **prepare** the scenario, then **execute** the action and **verify** the results. This sequence of steps, or phases, is sometimes called AAA: **Arrange-Act-Assert**.
   
-> Um teste de unidade típico envolve as fases **Arrange-Act-Assert**.
+> A tipical unit test has the three phases: **Arrange-Act-Assert**.
 
-Embora existam outras nomenclaturas para as fases do teste de unidade, vamos adotar **Arrange-Act-Assert** como nossa nomenclatura padrão, ao menos por enquanto.
+Even though there are another naming conventions for the phases of a unit test, we'll adopt **Arrange-Act-Assert** , at least for now.
 
-Você talvez esteja se perguntando por qual motivo eu de o nome de "sut" à variável declarada no início do método. Este é um padrão de nomenclatura que aprendi lendo o blog do [Mark Seeman](http://blog.ploeh.dk/). **SUT** significa *System Under Test*, ou "Sistema Sob Teste", em tradução livre. É um termo usado para se referir à classe sendo testada no teste atual. Não há nada que obrigue a utilização de `sut` como o nome da variável, mas eu gosto de usar dessa forma, pois deixa evidente no teste quem é que está sendo testado.
+You may be wondering why I gave the name "sut" to the variable at the start of the method. This is a naming convention that I learned while reading [Mark Seeman's blog](http://blog.ploeh.dk/). **SUT** stands for *System Under Test*, i.e. the thing you're testing.
 
-> **Dica: Procure utilizar padrões de codificação que melhorem a legibilidade e deixem a intenção do autor explícita para o leitor do código.**
+There is nothing preventing you from naming the variable whatever you want. I really like to follow this convention, though, since it makes really clear what is being tested.
+
+> **Tip: Try to use naming conventions that improve the readability of your code and make the author's intention clear for anyone who reads the code.**
   
-Logo abaixo temos o método de teste, dessa vez com comentários demonstrando cada fase do teste:
+Take a look at the same test method, but this time with comments delimiting each test phase:
   
 <script src="https://gist.github.com/carlosschults/a91d41ff7ac732fc9c57e63c03a6be07.js"></script>
   
-Embora não seja realmente necessário, eu sugiro que você use comentários para demarcar as fases do teste como no exemplo acima, ao menos no início de seu aprendizado.
+Even though it isn't really need, I suggest you use comments like the ones above to indicate the test phases, at least in the beginning of your learning.
   
-## Mais um teste: método `GiveRaise`
+## Testing the `GiveRaise` method
   
-Um aumento no salário é sempre bem-vindo, concordam? Vamos testar que o método `GiveRaise` funciona como deveria. Na sua classe de teste, adicione o método a seguir:
+A salary raise is always welcome, wouldn't you agree? Let's test the `GiveRaise` method to see if it's working properly. Add the following method to your test class:
 
 <script src="https://gist.github.com/carlosschults/2ce153c1da6f83e80342fa7f83ea4786.js"></script>
 
-Execute o teste e você deverá ver a familiar barra verde de sucesso. Deu certo? Ótimo. Hora de **testar o teste:** vamos "sabotar" a implementação do método `GiveRaise` e ver se o teste falha.
+Run the test and you should see the familiar green bar. Did it work? Great. Time to **test the test**: we're going to sabotage the implementation of `GiveRaise` and hope our test catches the error.
 
-Na classe de produção, vamos deixar o método assim:
+In the production class, edit the method this way:
 
 <script src="https://gist.github.com/carlosschults/fba5901aaa2f542bcd8528de0e96afff.js"></script>
 
-Agora que o método está obviamente errado, o teste deveria falhar. Vamos executá-lo?
+Now the method is obviously wrong; the test should fail. Let's run it?
 
  > Mensagem:   Expected: 110
    But was:  5m
   
+Ok, as we can see, the test did fail. Switch the method back to the correct implementation.
 
-Ok, podemos ver que o teste realmente falhou. Podemos voltar o método ao normal e ver que agora tudo passa como deveria.
+## A last test
 
-## Um último teste
-
-Digamos que surgiu um novo requisito: se a porcentagem de aumento passada for negativa, o salário deve permanecer o mesmo. Vamos então alterar o método `GiveRaise` para tratar este caso:
+Let's say the Product Owner just showed up with a new requirement: the `GiveRaise` method should ignore negative raise rates. First, let's edit the `GiveRaise` method to deal with this scenario:
 
 <script src="https://gist.github.com/carlosschults/3f09a8043a1e58753adf9bfdee37350a.js"></script>
 
-Fizemos uma alteração no código de produção. Nossa prioridade agora é **verificar que nada quebrou**. Execute os testes para verificar se todos ainda estão passando normalmente.
+We've just made a change in production code. Our top priority right now is **to guarantee that we haven't broken anything**.
+Run the test to be sure that all of them are passing.
 
-Tudo ainda está verde? Ótimo, vamos em frente. Agora precisamos criar um novo teste para documentar o caso da tentativa de aumento negativo.
+Everything still green? Great, let's go ahead. Agora precisamos criar um novo teste para documentar o caso da tentativa de aumento negativo.
 
 > Testes de unidade também são uma forma de documentação.
 
