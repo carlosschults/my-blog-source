@@ -113,37 +113,37 @@ Now let's do the opposite: force the test to fail. Replace the previous line for
 
 > Assert.Fail();
 
-Run the test again and you'll see the failure message, this time with the read bar:
+Run the test again and you'll see the failure message, this time with the red bar:
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498508371/myfirsttestfail_xwuo5u.png)
 
-Agora que você já está pegando o jeito, vamos começar a testar a nossa classe `Employee`. Não esqueça de voltar o método de teste que fizemos para `Assert.Pass` para que ele não fique falhando.
+Now that you're getting the hang of it, we're start testing our `Employee` class. Don't forget to switch the test method back to `Assert.Pass()`, otherwise it will continue to fail.
 
-Em seguida, adicione um novo método de teste chamado `IntroduceMethodShouldWorkCorrectly`. Nele, vamos criar uma nova instância do objeto `Employee` e verificar que o método `Introduce` está funcionando como deveria.
+Now add a new method called `IntroduceMethodShouldWorkCorrectly`. In this method we'll create a new instance of `Employee` and verify that the `Introduce` method is working properly.
 
-Antes de fazermos isso, porém, precisamos adicionar uma referência do projeto de produção ao nosso projeto de testes. Do contrário, nossa classe de teste não conseguirá enxergar as classes que deveria testar!
+Before we do that, though, we must add a reference from the production project to our test project. Otherwise, our test class won't be able to see the classes it is suposed to test!
 
-Para isso, clique com o botão direito no projeto **ApplicationTest** > **Adicionar** > **Referência...**. Na janela exibida, selecione o projeto, conforme a imagem a seguir:
+To do that, right-click the **ApplicationTest** project, then go to **Add**, then **Reference**. In the opened window, choose the project, according to the following image:
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498509304/Captura_de_tela_2017-06-26_17.34.04_hgianj.png)
 
-E depois clique em OK.
+Then, click on **OK**.
 
-De volta à classe de teste, modifique o método de teste para que fique da forma abaixo:
+Back to the test class. Edit the code so it looks like this:
 
 <script src="https://gist.github.com/carlosschults/c840590dab95a023d4530962fca048db.js"></script>
 
-Você vai notar que `Employee` está marcado como erro. Ao passar o cursor em cima, você verá uma mensagem avisando que o nome `Employee` não pode ser encontrado e perguntando se não tem alguma referência ou diretiva *using* faltando.
+You will notice that `Employee` is marked as an error. If you hover over it, you'll see a message saying that the name `Employee` couldn't be found and asking if there is some reference or *using* directive missing.
 
-É claro que tem uma diretiva *using* faltando, relativa à referência que acabamos de adicionar. Para corrigir o problema, basta adicionar a linha `using Application;` no começo do arquivo.
+Of course there is a using directive missing, related to the reference we've just added. To fix this problem, just add the line `using Application;` to the namespace declarations, right at the start of the file.
 
-Agora que o código compila, vamos entender este método, linha a linha. 
+Now that our code compiles, let's go through this method, line by line.
 
-Na primeira linha, instanciamos nossa classe `Employee`, definindo nome, profissão e salário. Na linha seguinte, atribuímos a uma variável o valor que **esperamos** que o método retorne. Em seguida, atribuímos a outra variável o resultado da execução do método.
+In the first line, we create a new instance of `Employee`, specifying name, profession and salary. In the following line, we assign to a variable the value we **expect** the method to return. Then we assign to another variable the obtained result from the method.
 
-Finalmente, utilizamos o método `AreEqual` da classe `Assert` para verificar se os dois valores são iguais. Este método é, provavelmente, o que você mais vai utilizar durante seus testes.
+Finally, we use the `AreEqual` method from the `Assert` class to verify the equality of the two values. This method is, probably, the one you'll use the most during your tests.
 
-Agora é hora de executar o teste. Utilize o atalho **CTRL + R, A** ou clique em **Executar Tudo** na janela do Gerenciador de Teste. Se tudo der certo, você verá a barra verde e a mensagem indicando que os dois testes passaram.
+Now it's time to run the test. Use the shortcut **CTRL + R, A** or click on **Run All** na janela do Gerenciador de Teste. Se tudo der certo, você verá a barra verde e a mensagem indicando que os dois testes passaram.
 
 Vamos agora testar o teste: vamos "estragar" o método `Introduce` e ver se o método falha como deveria. De volta à classe de produção, vamos modificar o método da seguinte forma:
 
