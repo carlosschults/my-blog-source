@@ -21,7 +21,7 @@ Better late than later! Time to continue our series on unit testing for beginner
 
 ## Introduction
 
-In the [previous article](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte1) you learned what unit tests are and what are the moviations for writing them.
+In the [previous article](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte1) you learned what unit tests are and what are the motivations for writing them.
 
 Today you're going to learn how to create unit tests. I'll show you how to install and use the a unit test framework called **NUnit**. Together, we're going to write some tests in order for you to know some of its features.
 
@@ -83,37 +83,37 @@ I think the class is simple enough to not require aditional explanation. Now, it
 
 > This is another naming convention I like to use: to name the test class after the production class, adding the word *Test* at the end. 
 
-After the class is created, add the *NUnit.Framework* namespace to its using list. Then, create a new void returning public method called **MyFirstTestMethod** and add the `[Test]` attribute to it.
+After the class is created, add the *NUnit.Framework* namespace to its using declarations. Then, create a new void returning public method called **MyFirstTestMethod** and add the `[Test]` attribute to it.
 
-Nesse ponto, o código da classe deve estar assim:
+By now, your code should look like this:
 
 <script src="https://gist.github.com/carlosschults/406525bd23d3ee2ecba4f7592c0f8af3.js"></script>
 
-O esqueleto do teste já está pronto. Então vamos escrever nossa primeira **asserção**. Uma asserção é uma *afirmação* sobre como um determinado método deveria se comportar. Caso a afirmação se prove verdadeira, dizemos que o teste *passou*. Caso a afirmação se prove falsa, dizemos que o teste *falhou*, ou quebrou.
+The skeleton for the test is ready. It's time for you to write your first **assertion**. In the context of unit testing, an assertion is an affirmation about how a unit of your system should behave. If the afirmation turns out to be true, we say the test has *passed*. In case it proves to be false, we say the test has *failed*.
 
-No NUnit, utilizamos a classe `Assert` para escrevermos nossas asserções. Esta classe possui um número grande de métodos que nos permitem expressar nossas expectativas com relação ao comportamento das unidades que estamos testando.
+In NUnit we use the `Assert` class to write our assertions. This class has a large number of methods that allow us to express our expectations about the behaviour of our units.
 
-Adicione a seguinte linha de código ao método de teste:
+Add the following line of code to the test method:
 
 > Assert.Pass();
 
-Esta é uma asserção que serve para forçar o teste a passar. Vamos agora rodar esse teste para vê-lo passando. Primeiro, precisamos abrir o **Gerenciador de Testes**. Vá para: **Testar** > **Janelas** > **Gerenciador de Testes**.
+The `Pass` method, not surprisingly, just forces the test to pass. Now you're going to run this test in order to see it passing. First of all, open the **Test Explorer**. Use the menu bar: **Test** > **Windows** > **Test Explorer**.
 
-Na janela exibida, clique em *Executar Tudo*. Caso tudo tenha funcionado da maneira correta, você verá isso:
+When the window is show, click on *Run All*. If everything goes right, you'll see this:
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498507514/MyFirstTestPass_atkrjl.png)
 
-Ao clicar no nome do teste, serão exibidas algumas informações adicionais, como o arquivo do teste e tempo decorrido:
+When you click on the test's name, some additional information is shown, such as the test file and elapsed time:
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498508050/MyFirstTestPass2_ageqqm.png)
 
-Note o uso da cor verde para sinalizar o sucesso do teste.
+Notice the use of green to indicate the test's success.
 
-Vamos agora fazer o contrário: forçar a falha do teste. Substitua a linha no método por:
+Now let's do the opposite: force the test to fail. Replace the previous line for the following one:
 
 > Assert.Fail();
 
-Execute o teste novamente e verá a mensagem de falha, dessa vez com a barra vermelha:
+Run the test again and you'll see the failure message, this time with the read bar:
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498508371/myfirsttestfail_xwuo5u.png)
 
