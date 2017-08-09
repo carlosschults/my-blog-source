@@ -21,7 +21,7 @@ Better late than later! Time to continue our series on unit testing for beginner
 
 ## Introduction
 
-In the [previous article](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte1) you learned what unit tests are and what are the motivations for writing them.
+In the [previous article](http://carlosschults.net/en/unit-testing-for-beginners-part1/) you learned what unit tests are and what are the motivations for writing them.
 
 Today you're going to learn how to create unit tests. I'll show you how to install and use the a unit test framework called **NUnit**. Together, we're going to write some tests in order for you to know some of its features.
 
