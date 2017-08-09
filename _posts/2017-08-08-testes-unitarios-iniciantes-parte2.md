@@ -1,4 +1,3 @@
-<!--
 ---
 title: Testes Unitários Para Iniciantes - Parte 2
 ref: unit2
@@ -16,7 +15,6 @@ tags:
 - csharp
 - metodologias ágeis
 ---
--->
 
 # Testes Unitários Para Iniciantes, Parte 2
 
