@@ -239,10 +239,10 @@ Last but not least, you've learned about the importance of seeing the test fail,
 
 ## Conclusion
 
-Este foi o segundo artigo da minha série sobre testes unitários. Como já mencionei, ele é propositalmente maior e mais prático que o artigo inicial da série. Ainda assim, tudo o que foi abordado é apenas a ponta do iceberg do que existe a respeito de testes de unidade. Livros inteiros poderiam foram escritos sobre este assunto. Nos artigos futuros indicarei alguns, além de outros materiais para estudo.
+This was my second article in the series about unit testing. As I already mentioned, it is deliberately longer and more practical than the previous one. Still, all we've covered today is just the tip of the iceberg. Whole books were written about unit testing; by the way I'm indicating some in the following articles, along with more references.
 
-Nos testes que escrevemos hoje, utilizamos a abordagem mais intuitiva - e provavelmente mais comum - de se criar os testes após o código de produção. Porém, muitas pessoas e equipes trabalham com uma metodologia diferente: eles escrevem os testes *antes* do código de produção.
+For the tests we wrote today, we used the more intuitive - and probably more common - aproach of creating the tests after the production code. However, many people and teams work differently: they write the tests *before* the production code.
 
-Pode parecer estranho, à princípio, mas trabalhar desta forma pode trazer diversos benefícios para seu projeto. Este e outros tópicos serão abordados no próximo artigo.
+I know it may sound strange, at first, but working this way can bring many benefits to your project. This and other topics will be covered in the next article.
 
-Até lá!
+Thanks for reading! See you soon.
