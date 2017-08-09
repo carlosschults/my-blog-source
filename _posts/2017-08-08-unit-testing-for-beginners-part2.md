@@ -13,11 +13,10 @@ tags:
 - agile
 ---
 
-# Unit Testing For Beginners - Part 2
-
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
 
 Better late than later! Time to continue our series on unit testing for beginners. Today you're going to write your first unit test.
+<!--more-->
 
 ## Introduction
 

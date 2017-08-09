@@ -16,11 +16,10 @@ tags:
 - metodologias ágeis
 ---
 
-# Testes Unitários Para Iniciantes, Parte 2
-
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
 
 Antes tarde do que mais tarde! Hora de continuar nossa série sobre testes unitários para iniciantes. Hoje você vai escrever seu primeiro teste unitário.
+<!--more-->
 
 ## Introdução
 
