@@ -244,9 +244,10 @@ Também foram abordados alguns padrões de nomenclatura, tanto para classes quan
 
 Finalmente, você aprendeu sobre a importância de ver o teste falhar, e como podemos "testar o teste" através de uma sabotagem deliberada do código de produção.
 
-## Nota
+## Notas
 
-O código do post de hoje [está no Github](https://github.com/carlosschults/learning-unit-testing/).
+- O código do post de hoje [está no Github](https://github.com/carlosschults/learning-unit-testing/).
+- Agradeço novamente ao amigo Gunter Italiano Ribeiro por revisar este artigo.
 
 ## Conclusão
 
