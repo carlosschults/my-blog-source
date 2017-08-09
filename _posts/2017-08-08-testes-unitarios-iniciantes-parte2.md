@@ -244,6 +244,10 @@ Também foram abordados alguns padrões de nomenclatura, tanto para classes quan
 
 Finalmente, você aprendeu sobre a importância de ver o teste falhar, e como podemos "testar o teste" através de uma sabotagem deliberada do código de produção.
 
+## Nota
+
+O código do post de hoje [está no Github](https://github.com/carlosschults/learning-unit-testing/).
+
 ## Conclusão
 
 Este foi o segundo artigo da minha série sobre testes unitários. Como já mencionei, ele é propositalmente maior e mais prático que o artigo inicial da série. Ainda assim, tudo o que foi abordado é apenas a ponta do iceberg do que existe a respeito de testes de unidade. Livros inteiros poderiam foram escritos sobre este assunto. Nos artigos futuros indicarei alguns, além de outros materiais para estudo.
