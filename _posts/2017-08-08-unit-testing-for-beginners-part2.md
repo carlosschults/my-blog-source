@@ -210,34 +210,34 @@ Let's say the Product Owner just showed up with a new requirement: the `GiveRais
 We've just made a change in production code. Our top priority right now is **to guarantee that we haven't broken anything**.
 Run the test to be sure that all of them are passing.
 
-Everything still green? Great, let's go ahead. Agora precisamos criar um novo teste para documentar o caso da tentativa de aumento negativo.
+Everything still green? Great, let's go ahead. Now we need to create a new test to document the "negative raise atemtp" scenario.
 
-> Testes de unidade também são uma forma de documentação.
+> Unit tests are also a type of documentation.
 
-Na classe de teste, adicione o método a seguir:
+In the test class, add the following method:
 
 <script src="https://gist.github.com/carlosschults/a474698655450da6547dbfa6b9dbcb8c.js"></script>
 
-Nada de surpreendente aqui, certo? À esta altura, você já deve ter pegado o jeito da coisa. Assim, vou deixar por sua conta o **teste do teste:** sabote o método de uma ou mais maneiras e confira que o teste falhou conforme deveria.
+Nothing really surprising here, right? At this point I'm sure you've already got this. So, now it is up to you to **test the test**: ruin the production code in one or more ways to see if the test fails as expected.
 
-## Recapitulando
+## A quick recap
 
-O artigo de hoje foi bem mais prático que o anterior. Conseguimos abordar diversos tópicos:
+Today's article was more dense than the previous one. We've managed to cover several topics::
 
-- Instalação do **NUnit** e **NUnit Test Adapter**;
-- Criação de caso de teste;
-- Conceito de *asserção* e classe `Assert`;
-- Execução dos testes, tanto por meio do *Gerenciador de Testes* quanto por teclas de atalho;
-- Interpretação da mensagem de erro do teste;
-- Fases do teste unitário (*Arrange-Act-Assert*).
+- Installation of **NUnit** and **NUnit Test Adapter**;
+- Creation of a test;
+- Introduction to the `Assert` class;
+- Test execution, via *Test Explorer* and keyboard shortcuts;
+- Reading and interpretation of test results;
+- Phases of a unit test (*Arrange-Act-Assert*).
 
-Além desses tópicos, também ampliamos nosso vocabulário relativo à testes, com os termos *SUT*, *asserção*, *código de teste x código de produção*, entre outros.
+Besides these topics, we've also enlarged our test related vocabulary with terms like *SUT*, *assertion* and *test code vs production code*.
 
-Também foram abordados alguns padrões de nomenclatura, tanto para classes quanto para métodos de teste.
+Some naming conventions were covered as well, for both classes and methods.
 
-Finalmente, você aprendeu sobre a importância de ver o teste falhar, e como podemos "testar o teste" através de uma sabotagem deliberada do código de produção.
+Last but not least, you've learned about the importance of seeing the test fail, and how we can gain confidence in our tests by deliberately sabotating the production code.
 
-## Conclusão
+## Conclusion
 
 Este foi o segundo artigo da minha série sobre testes unitários. Como já mencionei, ele é propositalmente maior e mais prático que o artigo inicial da série. Ainda assim, tudo o que foi abordado é apenas a ponta do iceberg do que existe a respeito de testes de unidade. Livros inteiros poderiam foram escritos sobre este assunto. Nos artigos futuros indicarei alguns, além de outros materiais para estudo.
 
