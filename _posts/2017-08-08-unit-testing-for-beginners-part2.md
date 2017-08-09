@@ -27,9 +27,9 @@ Today you're going to learn how to create unit tests. I'll show you how to insta
 
 ## NUnit Installation
 
-If you recall the [previous article](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte1), you'll remember that, in order to write and run unit tests, you need a **unit testing framework.**
+If you recall my [previous article](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte1), you'll remember that, in order to write and run unit tests, you need a **unit testing framework.**
 
-The framework we're going to use is **NUnit**, based on **JUnit**, which is a test framerwork for the Java language. There are other testing frameworks available in the .Net world, such as MS Test, developed by Microsoft itself.
+The framework we're going to use is **NUnit**, based on **JUnit**, which is a test framework for the Java language. There are other testing frameworks available in the .Net world, such as MS Test, developed by Microsoft itself.
 Feel free to try other frameworks later on.
 
 Ok, let's begin. For this project I'm going to use Visual Studio 2017. [Download the Community version here](https://www.visualstudio.com/pt-br/downloads/).
@@ -79,7 +79,7 @@ Let's create some tests. First, let's add a new class to our production project.
 
 <script src="https://gist.github.com/carlosschults/3f42e324b10ceb42b360382686d314de.js"></script>
 
-I think the class is simple enough to not require aditional explanation. Now, it's time to create our test class. Add a new class called `EmployeeTest` to the **ApplicationTest** project. 
+I think the class is simple enough to not require additional explanation. Now, it's time to create our test class. Add a new class called `EmployeeTest` to the **ApplicationTest** project. 
 
 > This is another naming convention I like to use: to name the test class after the production class, adding the word *Test* at the end. 
 
@@ -89,9 +89,9 @@ By now, your code should look like this:
 
 <script src="https://gist.github.com/carlosschults/406525bd23d3ee2ecba4f7592c0f8af3.js"></script>
 
-The skeleton for the test is ready. It's time for you to write your first **assertion**. In the context of unit testing, an assertion is an affirmation about how a unit of your system should behave. If the afirmation turns out to be true, we say the test has *passed*. In case it proves to be false, we say the test has *failed*.
+The skeleton for the test is ready. It's time for you to write your first **assertion**. In the context of unit testing, an assertion is an affirmation about how a unit of your system should behave. If the affirmation turns out to be true, we say the test has *passed*. In case it proves to be false, we say the test has *failed*.
 
-In NUnit we use the `Assert` class to write our assertions. This class has a large number of methods that allow us to express our expectations about the behaviour of our units.
+In NUnit we use the `Assert` class to write our assertions. This class has a large number of methods that allow us to express our expectations about the behavior of our units.
 
 Add the following line of code to the test method:
 
@@ -121,7 +121,7 @@ Now that you're getting the hang of it, we're start testing our `Employee` class
 
 Now add a new method called `IntroduceMethodShouldWorkCorrectly`. In this method we'll create a new instance of `Employee` and verify that the `Introduce` method is working properly.
 
-Before we do that, though, we must add a reference from the production project to our test project. Otherwise, our test class won't be able to see the classes it is suposed to test!
+Before we do that, though, we must add a reference from the production project to our test project. Otherwise, our test class won't be able to see the classes it is supposed to test!
 
 To do that, right-click the **ApplicationTest** project, then go to **Add**, then **Reference**. In the opened window, choose the project, according to the following image:
 
@@ -149,7 +149,7 @@ Time to test our test! We're going to deliberately ruin the `Introduce` method t
 
 <script src="https://gist.github.com/carlosschults/02554ca9b8dd69f8c904dbbcc271c99e.js"></script>
 
-As you've seen, we've just removed the square brackets before and after "JobTitle". This way, the string interpolation won't work, hardcoding the string instead of replacing it by the value of the variable.
+As you've seen, we've just removed the square brackets before and after "JobTitle". This way, the string interpolation won't work, hard-coding the string instead of replacing it by the value of the variable.
 
 When we run the tests again, we got the following result:
 
@@ -166,7 +166,7 @@ Great. Now you can switch the method back to the correct implementation and run 
 
 As you can see, a unit test consists in a well defined sequence of steps: we **prepare** the scenario, then **execute** the action and **verify** the results. This sequence of steps, or phases, is sometimes called AAA: **Arrange-Act-Assert**.
   
-> A tipical unit test has the three phases: **Arrange-Act-Assert**.
+> A typical unit test has the three phases: **Arrange-Act-Assert**.
 
 Even though there are another naming conventions for the phases of a unit test, we'll adopt **Arrange-Act-Assert** , at least for now.
 
@@ -210,7 +210,7 @@ Let's say the Product Owner just showed up with a new requirement: the `GiveRais
 We've just made a change in production code. Our top priority right now is **to guarantee that we haven't broken anything**.
 Run the test to be sure that all of them are passing.
 
-Everything still green? Great, let's go ahead. Now we need to create a new test to document the "negative raise atemtp" scenario.
+Everything still green? Great, let's go ahead. Now we need to create a new test to document the "negative raise attempt" scenario.
 
 > Unit tests are also a type of documentation.
 
@@ -235,13 +235,18 @@ Besides these topics, we've also enlarged our test related vocabulary with terms
 
 Some naming conventions were covered as well, for both classes and methods.
 
-Last but not least, you've learned about the importance of seeing the test fail, and how we can gain confidence in our tests by deliberately sabotating the production code.
+Last but not least, you've learned about the importance of seeing the test fail, and how we can gain confidence in our tests by deliberately sabotaging the production code.
+
+## Some notes
+
+- You've probably noticed that my Visual Studio is not in English in the screen-captures. That is because I'm Brazilian and my Visual Studio is configured in Portuguese (and I first wrote this post in pt-br). I apologize for that.
+- All of the code for today's post [can be found on Github](https://github.com/carlosschults/learning-unit-testing/).
 
 ## Conclusion
 
 This was my second article in the series about unit testing. As I already mentioned, it is deliberately longer and more practical than the previous one. Still, all we've covered today is just the tip of the iceberg. Whole books were written about unit testing; by the way I'm indicating some in the following articles, along with more references.
 
-For the tests we wrote today, we used the more intuitive - and probably more common - aproach of creating the tests after the production code. However, many people and teams work differently: they write the tests *before* the production code.
+For the tests we wrote today, we used the more intuitive - and probably more common - approach of creating the tests after the production code. However, many people and teams work differently: they write the tests *before* the production code.
 
 I know it may sound strange, at first, but working this way can bring many benefits to your project. This and other topics will be covered in the next article.
 
