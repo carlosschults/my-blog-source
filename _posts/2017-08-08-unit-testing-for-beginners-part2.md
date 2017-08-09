@@ -201,7 +201,7 @@ Now the method is obviously wrong; the test should fail. Let's run it?
   
 Ok, as we can see, the test did fail. Switch the method back to the correct implementation.
 
-## A last test
+## One last test
 
 Let's say the Product Owner just showed up with a new requirement: the `GiveRaise` method should ignore negative raise rates. First, let's edit the `GiveRaise` method to deal with this scenario:
 
@@ -241,6 +241,7 @@ Last but not least, you've learned about the importance of seeing the test fail,
 
 - You've probably noticed that my Visual Studio is not in English in the screen-captures. That is because I'm Brazilian and my Visual Studio is configured in Portuguese (and I first wrote this post in pt-br). I apologize for that.
 - All of the code for today's post [can be found on Github](https://github.com/carlosschults/learning-unit-testing/).
+- Once again, I thank my friend Gunter Italiano Ribeiro for proof-reading this post.
 
 ## Conclusion
 
