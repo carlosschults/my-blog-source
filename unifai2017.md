@@ -6,16 +6,20 @@ ref: unifai2017
 lang: pt
 ---
 
-Esta página vai servir para gregar todo o conteúdo relevante relativo ao minicurso "Introdução aos testes unitários automatizados com NUnit e C#, ministrado por mim na XXI Semana de Informática da UNIFAI, em Adamantina - SP, nos dias 16 e 17 de agosto de 2017.
+Esta página vai servir para agregar todo o conteúdo relevante relativo ao minicurso ministrado por mim na XXI Semana de Informática da UNIFAI, em Adamantina - SP, nos dias 17 e 18 de agosto de 2017.
 
-## Links Interessantes
-	- [Slides do minicurso](http://example.com/bla)
-	- 
+## Downloads
+
+- [Slides](http://example.com/bla)
+- Projetos de exemplo no Github
+	- [Primeiro Teste](https://github.com/carlosschults/PrimeiroTeste)
+	- [Testando a Classe Funcionário](https://github.com/carlosschults/testando-a-classe-funcionario)
+	- [TDD com String Calculator Kata](https://github.com/carlosschults/tdd-com-string-calculator-kata)
 
 ## Série *Testes Unitários Para Iniciantes*
 
 "Testes Unitários Para Iniciantes" é uma série de posts em progresso no meu blog, no qual tento apresentar, de maneira bem didática, o assunto de teste unitários
-para pessoas que foram pouco expostas a este tema.
+para pessoas sem experiência com este tema.
 
 O minicurso foi parcialmente baseado nesta série, que conta com dois artigos publicados até o momento.
 
