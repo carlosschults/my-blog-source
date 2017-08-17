@@ -10,7 +10,7 @@ Esta página vai servir para agregar todo o conteúdo relevante relativo ao mini
 
 ## Downloads
 
-- [Slides](http://example.com/bla)
+- [Slides](https://speakerdeck.com/carlosschults/introducao-aos-testes-unitarios-automatizados-com-nunit-e-c-number)
 - Projetos de exemplo no Github:
 	- [Primeiro Teste](https://github.com/carlosschults/PrimeiroTeste)
 	- [Testando a Classe Funcionário](https://github.com/carlosschults/testando-a-classe-funcionario)
@@ -29,4 +29,21 @@ O minicurso foi parcialmente baseado nesta série, que conta com dois artigos pu
 - Em Inglês:
 	- [Unit Testing For Beginners - Part 1](http://carlosschults.net/en/unit-testing-for-beginners-part1/)
 	- [Unit Testing For Beginners - Part 2](http://carlosschults.net/en/unit-testing-for-beginners-part2/)
+
+
+## Instalação do NUnit
+
+Para criar os testes unitários, você precisa de um **Framework de Testes**. No meu dia-a-dia utilizo o [NUnit](http://nunit.org/), desta forma nada mais natural que escolher este framework para o minicurso e também minha série de artigos sobre testes.
+
+Além do Nunit em si, precisamos de mais um componente chamado **NUnit Test Adapter**, que faz com que o Visual Studio consiga enxergar a e executar os testes do NUnit.
+
+Tanto o NUnit quanto o NUnit Test Adapter são disponibilizados como pacotes do Nuget, e podem ser instalados com os seguintes comandos no console do Nuget:
+
+> Install-Package NUnit
+
+e 
+
+> Install-Package NUnit3TestAdapter
+
+Caso precise de mais ajuda, meu segundo artigo sobre teste unitários possui [uma seção detalhada ensinando passo-a-passo a instalação destes componentes](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte-2#instalando-o-nunit).
 
