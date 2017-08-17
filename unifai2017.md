@@ -11,7 +11,7 @@ Esta página vai servir para agregar todo o conteúdo relevante relativo ao mini
 ## Downloads
 
 - [Slides](http://example.com/bla)
-- Projetos de exemplo no Github
+- Projetos de exemplo no Github:
 	- [Primeiro Teste](https://github.com/carlosschults/PrimeiroTeste)
 	- [Testando a Classe Funcionário](https://github.com/carlosschults/testando-a-classe-funcionario)
 	- [TDD com String Calculator Kata](https://github.com/carlosschults/tdd-com-string-calculator-kata)
