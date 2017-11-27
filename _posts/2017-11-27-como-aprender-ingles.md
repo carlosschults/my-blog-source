@@ -11,6 +11,7 @@ tags:
 ---
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg)
+
 *Parte 1: Não faça o que todo mundo faz.*
 <!--more-->
 
