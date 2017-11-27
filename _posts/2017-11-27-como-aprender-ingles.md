@@ -1,4 +1,20 @@
-# Como aprender inglês: Um guia para desenvolvedores
+---
+title: Como aprender inglês: Um guia para desenvolvedores
+lang: pt
+layout: post
+author: Carlos Schults
+permalink: /pt/como-aprender-ingles-parte1
+ref: idioma
+img: ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1458429920/portugues-ou-ingles-1038x437_izhi3i.png)
+tags: 
+- boas práticas
+- inglês
+---
+
+*Parte 1: Não faça o que todo mundo faz.*
+<!--more-->
+
+![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1458429920/portugues-ou-ingles-1038x437_izhi3i.png)
 
 *Parte 1: Não faça o que todo mundo faz.*
 
