@@ -95,8 +95,6 @@ Agora pense. E se esse meu amigo fosse abordado por um americano na rua pergunta
 Qualquer pessoa que já estudou algum instrumento musical sabe que não basta frequentar as aulas; é preciso praticar em casa, de acordo com o plano de estudos recebido. Fazer exercícios, treinar escalas, praticar percepção musical, **todos os dias**.
 
 ![Músico tocando violino](http://res.cloudinary.com/dz5ppacuo/image/upload/v1511625841/musician.jpg)
-<br />
-<span>Photo by William Recinos on Unsplash</span>
 
 É claro que a necessidade de praticar não se aplica somente à música, mas também aos esportes, à programação e muitas outras áreas.
 
