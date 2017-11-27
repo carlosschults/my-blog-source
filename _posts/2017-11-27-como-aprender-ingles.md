@@ -11,12 +11,9 @@ tags:
 - inglês
 ---
 
+![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1458429920/portugues-ou-ingles-1038x437_izhi3i.png)
 *Parte 1: Não faça o que todo mundo faz.*
 <!--more-->
-
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1458429920/portugues-ou-ingles-1038x437_izhi3i.png)
-
-*Parte 1: Não faça o que todo mundo faz.*
 
 Há quase dois anos, publiquei um post sobre um tema que costuma gerar discussões acaloradas na comunidade de desenvolvimento brasileira: [usar português ou inglês para nomear classes, variáveis,
 e demais artefatos no código](http://carlosschults.net/pt/programar-portugues-ou-ingles/). Aliás, este artigo continua sendo o que eu mais gostei de escrever até hoje.
