@@ -108,7 +108,7 @@ Agora, quando o assunto é inglês, algumas pessoas parecem pensar que elas vão
 
 O problema é quando chega a hora de *falar*, principalmente por conta da pronúncia do inglês, que é totalmente não intuitiva para nós falantes de português.
 
-**INSERIR IMAGEM DE FONE DE OUVIDO**
+![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826587/practice-listening-min_lzgqcr.jpg)
 
 Na maioria das vezes, sem ter a referêndia da pronúncia correta, a pessoa acaba "aportuguesando" a pronúncia da palavra. Quantas pessoas você conhece que pronunciam 4Shared como "Quatro Xarédi", ou algo do tipo? 
 
