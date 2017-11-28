@@ -25,7 +25,7 @@ Se você tem uma lista de coisas para estudar, remova Kotlin/programação funci
 
 [I mean it.](https://www.englishexperts.com.br/qual-e-o-significado-de-i-mean-it/)
 
-O que pretendo fazer agora  é compartilhar minha experiência ao aprender inglês de maneira autoditata, dando dicas para que a sua jornada seja mais fácil e rápida que a minha. 
+O que pretendo fazer agora  é compartilhar minha experiência ao aprender inglês de maneira autodidata, dando dicas para que a sua jornada seja mais fácil e rápida que a minha. 
 
 Este será um guia em duas partes. Nesta primeira parte, vou falar sobre os principais motivos que, em minha visão, dificultam o aprendizado das pessoas.
 
@@ -35,7 +35,7 @@ Mas talvez você ainda precise de convencimento sobre a importância do inglês.
 
 Quando o assunto é o aprendizado de inglês, uma das razões mais citadas é o aumento de renda. Embora [existam estudos que sugerem aumento de salário para quem domina o idioma](http://g1.globo.com/concursos-e-emprego/noticia/2016/04/salario-e-ate-61-maior-entre-quem-fala-ingles-fluente-diz-pesquisa.html), este não deveria ser o seu maior (ou único) motivador.
 
-Outro argumento bastante usado é de que o inglês torna mais fácil conseguir um emprego. Intuitivamente, parece fazer sentido, embora eu desconheça algum estudo demonstrando isto (fique a vontade para postar um link nos comentários, caso conheça). Como [evidência anedótica](https://pt.wikipedia.org/wiki/Evid%C3%AAncia_aned%C3%B3tica), acredito que todos nós conhecemos muitas pessoas que são profissionais competentes e não dominam o idioma. Quanto a isso, pode se tranquilizar: **sabendo programar minimamente bem, você vai conseguir um emprego mesmo sem saber inglês** (excluindo-se, obviamente, empresas no exterior ou cargos em empresas brasileiras que requerem comunicação com pessoas de fora). Poderíamos argumentar sobre a qualidade destes empregos, ou o salário que você poderá conseguir, mas não prentendo entrar neste mérito por enquanto.
+Outro argumento bastante usado é de que o inglês torna mais fácil conseguir um emprego. Intuitivamente, parece fazer sentido, embora eu desconheça algum estudo demonstrando isso (fique a vontade para postar um link nos comentários, caso conheça). Como [evidência anedótica](https://pt.wikipedia.org/wiki/Evid%C3%AAncia_aned%C3%B3tica), acredito que todos nós conhecemos muitas pessoas que são profissionais competentes e não dominam o idioma. Quanto a isso, pode se tranquilizar: **sabendo programar minimamente bem, você vai conseguir um emprego mesmo sem saber inglês** (excluindo-se, obviamente, empresas no exterior ou cargos em empresas brasileiras que requerem comunicação com pessoas de fora). Poderíamos argumentar sobre a qualidade desses empregos, ou o salário que você poderá conseguir, mas não pretendo entrar neste mérito por enquanto.
 
 Certo, mas... e aí? O que sobra? Colocando da maneira mais simples possível: você deve aprender inglês porque é **útil**.
 
@@ -83,7 +83,7 @@ Há pessoas que têm a resposta na ponta da língua para isso:
 - "Precisa morar fora/fazer intercâmbio".
 - "Precisa ter uma inteligência muito acima da média".
 
-Eu acredito que estas pessoas estão *erradas*. Embora estas coisas ajudem, nenhuma delas é *essencial*.
+Eu acredito que estas pessoas estão *erradas*. Embora essas coisas ajudem, nenhuma delas é *essencial*.
 
 Vou agora falar sobre o que eu considero os motivos principais que impedem as pessoas de aprender inglês.
 
@@ -110,7 +110,7 @@ O problema é quando chega a hora de *falar*, principalmente por conta da pronú
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826587/practice-listening-min_lzgqcr.jpg)
 
-Na maioria das vezes, sem ter a referêndia da pronúncia correta, a pessoa acaba "aportuguesando" a pronúncia da palavra. Quantas pessoas você conhece que pronunciam 4Shared como "Quatro Xarédi", ou algo do tipo? 
+Na maioria das vezes, sem ter a referência da pronúncia correta, a pessoa acaba "aportuguesando" a pronúncia da palavra. Quantas pessoas você conhece que pronunciam 4Shared como "Quatro Xarédi", ou algo do tipo? 
 
 Outro problema é que a pronúncia do inglês é bastante "imprevisível". É perigoso você assumir que existem regrinhas infalíveis para a pronúncia e sair aplicando. Você pode até acertar algumas vezes, mas vai errar muitas outras. Veja as três palavras a seguir:
 
@@ -135,7 +135,7 @@ Resumidamente, pessoas que só tiveram contato com inglês escrito vão inevitav
 
 Basicamente, o contrário do que foi listado acima. Colocando em uma frase, seria algo do tipo:
 
-> Estude/pratique consistentemente (de preferência todos os dias), utilizando uma estratégia de estudos que integre o uso de áudio desde o início, e não privilegie a gramática em detrimento de todas as outras áreas.
+> Estude/pratique consistentemente (de preferência todos os dias), utilizando uma estratégia de estudos que integre o uso de áudio desde o início, e não privilegia a gramática em detrimento de todas as outras áreas.
 
 Sim, é um pouco abstrato, eu admito. Corrigiremos isso no próximo post, no qual eu vou contar a história do meu aprendizado no inglês, detalhando meus erros e acertos, para que sua jornada seja menos longa que a minha.
 
