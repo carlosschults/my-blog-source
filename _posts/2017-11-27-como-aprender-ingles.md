@@ -3,7 +3,7 @@ title: "Como aprender inglês: Um guia para desenvolvedores"
 lang: pt
 layout: post
 author: Carlos Schults
-permalink: /pt/como-aprender-ingles-parte1
+permalink: /pt/como-aprender-ingles-parte-1
 img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg
 tags: 
 - boas práticas
@@ -78,6 +78,7 @@ Ao mesmo tempo, [redes de escolas de idiomas são negociadas por bilhões](https
 Embora muitas pessoas tentem aprender inglês, poucas conseguem. Por quê?
 
 Há pessoas que têm a resposta na ponta da língua para isso:
+
 - "Precisa começar a estudar na infância".
 - "Precisa ter muito dinheiro".
 - "Precisa morar fora/fazer intercâmbio".
@@ -90,7 +91,7 @@ Vou agora falar sobre o que eu considero os motivos principais que impedem as pe
 ### Excesso de foco em gramática em detrimento de todo o resto
 Durante a faculdade, havia um colega que sempre me pedia ajuda nas provas de inglês, apesar dele ter estudado SETE anos em uma escola de idiomas famosa. E eu sempre comentava: "Cara, mas não te ensinaram isso no curso?" E sua resposta, invariavelmente, era: "Ah, eles não passavam muito vocabulário, era mais gramática).
 
-Agora pense. E se esse meu amigo fosse abordado por um americano na rua perguntando"**Excuse me? How do I get to the nearest subway station?**" o que meu colega iria fazer? Abrir um livro de gramática? Recitar a lista de verbos regulares e irregulares?
+Agora pense. E se esse meu amigo fosse abordado por um americano na rua perguntando "**Excuse me? How do I get to the nearest subway station?**"? O que ele iria fazer? Abrir um livro de gramática? Recitar a lista de verbos regulares e irregulares?
 
 ### Falta de prática
 Qualquer pessoa que já estudou algum instrumento musical sabe que não basta frequentar as aulas; é preciso praticar em casa, de acordo com o plano de estudos recebido. Fazer exercícios, treinar escalas, praticar percepção musical, **todos os dias**.
