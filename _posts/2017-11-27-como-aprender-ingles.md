@@ -119,8 +119,11 @@ Outro problema é que a pronúncia do inglês é bastante "imprevisível". É pe
 - *Blood*
 
 Agora ouça a pronúncia de cada uma:
+
 - <script type="text/javascript" src="https://forvo.com/_ext/ext-prons.js?id=1507143"></script>
+
 - <script type="text/javascript" src="https://forvo.com/_ext/ext-prons.js?id=6800"></script>
+
 - <script type="text/javascript" src="https://forvo.com/_ext/ext-prons.js?id=1436811"></script>
 
 É provável que você tenha se surpreendido com a pronúncia de pelo menos uma delas. 
