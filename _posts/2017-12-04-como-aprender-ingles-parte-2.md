@@ -71,7 +71,7 @@ Sendo assim, minha exposição ao inglês era rara e em doses minúsculas. Por e
 
 A TV era outra fonte de pequenos momentos de contato com o inglês, através de filmes e desenhos. Sim, eu assistia tudo dublado, claro (TV a cabo? O que é isso?). Mas ainda sim oportunidades surgiam; o exemplo típico é quando aparecia algo escrito em inglês no filme/desenho (letreiro de loja, rótulo de algum produto, sinal de trânsito, título do episódio) e o locutor falava em português a tradução.
 
-**INSERIR IMAGEM DE LETREIRO DE LOJA FECHADO
+![Vitrine de loja com o sinal dizendo "Sorry, we're closed"](http://res.cloudinary.com/dz5ppacuo/image/upload/v1512431198/closed-min_fg1oge.jpg)
 
 ### A Escola
 Foi em 2001, mas eu me lembro bem como estava ansioso para o início da quinta série. **Finalmente** iria ter aulas de inglês!
