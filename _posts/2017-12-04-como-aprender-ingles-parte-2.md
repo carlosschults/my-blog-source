@@ -100,7 +100,7 @@ Eu privilegiava alugar filmes mais antigos, que eram mais baratos que os lançam
 
 Com cerca de 14, 15 anos, uma nova paixão surgiu na minha vida: a música (ou para ser específico, o *rock*). Mais aprendizado veio na forma de tradução das letras das músicas nos encartes dos CD's.
 
-**#Adicionar fotos dos cds**
+![Vários CD's e DVD's de Rock](http://res.cloudinary.com/dz5ppacuo/image/upload/v1512431618/rock_bmkbmu.jpg)
 
 No final de 2006 eu consegui meu primeiro estágio na área da informática. Depois de algum tempo (provavelmente no começo do ano seguinte) comprei meu primeiro computador: um Positivo, com configurações risíveis. Mas era um sonho que eu tive por boa parte da minha vida e finalmente havia conseguido realizá-lo. 
 
