@@ -197,3 +197,15 @@ Favoreça o inglês na leitura de qualquer material. Favoreça sempre a Wikipéd
  Finalmente, aulas com professores nativos sempre é uma opção, caso esteja dentro das suas possibilidades. 
 
 ## Conclusão
+
+
+## Finalizando
+
+## Recursos para aprender inglês, (link para página externa), etc
+
+## Links
+
+https://java.mn/2014/02/23/ler-ingles/
+http://www.igorapa.com/fui-aprender-ingles.html
+https://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/
+http://www.cursoinglesonline.com.br/curso-basico-informacoes/
