@@ -186,8 +186,14 @@ Favoreça o inglês na leitura de qualquer material. Favoreça sempre a Wikipéd
  Invente oportunidades para escrever em inglês. Crie um blog. Comece um diário. Encontre algum projeto Open Source que você ache interessante (de preferência, algo que você usa) e se envolva! Entre no [chat do projeto no Gitter](); procure as issues no GitHub e participe das discussões; puxe assunto no Twitter com alguma daquelas pessoas influentes que você seguiu no passo anterior. Talvez você se surpreenda com a frequencia com que elas respondem!
  
  #### *Speaking*
+ Fale sozinho. Sim, estou falando sério. Experimente gravar todo dia um vídeo (ou audio) curto, de até um minuto, no qual você fala sobre seu dia (ou qualquer assunto).
  
- - italki
- - skype
+ Outra dica interessante é ler em voz alta. Encontre um texto, de preferência sobre um assunto que ache interessante, e leia em voz alta. Melhor ainda é gravar a sua leitura e depois pedir a opinião de uma pessoa que saiba inglês.
+ 
+ **DICA IMPORTANTE**: jamais tente adivinhar a pronúncia de uma palavra. Quando encontrar uma palavra que você jamais ouviu, ao invés de tentar pronunciá-la, ouça sua pronúncia correta antes. Uma ótima ferramenta para isso [é o site Forvo](https://pt.forvo.com/).
+ 
+ Falar sozinho e ler em voz alta sejam técnicas úteis, mas têm uma limitação importante e óbvia: a falta de interação com outra pessoa. Para resolver isso, temos sites de language exchange, [como o italki](https://www.italki.com/home?hl=pt).
+ 
+ Finalmente, aulas com professores nativos sempre é uma opção, caso esteja dentro das suas possibilidades. 
 
 ## Conclusão
