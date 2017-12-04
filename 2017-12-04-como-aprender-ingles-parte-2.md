@@ -135,9 +135,9 @@ Eu diria que esse é um passo decisivo no progresso do seu aprendizado. Não dep
 
 Em resumo, ouvir sem depender da transcrição **deixa suas mãos livres**, o que te permite **integrar o inglês na sua rotina**, ocupando intervalos de tempo que em outra situação seriam desperdiçados.
 
-Toda essa prática surtiu efeito e a minha compreensão do inglês falado foi melhorando consideravelmente. Aos poucos, eu fui abandonando os podcasts de aprender inglês e fui passando a ouvir apenas podcasts em inglês, mas cujo público alvo eram falantes de inglês. #TODO melhorar esta frase.
+Toda essa prática surtiu efeito e a minha compreensão do inglês falado foi melhorando consideravelmente. Aos poucos, eu fui abandonando os podcasts de "aprendizado de inglês" e passei apenas a ouvir podcasts de assuntos variados (inclusive de programação).
 
-Toda essa prática surtiu efeito e a minha compreensão do inglês falado aumentou consideravelmente. O meu inglês escrito já era muito bom fazia tempo. Só faltava uma peça do quebra-cabeça, que era a prática da conversação. Mas como resolver isso, se eu não tinha com quem conversar? #TODO melhorar essa transição
+Toda essa prática surtiu efeito e a minha compreensão do inglês falado aumentou consideravelmente. Só faltava uma coisa: como arrumar alguém para conversar?
 
 ### Skype to the rescue
 
@@ -147,22 +147,16 @@ Fiz diversas aulas com o Blake em 2014 e 2015, e depois de um tempo parei devido
 
 ## Roadmap
 
-Se eu tivesse que aprender inglês novamente hoje - ou aprender outro idioma - como eu faria? É basicamente disso que esta seção se trata. Vou usar a minha experiência e os erros cometido como base #TODO melhorar
-
-A partir deste ponto, eu vou assumir que você:
-- é uma pessoa adulta que trabalha com desenvolvimento de software
-- já tentou aprender inglês antes e desistiu
-- tem computador, smartphone e acesso à internet (meio óbvio, já que você está lendo esse post, mas vai saber)
+Se eu tivesse que aprender inglês novamente hoje - ou aprender outro idioma - como eu faria? É basicamente disso que esta seção se trata. Vou usar a minha experiência e os erros cometidos como base para criar um "roteiro" para você seguir.
 
 ### Aprender o básico
+
 Assim como uma casa precisa de um alicerce, você necessita de uma base de conhecimentos sobre a qual construir seu aprendizado. 
+Algo que não existia na minha época que teria ajudado muito é o [Duolingo](https://www.duolingo.com/). Eu estou atualmente usando esse aplicativo para estudar Espanhol e Francês, e eu posso dizer que ele funciona **caso seu objetivo seja avançar do zero até um conhecimento básico**. 
 
-#### Duolingo {#duolingo}
+Você não vai sair falando inglês apenas com Duolingo, mas você vai conseguir praticar as quatro habilidades. Você vai conseguir construir um vocabulário, aprendendo não apenas palavras soltas mas também frases comuns e expressões, e integrando o áudio e a pronúncia correta desde o início, o que é fundamental.
 
-
-#### Curso de inglês da Ana Luiza
-
-### Input constante
+Após avan
 
 ### Ler em voz alta (Rachel), forvo, tomar cuidado com a pronúncia
 
