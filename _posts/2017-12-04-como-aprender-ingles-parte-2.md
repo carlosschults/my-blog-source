@@ -13,16 +13,18 @@ tags:
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg)
 
-*Parte 2: Não faça o que todo mundo faz.*
+*Parte 2: Pratique diariamente. Áudio em primeiro lugar.
 <!--more-->
 
 No [post anterior](http://carlosschults.net/pt/como-aprender-ingles-parte-1) eu expliquei quais são, na minha opinião, os principais erros que as pessoas cometem ao tentar aprender inglês.
 
-Agora chegou a hora de fazer o oposto: vou detalhar o que você *deve* fazer para aprender inglês da forma correta, gastando pouco - ou nada - e se divertindo no processo.
+Agora chegou a hora de fazer o oposto: vou detalhar o que você *deve* fazer para aprender inglês da forma correta, gastando pouco e se divertindo no processo.
 
 ## Antes, um disclaimer
 
 Apenas para deixar claro. Eu não sou de forma alguma uma autoridade em aprendizado de idiomas. Não sou formado em Linguística ou algo do tipo. Não tenho credenciais.
+
+Também não estou fazendo promessas mágicas, do tipo "fique fluente em três meses". Desconfie de qualquer um que venda esse tipo de coisa. Aprender inglês é mais fácil do que a maioria das pessoas pensam, **mas ainda sim leva tempo e demanda esforço**.
 
 Este post e o anterior têm o objetivo de compartilhar a minha experiência no aprendizado do inglês, detalhando o que funcionou ou não
 para mim. Também é minha intenção que você aprenda com meus erros, de modo que sua jornada não precise demorar tanto quanto a minha.
@@ -156,24 +158,15 @@ Assim como uma casa precisa de um alicerce, você necessita de uma base de conhe
 #### Duolingo
 Algo que não existia na minha época que teria ajudado muito é o [Duolingo](https://www.duolingo.com/). Eu estou atualmente usando esse aplicativo para estudar Espanhol e Francês, e eu posso dizer que ele funciona **caso seu objetivo seja avançar do zero até um conhecimento básico**. 
 
-Você não vai sair falando inglês apenas com Duolingo, mas você vai conseguir praticar as quatro habilidades. Você vai conseguir construir um vocabulário, aprendendo não apenas palavras soltas mas também frases comuns e expressões, e integrando o áudio e a pronúncia correta desde o início, o que é fundamental.
+Você não vai sair falando inglês apenas com ele, mas você vai conseguir praticar as quatro habilidades. Você vai conseguir construir um vocabulário, aprendendo não apenas palavras soltas mas também frases comuns e expressões, **e integrando o áudio e a pronúncia correta desde o início**, o que é fundamental.
 
-Estude com o Duolingo durante o tempo que tiver disponível todo dia, até terminar o curso. Após isso, continue reforçando os pontos nos quais não estiver tão bem.
+Estude com o Duolingo todo dia, até terminar o curso. Após isso, continue reforçando os pontos nos quais não estiver tão bem.
 
 #### Curso Inglês Online
-Depois do Duolingo, o que recomendo é um curso pago. Sim, eu sei que disse que você não iria gastar dinheiro, mas este curso não é tão caro e realmente vale a pena.
-
-http://www.cursoinglesonline.com.br/curso-basico-informacoes/
+Depois do Duolingo, eu recomendo o [curso básico do site Inglês Online, da Ana Luiza](http://www.cursoinglesonline.com.br/curso-basico-informacoes/). O curso é pago, mas é um valor que considero acessível e vale muito a pena. 
 
 ### Prática diária do listening
 
-## Finalizando
+O próximo passo é integrar o áudio no seu dia-a-dia.
 
-## Recursos para aprender inglês, (link para página externa), etc
 
-## Links
-
-https://java.mn/2014/02/23/ler-ingles/
-http://www.igorapa.com/fui-aprender-ingles.html
-https://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/
-http://www.cursoinglesonline.com.br/curso-basico-informacoes/
