@@ -16,7 +16,7 @@ tags:
 *Parte 2: Não faça o que todo mundo faz.*
 <!--more-->
 
-No [post anterior](http://carlosschults.net/pt/como-aprender-ingles-parte-1) eu expliquei quais são, na minha opinião, os principais erros que impedem as pessoas de aprenderem inglês.
+No [post anterior](http://carlosschults.net/pt/como-aprender-ingles-parte-1) eu expliquei quais são, na minha opinião, os principais erros que as pessoas cometem ao tentar aprender inglês.
 
 Agora chegou a hora de fazer o oposto: vou detalhar o que você *deve* fazer para aprender inglês da forma correta, gastando pouco - ou nada - e se divertindo no processo.
 
@@ -52,30 +52,27 @@ Se eu tivesse que listar de forma resumida o meu trajeto no inglês, seria algo 
   - Exposição ao inglês falado por meio de filmes e músicas.
 - Fase formal
   - Leitura de dicas de vocabulário e expressões
-  - Prática consistente de listening através de podcasts
-  - Prática de conversação com professor nativo
+  - Prática consistente de listening
+  - Conversação com professor nativo
 
-O que vou fazer agora é, essencialmente, expandir os tópicos acima, detalhando toda a minha jornada. #TODO melhorar
+Agora vem a parte demorada. Vou expandir 
 
 ## A "fase informal"
-Desde criança, eu sempre gostei e tive vontade de aprender inglês. Mas minha família simplesmente não tinha condições de pagar um curso;
-eu também não tinha videogame, videocassete (sim, você não leu errado) ou outras amenidades que poderiam de alguma forma me dar mais exposição ao inglês.
+Eu sempre gostei e tive vontade de aprender inglês. Mas minha família não tinha condições de pagar um curso; eu também não tinha videogame, videocassete (sim, você não leu errado) ou outras amenidades que poderiam de alguma forma me dar mais exposição ao inglês.
 
 Computador só em sonho. Naquela época (meados dos anos 90) o custo de um computador era proibitivo para a maior parcela da população (que era exatamente a *minha* parcela). 
 
 Para piorar, nesta época não havia aulas de inglês para ensino fundamental antes da quinta série, pelo menos no ensino público. 
 Atualmente parece que as crianças recebem aulas de inglês desde a pré-escola. Antes tarde que nunca, certo?
 
-Dado essas circunstâncias, minha exposição ao inglês era rara e em doses minúsculas. Por exemplo, eu lia tudo em inglês que encontrava
-em embalagens e manuais de instruções de aparelhos que meus pais compravam; eu lia as coisas em inglês nos próprios aparelhos; eu mudava o idioma do menu da TV para inglês (e espanhol também) só para ver como era.
+Sendo assim, minha exposição ao inglês era rara e em doses minúsculas. Por exemplo, eu lia tudo em inglês que encontrava em embalagens e manuais de instruções de aparelhos que meus pais compravam; eu lia as coisas em inglês nos próprios aparelhos; eu mudava o idioma do menu da TV para inglês (e espanhol também) só para ver como era.
 
-Já que chegamos na TV, esta era outra fonte de pequenos momentos de contato com o inglês, através de filmes e desenhos. 
-Sim, eu assistia tudo dublado, naturalmente (TV a cabo? O que é isso?). Mas ainda sim oportunidades surgiam; o exemplo típico é quando aparecia algo escrito em inglês no filme/desenho (letreiro de loja, rótulo de algum produto, sinal de trânsito, título do episódio) e o locutor falava em português a tradução.
+A TV era outra fonte de pequenos momentos de contato com o inglês, através de filmes e desenhos. Sim, eu assistia tudo dublado, claro (TV a cabo? O que é isso?). Mas ainda sim oportunidades surgiam; o exemplo típico é quando aparecia algo escrito em inglês no filme/desenho (letreiro de loja, rótulo de algum produto, sinal de trânsito, título do episódio) e o locutor falava em português a tradução.
 
 **INSERIR IMAGEM DE LETREIRO DE LOJA FECHADO
 
 ### A Escola
-Foi em 2001, mas eu me lembro bem como estava ansioso para o início da quinta série. Além da expectativa natural de todo ano, eu estava animado porque **finalmente** iria ter aulas de inglês!
+Foi em 2001, mas eu me lembro bem como estava ansioso para o início da quinta série. **Finalmente** iria ter aulas de inglês!
 
 Imagine o grau da minha decepção quando as aulas de fato começaram. 
 
@@ -91,16 +88,13 @@ Algo assim:
 
 Isso me ajudou a aprender a pronúncia aproximada de várias palavras, e ver que elas eram bem diferentes do que eu imaginava (e do que muitas pessoas pronunciavam).
 
-Não era o melhor dos dicionários, mas foi bem útil. Traduzi muitos textos com ele; e mais tarde, muitas letras de música (voltarei neste ponto depois).
-
 Minha exposição ao inglês ia lentamente crescendo. Acho que foi mais ou menos nesta época que eu finalmente ganhei um video-game: o lendário Polystation! (**INSERIR LINK OU IMAGEM**)
 
 Não era o que eu realmente queria, claro, mas ainda sim me proporcionou muitas horas de diversão e um pouco mais de aprendizado.
 
-Foi por volta de 2004, se não me engano, que eu finalmente realizei outro sonho: comprei um aparelho de DVD. \o/
-Nós não tínhamos muito dinheiro disponível para alugar filmes, o que provavelmente não é mais surpresa neste ponto do artigo. Mas eu tinha estratégias para lidar com isso. 
+Foi por volta de 2004 que eu finalmente realizei outro sonho: comprei um aparelho de DVD. \o/
 
-Eu privilegiava filmes mais antigos, que eram mais baratos que os lançamentos. E ainda assim, eu alugava relativamente poucos filmes, às vezes só um. Então, eu queria aproveitar ao máximo: eu assistia dublado, depois novamente legendado, via todos os materiais extras disponíveis, como documentários, cenas excluídas, comentários de diretor, este tipo de coisa. Um ponto importante é que **o material extra era apenas legendado**, o que me forçava a assistir com legendas, mesmo não gostando muito na época.
+Eu privilegiava alugar filmes mais antigos, que eram mais baratos que os lançamentos. E ainda assim, eu alugava relativamente poucos filmes, às vezes só um. Então, eu queria aproveitar ao máximo: eu assistia dublado, depois novamente legendado, via todos os materiais extras disponíveis, como documentários, cenas excluídas, comentários de diretor, este tipo de coisa. Um ponto importante é que **o material extra era apenas legendado**, o que me forçava a assistir com legendas, mesmo não gostando muito na época.
 
 Com cerca de 14, 15 anos, uma nova paixão surgiu na minha vida: a música (ou para ser específico, o *rock*). Mais aprendizado veio na forma de tradução das letras das músicas nos encartes dos CD's.
 
@@ -108,7 +102,7 @@ Com cerca de 14, 15 anos, uma nova paixão surgiu na minha vida: a música (ou p
 
 No final de 2006 eu consegui meu primeiro estágio na área da informática. Depois de algum tempo (provavelmente no começo do ano seguinte) comprei meu primeiro computador: um Positivo, com configurações risíveis. Mas era um sonho que eu tive por boa parte da minha vida e finalmente havia conseguido realizá-lo. 
 
-Nem tudo são flores, é claro, porque eu continuava não tendo acesso à internet. Sinceramente não lembro bem a razão; deve ter sido uma mistura de custo proibitivo e falta de cobertura em nosso bairro, provavelmente. Mas eu tinha acesso à internet no próprio estágio, então eu aproveitava os momentos livres para ler, principalmente artigos na Wikipédia.
+Eu continuava não tendo acesso à internet, porém. Sinceramente não lembro bem a razão; deve ter sido uma mistura de custo proibitivo e falta de cobertura em nosso bairro, provavelmente. Mas eu tinha acesso à internet no próprio estágio, então eu aproveitava os momentos livres para ler, principalmente artigos na Wikipédia.
 
 Lá para meados de 2007 finalmente consegui ter acesso à internet em minha casa, por meio de um provedor local, via rádio. Era uma conexão bem precária, com a velocidade apenas um pouco maior do que internet discada, mas já era alguma coisa. 
 
