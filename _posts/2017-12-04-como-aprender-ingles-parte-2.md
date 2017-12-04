@@ -86,7 +86,7 @@ Em algum momento eu comprei um minidicionário de inglês, que embora fosse bem 
 
 Algo assim:
 
-> *OLHAR NO DICIONÁRIO EM CASA E ACRESCENTAR EXEMPLO. OU MELHOR, TIRAR FOTO*
+![Página do dicionário de inglês](http://res.cloudinary.com/dz5ppacuo/image/upload/v1512430827/dictionary-min_vxoqp5.jpg)
 
 Isso me ajudou a aprender a pronúncia aproximada de várias palavras, e ver que elas eram bem diferentes do que eu imaginava (e do que muitas pessoas pronunciavam).
 
