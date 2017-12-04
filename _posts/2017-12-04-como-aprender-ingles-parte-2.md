@@ -45,7 +45,7 @@ Tudo isso é *nice to have*, não *must have*. Se você tiver oportunidade de fa
 
 Apenas não use a falta de uma ou mais destas coisas como desculpa para não se dedicar. 
 
-## Meu aprendizado no inglês. 
+## Minha jornada com o inglês
 
 Se eu tivesse que listar de forma resumida o meu trajeto no inglês, seria algo assim:
 
@@ -90,7 +90,7 @@ Algo assim:
 
 Isso me ajudou a aprender a pronúncia aproximada de várias palavras, e ver que elas eram bem diferentes do que eu imaginava (e do que muitas pessoas pronunciavam).
 
-Minha exposição ao inglês ia lentamente crescendo. Acho que foi mais ou menos nesta época que eu finalmente ganhei um video-game: o lendário Polystation! (**INSERIR LINK OU IMAGEM**)
+Minha exposição ao inglês ia lentamente crescendo. Acho que foi mais ou menos nesta época que eu finalmente ganhei um video-game: o lendário [Polystation](https://jogos.uol.com.br/ultimas-noticias/2013/05/10/uol-jogos-testa-o-polystation-videogame-que-mais-engana-os-pais.htm)!
 
 Não era o que eu realmente queria, claro, mas ainda sim me proporcionou muitas horas de diversão e um pouco mais de aprendizado.
 
@@ -167,6 +167,8 @@ Depois do Duolingo, eu recomendo o [curso básico do site Inglês Online, da Ana
 
 ### Prática diária do listening
 
-O próximo passo é integrar o áudio no seu dia-a-dia.
+O próximo passo é integrar o áudio no seu dia-a-dia. Como já disse anteriormente, a situação ideal é chegar ao ponto de não precisar mais de transcrições, pois assim você terá liberdade para ouvir inglês praticamente em qualquer situação que sobrar um tempo.
 
+Chegar até esse ponto vai demandar um certo trabalho, no entanto. Para isso, eu sugiro a leitura da série de artigos ["Como Falar Inglês - As Dicas Essenciais"](http://www.inglesonline.com.br/como-falar-ingles-as-dicas-essenciais/), escrita pela Ana Luiza do site Inglês Online. É uma série um pouco extensa, mas que detalha passo a passo como evoluir no *listening*, inclusive com fontes de áudio adequados para cada nível do aprendizado.
 
+## Conclusão
