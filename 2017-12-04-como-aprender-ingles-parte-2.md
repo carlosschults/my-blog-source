@@ -151,20 +151,25 @@ Se eu tivesse que aprender inglês novamente hoje - ou aprender outro idioma - c
 
 ### Aprender o básico
 
-Assim como uma casa precisa de um alicerce, você necessita de uma base de conhecimentos sobre a qual construir seu aprendizado. 
+Assim como uma casa precisa de um alicerce, você necessita de uma base de conhecimentos sobre a qual construir seu aprendizado. Como fazer isso?
+
+#### Duolingo
 Algo que não existia na minha época que teria ajudado muito é o [Duolingo](https://www.duolingo.com/). Eu estou atualmente usando esse aplicativo para estudar Espanhol e Francês, e eu posso dizer que ele funciona **caso seu objetivo seja avançar do zero até um conhecimento básico**. 
 
 Você não vai sair falando inglês apenas com Duolingo, mas você vai conseguir praticar as quatro habilidades. Você vai conseguir construir um vocabulário, aprendendo não apenas palavras soltas mas também frases comuns e expressões, e integrando o áudio e a pronúncia correta desde o início, o que é fundamental.
 
-Após avan
+Estude com o Duolingo durante o tempo que tiver disponível todo dia, até terminar o curso. Após isso, continue reforçando os pontos nos quais não estiver tão bem.
 
-### Ler em voz alta (Rachel), forvo, tomar cuidado com a pronúncia
+#### Curso Inglês Online
+Depois do Duolingo, o que recomendo é um curso pago. Sim, eu sei que disse que você não iria gastar dinheiro, mas este curso não é tão caro e realmente vale a pena.
 
-### Nativo
+http://www.cursoinglesonline.com.br/curso-basico-informacoes/
 
-- Ver outros relatos
+### Prática diária do listening
 
-## Conclusão
+## Finalizando
+
+## Recursos para aprender inglês, (link para página externa), etc
 
 ## Links
 
