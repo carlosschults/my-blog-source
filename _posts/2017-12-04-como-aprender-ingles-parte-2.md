@@ -171,4 +171,23 @@ O próximo passo é integrar o áudio no seu dia-a-dia. Como já disse anteriorm
 
 Chegar até esse ponto vai demandar um certo trabalho, no entanto. Para isso, eu sugiro a leitura da série de artigos ["Como Falar Inglês - As Dicas Essenciais"](http://www.inglesonline.com.br/como-falar-ingles-as-dicas-essenciais/), escrita pela Ana Luiza do site Inglês Online. É uma série um pouco extensa, mas que detalha passo a passo como evoluir no *listening*, inclusive com fontes de áudio adequados para cada nível do aprendizado.
 
+### Não esqueça das outras áreas
+
+O *listening* deve ser o protagonista da sua estratégia de aprendizado. O que não significa que as outras habilidades devem ser negligenciadas. 
+
+Aqui vão algumas estratégias para deixá-las em dia:
+
+#### *Reading*
+
+Favoreça o inglês na leitura de qualquer material. Favoreça sempre a Wikipédia em inglês, assim como documentação de linguagens ou frameworks. Siga pessoas influentes da área no Twitter; leia seus blogs e quaisquer outras publicações. Além de praticar o seu inglês, você vai estar antenado(a) com o que acontece de importante na área.
+
+#### *Writing*
+ 
+ Invente oportunidades para escrever em inglês. Crie um blog. Comece um diário. Encontre algum projeto Open Source que você ache interessante (de preferência, algo que você usa) e se envolva! Entre no [chat do projeto no Gitter](); procure as issues no GitHub e participe das discussões; puxe assunto no Twitter com alguma daquelas pessoas influentes que você seguiu no passo anterior. Talvez você se surpreenda com a frequencia com que elas respondem!
+ 
+ #### *Speaking*
+ 
+ - italki
+ - skype
+
 ## Conclusão
