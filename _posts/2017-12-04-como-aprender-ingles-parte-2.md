@@ -13,7 +13,7 @@ tags:
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg)
 
-*Parte 2: Pratique diariamente. Áudio em primeiro lugar.
+*Parte 2: Pratique diariamente. Áudio em primeiro lugar.*
 <!--more-->
 
 No [post anterior](http://carlosschults.net/pt/como-aprender-ingles-parte-1) eu expliquei quais são, na minha opinião, os principais erros que as pessoas cometem ao tentar aprender inglês.
