@@ -147,12 +147,25 @@ Fiz diversas aulas com o Blake em 2014 e 2015, e depois de um tempo parei devido
 
 ## Roadmap
 
-- Duolingo
-- Ana Luiza
-- Ler
-- Podcasts consistentes
-- Conversação com nativo
-- Tomar cuidado com a pronúncia
+Se eu tivesse que aprender inglês novamente hoje - ou aprender outro idioma - como eu faria? É basicamente disso que esta seção se trata. Vou usar a minha experiência e os erros cometido como base #TODO melhorar
+
+A partir deste ponto, eu vou assumir que você:
+- é uma pessoa adulta que trabalha com desenvolvimento de software
+- já tentou aprender inglês antes e desistiu
+- tem computador, smartphone e acesso à internet (meio óbvio, já que você está lendo esse post, mas vai saber)
+
+### Aprender o básico
+
+#### Duolingo
+
+#### Curso de inglês da Ana Luiza
+
+### Input constante
+
+### Ler em voz alta (Rachel), forvo, tomar cuidado com a pronúncia
+
+### Nativo
+
 - Ver outros relatos
 
 ## Conclusão
