@@ -155,8 +155,10 @@ A partir deste ponto, eu vou assumir que você:
 - tem computador, smartphone e acesso à internet (meio óbvio, já que você está lendo esse post, mas vai saber)
 
 ### Aprender o básico
+Assim como uma casa precisa de um alicerce, você necessita de uma base de conhecimentos sobre a qual construir seu aprendizado. 
 
-#### Duolingo
+#### Duolingo {#duolingo}
+
 
 #### Curso de inglês da Ana Luiza
 
@@ -175,3 +177,4 @@ A partir deste ponto, eu vou assumir que você:
 https://java.mn/2014/02/23/ler-ingles/
 http://www.igorapa.com/fui-aprender-ingles.html
 https://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/
+http://www.cursoinglesonline.com.br/curso-basico-informacoes/
