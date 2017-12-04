@@ -118,8 +118,8 @@ Lá para meados de 2007 finalmente consegui ter acesso à internet em minha casa
 
 Interessante salientar que nesta época minha leitura já era boa; **eu conseguia entender com facilidade a maior parte dos textos que me propunha a ler**. Todos os anos de exposição contínua ao inglês, ainda que limitada, estavam dando fruto.
 
-### A fase "formal"
-#### Aprendendo a estudar inglês
+## A fase "formal"
+### Aprendendo a estudar inglês
 
 Em 2010, eu iniciei o bacharelado em Ciência da Computação. Também comecei a fazer estágio em uma pequena firma de desenvolvimento de software da cidade. 
 
@@ -131,7 +131,11 @@ Até então, eu nunca tinha tentado *falar* inglês. Eu estava satisfeito em con
 
 Foi nesta época que eu comecei a acompanhar sites de dicas de aprendizado de inglês (no fim deste post vou listar vários). Esses sites me apresentaram à noção de praticar o *listening*, ou seja, ouvir o áudio em inglês. Eu já era fã de [podcasts](https://en.wikipedia.org/wiki/Podcast), principalmente voltados a filmes, quadrinhos, games, esse tipo de coisa. Então, foi um passo natural passar a ouvir podcasts de aprendizado de inglês.
 
-#### Enter the podcasting
+### Livemocha
+
+Preencher, preencher, preencher
+
+### Enter the podcasting
 
 O primeiro podcast que passei a consumir regularmente foi o [ESL Podcast](http://eslpod.com/). Eu ouvia os episódios durante o horário do almoço, acompanhando a transcrição. O texto geralmente consistia de um diálogo entre dois personagens. Os leitores liam bem devagar e de maneira bem articulada, de modo que era fácil de entender o que eles estavam dizendo.
 
