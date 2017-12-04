@@ -52,11 +52,7 @@ Se eu tivesse que listar de forma resumida o meu trajeto no inglês, seria algo 
   - Exposição ao inglês falado por meio de filmes e músicas.
 - Fase formal
   - Leitura de dicas de vocabulário e expressões
-  - Estudo no site Livemocha
-    - Começo da produção de material em inglês
-    - Meu primeiro contato com nativos 
-  - Prática consistente de listening através de podcasts.
-  - Leitura em voz alta
+  - Prática consistente de listening através de podcasts
   - Prática de conversação com professor nativo
 
 O que vou fazer agora é, essencialmente, expandir os tópicos acima, detalhando toda a minha jornada. #TODO melhorar
@@ -131,10 +127,6 @@ Até então, eu nunca tinha tentado *falar* inglês. Eu estava satisfeito em con
 
 Foi nesta época que eu comecei a acompanhar sites de dicas de aprendizado de inglês (no fim deste post vou listar vários). Esses sites me apresentaram à noção de praticar o *listening*, ou seja, ouvir o áudio em inglês. Eu já era fã de [podcasts](https://en.wikipedia.org/wiki/Podcast), principalmente voltados a filmes, quadrinhos, games, esse tipo de coisa. Então, foi um passo natural passar a ouvir podcasts de aprendizado de inglês.
 
-### Livemocha
-
-Preencher, preencher, preencher
-
 ### Enter the podcasting
 
 O primeiro podcast que passei a consumir regularmente foi o [ESL Podcast](http://eslpod.com/). Eu ouvia os episódios durante o horário do almoço, acompanhando a transcrição. O texto geralmente consistia de um diálogo entre dois personagens. Os leitores liam bem devagar e de maneira bem articulada, de modo que era fácil de entender o que eles estavam dizendo.
@@ -149,8 +141,30 @@ Eu diria que esse é um passo decisivo no progresso do seu aprendizado. Não dep
 
 Em resumo, ouvir sem depender da transcrição **deixa suas mãos livres**, o que te permite **integrar o inglês na sua rotina**, ocupando intervalos de tempo que em outra situação seriam desperdiçados.
 
+Toda essa prática surtiu efeito e a minha compreensão do inglês falado foi melhorando consideravelmente. Aos poucos, eu fui abandonando os podcasts de aprender inglês e fui passando a ouvir apenas podcasts em inglês, mas cujo público alvo eram falantes de inglês. #TODO melhorar esta frase.
+
+Toda essa prática surtiu efeito e a minha compreensão do inglês falado aumentou consideravelmente. O meu inglês escrito já era muito bom fazia tempo. Só faltava uma peça do quebra-cabeça, que era a prática da conversação. Mas como resolver isso, se eu não tinha com quem conversar? #TODO melhorar essa transição
+
+### Skype to the rescue
+
+Por volta de 2014, se não me engano, eu vim a saber de um americano chamado [Blake Wind](https://www.linkedin.com/in/blakewind/) que dava aulas de inglês por Skype, e cobrava mais barato que muitos outros professores da época.
+
+Fiz diversas aulas com o Blake em 2014 e 2015, e depois de um tempo parei devido à alta do dólar. Desde então, faço aulas esporadicamente quando sinto que preciso de prática em algum ponto específico.
+
+## Roadmap
+
+- Duolingo
+- Ana Luiza
+- Ler
+- Podcasts consistentes
+- Conversação com nativo
+- Tomar cuidado com a pronúncia
+- Ver outros relatos
+
 ## Conclusão
 
-Fim.
+## Links
 
 https://java.mn/2014/02/23/ler-ingles/
+http://www.igorapa.com/fui-aprender-ingles.html
+https://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/
