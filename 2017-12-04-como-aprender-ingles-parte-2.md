@@ -133,6 +133,14 @@ O primeiro podcast que passei a consumir regularmente foi o [ESL Podcast](http:/
 
 Não demorou muito tempo na verdade para que eu desse o próximo passo na minha evolução: **passei a conseguir entender 100% do áudio sem as transcrições**.
 
+Eu diria que esse é um passo decisivo no progresso do seu aprendizado. Não depender de transcrições te dá uma liberdade sem precedentes para praticar o *listening*. Você pode ouvir:
+- fazendo exercícios;
+- indo ou vindo do trabalho;
+- na fila ou sala de espera do banco/correio/dentista/etc;
+- lavando a louça, limpando a casa ou fazendo outro tipo de trabalho manual.
+
+Em resumo, ouvir sem depender da transcrição **deixa suas mãos livres**, o que te permite **integrar o inglês na sua rotina**, ocupando intervalos de tempo que em outra situação seriam desperdiçados.
+
 ## Conclusão
 
 Fim.
