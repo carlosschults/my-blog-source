@@ -57,7 +57,7 @@ Se eu tivesse que listar de forma resumida o meu trajeto no inglês, seria algo 
   - Prática consistente de listening
   - Conversação com professor nativo
 
-Agora vem a parte demorada. Vou expandir 
+Vou agora expandir esses tópicos e contar em detalhes a história do meu aprendizado em inglês. 
 
 ## A "fase informal"
 Eu sempre gostei e tive vontade de aprender inglês. Mas minha família não tinha condições de pagar um curso; eu também não tinha videogame, videocassete (sim, você não leu errado) ou outras amenidades que poderiam de alguma forma me dar mais exposição ao inglês.
@@ -183,17 +183,25 @@ Favoreça o inglês na leitura de qualquer material. Favoreça sempre a Wikipéd
 
 #### *Writing*
  
- Invente oportunidades para escrever em inglês. Crie um blog. Comece um diário. Encontre algum projeto Open Source que você ache interessante (de preferência, algo que você usa) e se envolva! Entre no [chat do projeto no Gitter](); procure as issues no GitHub e participe das discussões; puxe assunto no Twitter com alguma daquelas pessoas influentes que você seguiu no passo anterior. Talvez você se surpreenda com a frequencia com que elas respondem!
+Invente oportunidades para escrever em inglês. Crie um blog. Comece um diário. Encontre algum projeto Open Source que você ache interessante (de preferência, algo que você usa) e se envolva! Entre no [chat do projeto no Gitter](); procure as issues no GitHub e participe das discussões; puxe assunto no Twitter com alguma daquelas pessoas influentes que você seguiu no passo anterior. Talvez você se surpreenda com a frequencia com que elas respondem!
  
  #### *Speaking*
- Fale sozinho. Sim, estou falando sério. Experimente gravar todo dia um vídeo (ou audio) curto, de até um minuto, no qual você fala sobre seu dia (ou qualquer assunto).
+Fale sozinho. Sim, estou falando sério. Experimente gravar todo dia um vídeo (ou audio) curto, de até um minuto, no qual você fala sobre seu dia (ou qualquer assunto).
  
- Outra dica interessante é ler em voz alta. Encontre um texto, de preferência sobre um assunto que ache interessante, e leia em voz alta. Melhor ainda é gravar a sua leitura e depois pedir a opinião de uma pessoa que saiba inglês.
+Outra dica interessante é ler em voz alta. Encontre um texto, de preferência sobre um assunto que ache interessante, e leia em voz alta. Melhor ainda é gravar a sua leitura e depois pedir a opinião de uma pessoa que saiba inglês.
  
  **DICA IMPORTANTE**: jamais tente adivinhar a pronúncia de uma palavra. Quando encontrar uma palavra que você jamais ouviu, ao invés de tentar pronunciá-la, ouça sua pronúncia correta antes. Uma ótima ferramenta para isso [é o site Forvo](https://pt.forvo.com/).
  
- Falar sozinho e ler em voz alta sejam técnicas úteis, mas têm uma limitação importante e óbvia: a falta de interação com outra pessoa. Para resolver isso, temos sites de language exchange, [como o italki](https://www.italki.com/home?hl=pt).
+Falar sozinho e ler em voz alta sejam técnicas úteis, mas têm uma limitação importante e óbvia: a falta de interação com outra pessoa. Para resolver isso, temos sites de language exchange, [como o italki](https://www.italki.com/home?hl=pt).
  
- Finalmente, aulas com professores nativos sempre é uma opção, caso esteja dentro das suas possibilidades. 
+Finalmente, aulas com professores nativos sempre é uma opção, caso esteja dentro das suas possibilidades. 
 
-## Conclusão
+## Aprender inglês é possível. O que você está esperando?
+
+Espero ter conseguido, através da minha história, mostrar que aprender inglês é possível sim, ainda que haja dificuldades. O meu aprendizado foi longo e inconsistente, por não ter tido as facilidades que existem hoje em dia. 
+
+Para te ajudar ainda mais, eu [criei uma página com recursos para estudar inglês online](http://carlosschults.net/como-aprender-ingles). Vou mantê-la atualizada constantemente.
+
+Agradeço pelo seu tempo, e estou à disposição caso precise de mais alguma ajuda. A área de comentários está aí para isso.
+
+See you later!
