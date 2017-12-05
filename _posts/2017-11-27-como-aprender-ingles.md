@@ -16,7 +16,7 @@ tags:
 *Parte 1: Não faça o que todo mundo faz.*
 <!--more-->
 
-*Esta é a primeira parte de uma série de dois posts. Veja [a segunda parte](http://carlosschults.net/pt/como-aprender-ingles-parte2).*
+*Esta é a primeira parte de uma série de dois posts. Veja [a segunda parte](http://carlosschults.net/pt/como-aprender-ingles-parte-2).*
 
 Há quase dois anos, publiquei um post sobre um tema que costuma gerar discussões acaloradas na comunidade de desenvolvimento brasileira: [usar português ou inglês para nomear classes, variáveis, e demais artefatos no código](http://carlosschults.net/pt/programar-portugues-ou-ingles/). Aliás, este artigo continua sendo o que eu mais gostei de escrever até hoje.
 
