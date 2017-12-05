@@ -3,7 +3,7 @@ title: "Como aprender inglês: Um guia para desenvolvedores"
 lang: pt
 layout: post
 author: Carlos Schults
-ref: aprender-ingles
+ref: aprender-ingles2
 permalink: /pt/como-aprender-ingles-parte-2
 img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg
 tags: 
