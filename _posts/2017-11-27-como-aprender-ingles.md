@@ -16,8 +16,9 @@ tags:
 *Parte 1: Não faça o que todo mundo faz.*
 <!--more-->
 
-Há quase dois anos, publiquei um post sobre um tema que costuma gerar discussões acaloradas na comunidade de desenvolvimento brasileira: [usar português ou inglês para nomear classes, variáveis,
-e demais artefatos no código](http://carlosschults.net/pt/programar-portugues-ou-ingles/). Aliás, este artigo continua sendo o que eu mais gostei de escrever até hoje.
+*Esta é a primeira parte de uma série de dois posts. Veja [a segunda parte](http://carlosschults.net/pt/como-aprender-ingles-parte2).*
+
+Há quase dois anos, publiquei um post sobre um tema que costuma gerar discussões acaloradas na comunidade de desenvolvimento brasileira: [usar português ou inglês para nomear classes, variáveis, e demais artefatos no código](http://carlosschults.net/pt/programar-portugues-ou-ingles/). Aliás, este artigo continua sendo o que eu mais gostei de escrever até hoje.
 
 Minha opinião atual continua praticamente a mesma da época. Prefiro que você [leia o post completo](http://carlosschults.net/pt/programar-portugues-ou-ingles/), mas aqui vai a versão resumida: tente usar inglês o máximo possível, porém vão existir situações nas quais o português faz mais sentido. Decida de acordo com as características do seu projeto e equipe.
 

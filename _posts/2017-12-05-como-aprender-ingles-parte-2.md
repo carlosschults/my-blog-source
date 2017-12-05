@@ -1,5 +1,5 @@
 ---
-title: "Como aprender inglês: Um guia para desenvolvedores"
+title: "Como aprender inglês: Um guia para desenvolvedores, Parte 2"
 lang: pt
 layout: post
 author: Carlos Schults
