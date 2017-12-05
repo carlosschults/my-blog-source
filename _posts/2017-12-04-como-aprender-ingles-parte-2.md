@@ -73,7 +73,6 @@ A TV era outra fonte de pequenos momentos de contato com o inglês, através de 
 
 ![Vitrine de loja com o sinal dizendo "Sorry, we're closed"](http://res.cloudinary.com/dz5ppacuo/image/upload/v1512431198/closed-min_fg1oge.jpg)
 
-### A Escola
 Foi em 2001, mas eu me lembro bem como estava ansioso para o início da quinta série. **Finalmente** iria ter aulas de inglês!
 
 Imagine o grau da minha decepção quando as aulas de fato começaram. 
@@ -123,7 +122,7 @@ Até então, eu nunca tinha tentado *falar* inglês. Eu estava satisfeito em con
 
 Foi nesta época que eu comecei a acompanhar sites de dicas de aprendizado de inglês (no fim deste post vou listar vários). Esses sites me apresentaram à noção de praticar o *listening*, ou seja, ouvir o áudio em inglês. Eu já era fã de [podcasts](https://en.wikipedia.org/wiki/Podcast), principalmente voltados a filmes, quadrinhos, games, esse tipo de coisa. Então, foi um passo natural passar a ouvir podcasts de aprendizado de inglês.
 
-### Enter the podcasting
+### Podcasts!
 
 O primeiro podcast que passei a consumir regularmente foi o [ESL Podcast](http://eslpod.com/). Eu ouvia os episódios durante o horário do almoço, acompanhando a transcrição. O texto geralmente consistia de um diálogo entre dois personagens. Os leitores liam bem devagar e de maneira bem articulada, de modo que era fácil de entender o que eles estavam dizendo.
 
@@ -183,10 +182,10 @@ Favoreça o inglês na leitura de qualquer material. Favoreça sempre a Wikipéd
 
 #### *Writing*
  
-Invente oportunidades para escrever em inglês. Crie um blog. Comece um diário. Encontre algum projeto Open Source que você ache interessante (de preferência, algo que você usa) e se envolva! Entre no [chat do projeto no Gitter](); procure as issues no GitHub e participe das discussões; puxe assunto no Twitter com alguma daquelas pessoas influentes que você seguiu no passo anterior. Talvez você se surpreenda com a frequencia com que elas respondem!
+Invente oportunidades para escrever em inglês. Crie um blog. Comece um diário. Encontre algum projeto Open Source que você ache interessante (de preferência, algo que você usa) e se envolva! Entre no [chat do projeto no Gitter](); procure as issues no GitHub e participe das discussões; puxe assunto no Twitter com alguma daquelas pessoas influentes que você seguiu no passo anterior. Talvez você se surpreenda com a frequência com que elas respondem!
  
  #### *Speaking*
-Fale sozinho. Sim, estou falando sério. Experimente gravar todo dia um vídeo (ou audio) curto, de até um minuto, no qual você fala sobre seu dia (ou qualquer assunto).
+Fale sozinho. Sim, estou falando sério. Experimente gravar todo dia um vídeo (ou áudio) curto, de até um minuto, no qual você fala sobre seu dia (ou qualquer assunto).
  
 Outra dica interessante é ler em voz alta. Encontre um texto, de preferência sobre um assunto que ache interessante, e leia em voz alta. Melhor ainda é gravar a sua leitura e depois pedir a opinião de uma pessoa que saiba inglês.
  
