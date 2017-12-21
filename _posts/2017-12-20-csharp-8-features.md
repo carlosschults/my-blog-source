@@ -1,5 +1,5 @@
 ---
-title: C# 8.0 Features: A Glimpse of the Future
+title: "C# 8.0 Features: A Glimpse of the Future"
 ref: csharp8
 lang: en
 layout: post
@@ -7,10 +7,14 @@ author: Carlos Schults
 permalink: /en/csharp-8-features/
 canonical: https://blog.ndepend.com/c-8-0-features-glimpse-future/
 img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1513817072/csharp8-1037x438_skogpz.jpg
-excerpt: um teste
 tags:
 - csharp
 ---
+
+![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1513817072/csharp8-1037x438_skogpz.jpg)
+
+C# 8.0 is coming and will bring some great new features. Let's check out what the future holds for us.
+<!--more-->
 
 *Editorial note: I originally wrote this post for the NDepend blog.  You can [check out the original here, at their site](https://blog.ndepend.com/c-8-0-features-glimpse-future/). While you’re there, download NDepend and give it a try.*
 
@@ -32,21 +36,13 @@ You’re probably familiar with extension methods, introduced in C# 3.0 in 2007.
 
 At some point you may have wondered, though: why only extension *methods*? And you wouldn’t be alone. Extension properties, for instance, have been a desire of C# developers for quite a long time, as evidenced by [this 2009 Stack Overflow question](https://stackoverflow.com/questions/619033/does-c-sharp-have-extension-properties) or this [even older 2007(!) forum thread](https://channel9.msdn.com/forums/Coffeehouse/257556-C-Extension-Properties/).
 
-But now it seems the wait is finally coming to an end. According to Mads Torgersen, the program manager for the C# design team, [a Microsoft intern proposed a new syntax for extension methods that will also allow "extension ](https://channel9.msdn.com/Blogs/Seth-Juarez/A-Preview-of-C-8-with-Mads-Torgersen)*[other things*.](https://channel9.msdn.com/Blogs/Seth-Juarez/A-Preview-of-C-8-with-Mads-Torgersen)*"*
+But now it seems the wait is finally coming to an end. According to Mads Torgersen, the program manager for the C# design team, [a Microsoft intern proposed a new syntax for extension methods that will also allow "extension *other things*"](https://channel9.msdn.com/Blogs/Seth-Juarez/A-Preview-of-C-8-with-Mads-Torgersen).
 
 ### Let’s See the Code
 
 Well, if I were you, I’d be itching to see some code. Here’s an example of an extension method using current syntax:
 
-```
-public static class IntExtensions
-{
-   public static bool Even(this int value)
-   {
-        return value % 2 == 0;
-   }
-}
-```
+<script src="https://gist.github.com/carlosschults/d6ec153b7274ac699634d5dadb2e9644.js"></script>
 
 
 Nothing surprising here, right? In the original syntax, an extension method is just a static method in a static class, with the *this* keyword before the first parameter.
@@ -55,12 +51,7 @@ The thing is this syntax only works with methods (and, really, how could it be o
 
 Here comes "extension everything." This proposal suggests a new type declaration called an “extension”:
 
-```
-public extension IntExtension extends int
-{
-    public bool Even => this % 2 == 0;
-}
-```
+<script src="https://gist.github.com/carlosschults/5c1afca9c8fbc6837257cc5d289df2e9.js"></script>
 
 The code above is an example; as of the date of this writing, the C# team is yet to settle on a syntax.
 
@@ -68,13 +59,7 @@ Regardless, the example shows the creation of an extension class that extends "i
 
 Now the caller code would be able to use the property normally:
 
-```csharp
-int x = int.Parse(Console.Readline());
-if (x.Even)
-{
-    Console.WriteLine("You’ve typed an even number.");
-}
-```
+<script src="https://gist.github.com/carlosschults/d401d37e182647b253fa721425eec828.js"></script>
 
 This new feature is meant to support methods, properties, operators, and static members, at least in the beginning; events and constructors may come later.
 
@@ -92,10 +77,7 @@ I admit I was surprised—and not exactly happy—when I first heard about defau
 
 You can safely guess what this feature is by its name: we’ll be able to add method implementations on interfaces. For instance:
 
-interface IDisplayService
-{
-   void DisplayMessage(string message) { WriteLine(message); }
-}
+<script src="https://gist.github.com/carlosschults/efde91de1a54a1bc4f44c1a7a748d70c.js"></script>
 
 In C# 8.0, the code above would be perfectly legal. A class implementing the interface wouldn’t need to implement the method. If some implementation of the interface decides that the default implementation doesn’t fit its needs, then it can provide its own implementation.
 
@@ -113,7 +95,7 @@ That’s when default implementation shines.
 
 Another important value proposition of default implementation on interfaces relates to Android and iOS. Since both Java and Swift offer this feature, it’s tricky to use C# to wrap Android/iOS APIs that make use of it. C# 8.0 will make it possible to wrap those APIs more faithfully.
 
-### Will Interfaces Become Abstract Classes
+### Will Interfaces Become Abstract Classes?
 
 Sort of, but not really. As you know, there’s no multiple inheritance in languages like C# and Java, which means you can’t inherit from more than one class. On the other hand, a class is (and will continue to be) able to implement several interfaces.
 
@@ -149,11 +131,7 @@ I suppose using the infamous "Person" class in an example is the software equiva
 
 Suppose we have a "Person" class with an “Age” property of type “int.” Then, we write the following method:
 
-public int CalculateSquareOfAge(Person p)
-{
-    int age = p.Age;
-    return age * age;
-}
+<script src="https://gist.github.com/carlosschults/9b09f0572e737569e6f97315e5028411.js"></script>
 
 
 Even though the code above will gladly compile, it’s fragile since "p" could be null. You probably should add an “if” statement to account for that possibility, but no one will make you do that. You’re completely free to leave the code as it is.
@@ -162,34 +140,19 @@ C# 8 promises to change that by making reference types non-nullable by default. 
 
 If you wanted "p" to be nullable, then you’d have to add a question mark to the type, as I’ve mentioned before:
 
-public int CalculateSquareOfAge(Person? p)
-{
-    int age = p.Age;
-    return age * age;
-}
+<script src="https://gist.github.com/carlosschults/8554d8863882955b554b486797b83726.js"></script>
 
 Now that "p" can be null, trying to access Age isn’t safe anymore: you’ll get a warning for doing that. Want to get rid of the warning?
 
 Just do what you (hopefully) already do today and perform a null check:
 
-public int CalculateSquareOfAge(Person? p)
-{
-    var result = 0;
-    if (p != null)
-        result = p.Age * p.Age;
- 
-    return result;
-}
+<script src="https://gist.github.com/carlosschults/edc992560bf6c005c6be821103e160a3.js"></script>
 
 That way, a flow analysis will be performed; if the assignment line is reached, the compiler will know for a fact that "p" can’t possibly be null and will leave you alone.
 
 Here’s another possibility:
 
-public int CalculateSquareOfAge(Person? p)
-{
-    int age = p?.Age ?? 0;
-    return age * age;
-}
+<script src="https://gist.github.com/carlosschults/518c1b35560cafe17fca829aa2aef27b.js"></script>
 
 In short, you have several options. As soon as you convince the compiler that your code offers no risk of throwing a null reference exception, the warning goes away.
 
@@ -197,30 +160,17 @@ In short, you have several options. As soon as you convince the compiler that yo
 
 The new version of C# will also prevent assigning from a nullable variable to a non-nullable, so the code below will result in a warning as well:
 
-string? nullableString = "hello";
-string nonNullableString = nullableString;
+<script src="https://gist.github.com/carlosschults/98f91bc50c924a8bd47897b874a7be89.js"></script>
 
 This feature will come along with a new operator called the null-ignoring operator. You’ll basically use this operator to tell the compiler that "I, the developer, know best." There will be situations when a variable can’t possibly be null, but the compiler won’t be able to infer that.
 
 One such example would be the use of the "string.IsNullOrEmpty()" method:
 
-public void Foo(string? bar)
-{
-     if (!bar.IsNullOrEmpty())
-     {
-          var length = bar.Length;
-     }
-}
+<script src="https://gist.github.com/carlosschults/7f0f2f7470f810d228f1d68559b1d6b7.js"></script>
 
 The code above will generate a warning, despite it not being possible for "bar" to be null. That’s when this operator comes in handy:
 
-public void Foo(string? bar)
-{
-     if (!bar.IsNullOrEmpty())
-     {
-          var length = bar!.Length;
-     }
-}
+<script src="https://gist.github.com/carlosschults/008709a0b9ff6a72abc8fc4882a467d3.js"></script>
 
 Keep in my mind that, by using this operator, you’re basically telling the compiler: "Trust me! I know what I’m doing." So you’d better really know what you’re doing!
 
