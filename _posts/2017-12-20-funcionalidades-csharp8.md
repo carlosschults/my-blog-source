@@ -51,7 +51,7 @@ O problema é que esta sintaxe apenas funciona para métodos (e como poderia ser
 
 <script src="https://gist.github.com/carlosschults/5c1afca9c8fbc6837257cc5d289df2e9.js"></script>
 
-O código acima é um exemplo; na data em que escrevo este post, o time do C# ainda não havia chegado à uma sintaxe definitiva. #TODO continuar aqui
+O código acima é um exemplo; na data em que escrevo este post, o time do C# ainda não havia chegado à uma sintaxe definitiva.
 
 Enfim, o exemplo mostra a criação de uma classe de extensão para o tipo `int`. Então nós declaramos uma propriedade do jeito que estamos acostumados, e é isso.
 
