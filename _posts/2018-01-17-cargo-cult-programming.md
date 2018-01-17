@@ -4,7 +4,7 @@ ref: cargo
 lang: en
 layout: post
 author: Carlos Schults
-description: teste teste teste
+description: Have you heard of cargo cult programming? In this post I'm going to show you what this is and why you, as a developer, should care.
 permalink: /en/cargo-cult-programming/
 canonical: https://blog.ndepend.com/cargo-cult-programming/
 img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg

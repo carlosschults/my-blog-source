@@ -4,7 +4,7 @@ ref: cargo
 lang: pt
 layout: post
 author: Carlos Schults
-description: teste teste teste
+description: Já ouviu falar de programação cargo cult? No post de hoje eu vou mostrar o que é isso e porque você deveria se preocupar.
 permalink: /pt/cargo-cult-programming/
 img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg
 tags:
@@ -12,6 +12,8 @@ tags:
 - boas praticas
 - programacao cargo cult
 ---
+
+![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg)
 
 *NOTA: Eu escrevi este post originalmente para o blog da NDepend. Você pode [clicar aqui para ler o artigo original no site deles, em inglês](https://blog.ndepend.com/cargo-cult-programming/). Enquanto estiver por lá, baixe e experimente o NDepend.*
 
@@ -23,9 +25,13 @@ Primeiramente, você verá o que programação cargo cult é e por que você dev
 
 ## Programação Cargo Cult: Fazendo as coisas porque sim.
 
-Segundo a versão em inglês da Wikipedia [Wikipedia](https://en.wikipedia.org/wiki/Cargo_cult_programming), “Cargo cult programming is a style of computer programming characterized by the ritual inclusion of code or program structures that serve no real purpose.”
+Segundo a versão em inglês da [Wikipedia](https://en.wikipedia.org/wiki/Cargo_cult_programming)
 
-Em tradução livre: "Programação *cargo cult* é um estilo de programação de computadores caracterizado pela inclusão ritualística de código ou estruturas de programação que não servem nenhum propósito real".
+> Cargo cult programming is a style of computer programming characterized by the ritual inclusion of code or program structures that serve no real purpose.
+
+Em tradução livre
+
+> Programação *cargo cult* é um estilo de programação de computadores caracterizado pela inclusão ritualística de código ou estruturas de programação que não servem nenhum propósito real.
 
 Em outras palavras, é quando um(a) desenvolvedor(a) escreve código sem entender realmente o que aquele código faz. Talvez uma abordagem por tentativa e erro tenha sido usada - copia o código de um lugar, cola em outro, e vai mexendo e testando até que funciona, mais ou menos. Quando chega nesse ponto a pessoa geralmente para de mexer no código, por medo de fazer parar de funcionar. No processo, talvez sobrem resquícios de código que não servem realmente para nada.
 
@@ -76,8 +82,7 @@ Aqui nós temos o caso de um(a) desenvolvedor(a) que provavelmente não entende 
 
 Você pode achar isso um exagero da minha parte. Afinal de contas, o código vai rodar perfeitamente mesmo assim. Na verdade, a verificação não será nem ao mesma incluída no IL resultante, como você pode ver nesse print de uma ferramenta de descompilação:
 
-#TODO decidir se tirar outra imagem
-![An image depicting a code excerpt that does not contain the null check.](http://res.cloudinary.com/dz5ppacuo/image/upload/v1515684957/just-decompile1_qk69k2.png)
+![Uma imagem mostrando um trecho de código que não contem a checagem de nulo.](http://res.cloudinary.com/dz5ppacuo/image/upload/v1515684957/just-decompile1_qk69k2.png)
 
 Você pode ver no trecho de código acima que o compilador otimizou o código, removendo a checagem por nulo.
 
