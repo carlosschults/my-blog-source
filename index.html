@@ -16,7 +16,11 @@ lang: en
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <div class="post-content">
-          {{ post.excerpt }}
+	{% if post.description %}
+     	{{ post.description }}
+    	{% else %}
+     	{{ post.excerpt }}
+    	{% endif %}          
           <a href="{{ post.url }}">read more...</a>
         </div>
       </li>
