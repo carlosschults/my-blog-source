@@ -16,8 +16,12 @@ permalink: /pt/
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <div class="post-content">
-          <!--{{ post.content | strip_html | truncatewords: 50 }}-->
-          {{ post.excerpt }}
+         {% if post.description %}
+         <p><img src="{{ post.img }}" alt="" /></p>
+     	{{ post.description }}
+    	{% else %}
+     	{{ post.excerpt }}
+    	{% endif %}  
           <a href="{{ post.url }}">leia mais...</a>
           </div>
       </li>

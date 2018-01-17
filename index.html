@@ -17,6 +17,7 @@ lang: en
         </h2>
         <div class="post-content">
 	{% if post.description %}
+         <p><img src="{{ post.img }}" alt="" /></p>
      	{{ post.description }}
     	{% else %}
      	{{ post.excerpt }}
