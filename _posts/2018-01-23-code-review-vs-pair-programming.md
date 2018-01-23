@@ -38,11 +38,11 @@ For two-and-a-half excruciating hours, they scrutinize your work while you sweat
 
 Is this the scene your mind conjures when you see the words "code review"? 
 
-Good news, then. That's _not _the kind of review I'm talking about. Instead, think of a very informal and lightweight process. You submit your code for review by creating a pull request or maybe using some embedded functionality on your IDE.
+Good news, then. That's *not* the kind of review I'm talking about. Instead, think of a very informal and lightweight process. You submit your code for review by creating a pull request or maybe using some embedded functionality on your IDE.
 
 ### The Good
 
-After touching briefly on the _what_ and _how_ of a code review, let's get to the _why_. Why should your team adopt this practice? What are the benefits?
+After touching briefly on the _what_ and _how_ of a code review, let's get to the *why*. Why should your team adopt this practice? What are the benefits?
 
 The first reason is, not surprisingly, **to catch bugs**. I'd bet you're familiar with that old piece of software wisdom that says [that the later a defect is found, the higher the cost of fixing it][2]. Then why not use a relatively cheap process [that can catch up to 60% of defects][2]?
 
