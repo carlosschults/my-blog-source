@@ -55,7 +55,7 @@ Here's another reason your company should perform code reviews: to **improve the
 
 The reviewer could also spot overlooked corner cases or help the author assess how performative their code is.
 
-And here's one last reason. A well-done code review can **spread knowledge throughout the team. **This** **improves the product's quality by destroying knowledge silos.
+And here's one last reason. A well-done code review can **spread knowledge throughout the team.** This improves the product's quality by destroying knowledge silos.
 
 ### The Bad
 
@@ -65,7 +65,7 @@ For the most part, their complaint is **time**. When you submit some code for re
 
 What should you do while waiting? Ideally, your team should break up the available work in small, discrete units so it can work on these pieces somewhat independently. That's not always feasible, though. And by the way, the **constant switching of tasks might be detrimental to the developer's focus and productivity**.
 
-Let's say Bob spends _x_ hours implementing a feature. Then Alice reviews his work and says his implementation is completely wrong, and he needs to start from scratch. **Those _x_ development hours were just thrown away**.
+Let's say Bob spends _x_ hours implementing a feature. Then Alice reviews his work and says his implementation is completely wrong, and he needs to start from scratch. **Those *x* development hours were just thrown away**.
 
 Finally, people sometimes will waste ridiculous amounts of time **arguing on pointless stylistic details**, such as the position of braces or whether or not to include an underscore before a private field's name. These debates can unfortunately escalate to levels that turn the workplace toxic.
 
