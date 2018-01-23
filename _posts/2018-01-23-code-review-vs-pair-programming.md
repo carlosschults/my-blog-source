@@ -109,13 +109,13 @@ Finally, pairing doesn't really provide one of the key benefits of the after-the
 
 ## Code Review vs Pair Programming: The Verdict?
 
-I've reached the conclusion that, although code review and pair programming _seem _equivalent_, _ they're really not. There is some overlap, but each practice also presents some unique benefits and challenges.
+I've reached the conclusion that, although code review and pair programming *seem* equivalent, they're really not. There is some overlap, but each practice also presents some unique benefits and challenges.
 
 There's no getting around that pair programming, despite its benefits, requires an even number of people, working at the same time. If your team consists of developers living across several time zones (or even a co-located team with extremely flexible hours), then it's a no-brainer: code review to the rescue.
 
 If your team doesn't fit the above description, then give pair programming a try. As long as you work hard to accommodate and have empathy for [different kinds of personalities][10] and don't make it mandatory, it can be beneficial to your team.
 
-Finally, there's nothing stopping you from using _both. _You could adopt pair programming as the default MO and leave soloing and code review to fill in the gaps where pair programming doesn't quite fit so well.
+Finally, there's nothing stopping you from using *both*. You could adopt pair programming as the default MO and leave soloing and code review to fill in the gaps where pair programming doesn't quite fit so well.
 
 ## No Matter What You Do, Embrace Automation
 
