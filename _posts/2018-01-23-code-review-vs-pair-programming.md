@@ -75,7 +75,7 @@ Pair programming is a technique in which two developers collaborate on the code 
 
 They periodically take turns in two roles. The *driver* writes the code, thinking out loud in order to explain their design decisions and thought process. The *navigator* observes the driver's work, giving real-time feedback and advice.
 
-So, is it just "code review on steroids," [as put by Jeff Atwood][5]?
+So, is it just "code review on steroids", [as put by Jeff Atwood][5]?
 
 Maybe not. One of the basic principles of agile methodologies is the shorter your feedback loop, the better you are. You can see how getting someone to review your code sooner rather than later works in harmony with the principles that make agile so successful.
 
