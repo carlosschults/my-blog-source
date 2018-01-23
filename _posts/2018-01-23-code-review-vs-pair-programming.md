@@ -24,10 +24,9 @@ Some weeks ago, I was browsing Twitter when I saw this:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Pair Programming &gt; Code Review</p>&mdash; Rafael Ponte (@rponte) <a href="https://twitter.com/rponte/status/932390250848178176?ref_src=twsrc%5Etfw">November 19, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
 This prompted a brief discussion between the author and me. He made good arguments, but I left unconvinced that pair programming was the obvious winner.
 
-As someone who's implemented code review with success and also paired to some extent, I could see how both practices can be valuable. But is one of them clearly _better _than the other? Are code review and pair programming interchangeable, or are there scenarios in which one clearly shines?
+As someone who's implemented code review with success and also paired to some extent, I could see how both practices can be valuable. But is one of them clearly *better* than the other? Are code review and pair programming interchangeable, or are there scenarios in which one clearly shines?
 
 That's what I'm going to answer today. Let's dive in.
 
@@ -48,6 +47,11 @@ After touching briefly on the _what_ and _how_ of a code review, let's get to th
 The first reason is, not surprisingly, **to catch bugs**. I'd bet you're familiar with that old piece of software wisdom that says [that the later a defect is found, the higher the cost of fixing it][2]. Then why not use a relatively cheap process [that can catch up to 60% of defects][2]?
 
 Here's another reason your company should perform code reviews: to **improve the readability of the code**. Trying to read and understand some new piece of code frequently leads to the discovery of issues such as
+
+- Poor naming.
+- Bad indentation.
+- Instances of [cargo cult programming](https://en.wikipedia.org/wiki/Cargo_cult_programming).
+- Non-idiomatic code.
 
 The reviewer could also spot overlooked corner cases or help the author assess how performative their code is.
 
@@ -79,7 +83,11 @@ Maybe not. One of the basic principles of agile methodologies is the shorter you
 
 Well, it should be no surprise that many benefits of pair programming are also benefits of code reviews, such as fewer bugs, improvement in code readability, and knowledge dispersion throughout the team.
 
-Pair programming may provide exclusive benefits as well, such as
+Pair programming may provide exclusive benefits as well, such as:
+
+- **Higher focus**. The presence of a peer may exert some pressure to stay motivated to solve the task at hand.
+- **Shorter feedback cycle**. Since your pair is reviewing your code in real time, there’s a lot less risk of wasting time due to delayed feedback.
+- **Increase in usage of other good engineering practices**. As suggested in a study done at North Carolina State University, [teams using pair programming tend to increasingly use development practices such as unit testing, continuous integration, and establishing coding standards](https://collaboration.csc.ncsu.edu/laurie/Papers/ESE%20WilliamsPairProgramming_V2.pdf).
 
 ### The Bad
 
