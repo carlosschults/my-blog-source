@@ -42,7 +42,7 @@ Por fim, também é possível que o problema seja simplesmente educação insufi
 ## Por que a programação *cargo cult* é um problema?
 Como Eric Lippert diz, [programadores cargo cult sofrem para fazer alterações significativas em um programa](https://blogs.msdn.microsoft.com/ericlippert/2004/03/01/syntax-semantics-micronesian-cults-and-novice-programmers/) e acabam usando uma abordagem de tentativa e erro já que eles não entendem o funcionamento interno do código que estão prestes a alterar.
 
-Isso não é tão diferent do que os [programadores pragmáticos chamam de "programação por coincidência"](https://pragprog.com/the-pragmatic-programmer/extracts/coincidence):
+Isso não é tão diferente do que os [programadores pragmáticos chamam de "programação por coincidência"](https://pragprog.com/the-pragmatic-programmer/extracts/coincidence):
 
 > Fred doesn’t know why the code is failing because he didn’t know why it worked in the first place. It seemed to work, given the limited “testing” that Fred did, but that was just a coincidence.
 
@@ -53,7 +53,7 @@ Em tradução livre:
 A frase acima resume tudo para mim: se você não sabe como ou por que seu código funciona, você também não vai entender o que aconteceu quando ele parar de funcionar.
 
 ## Origem do termo
-Embora práticas que são consideradas "culto à carga" (*cargo cult*) atualmente tenham sido registradas tão cedo quando[tenham sido registradas tão cedo quanto o final do século XIX](https://en.wikipedia.org/wiki/Cargo_cult#First_occurrences), o termo em si data de 1945, quando foi usado pela primeira vez para descrever práticas que surgiram durante e depois da Segunda Guerra Mundial entre habitantes da Melanésia.
+Embora práticas que são consideradas "culto à carga" (*cargo cult*) atualmente [tenham sido registradas tão cedo quanto o final do século XIX](https://en.wikipedia.org/wiki/Cargo_cult#First_occurrences), o termo em si data de 1945, quando foi usado pela primeira vez para descrever práticas que surgiram durante e depois da Segunda Guerra Mundial entre habitantes da Melanésia.
 
 Os nativos começaram a imitar o comportamento dos soldados, vestindo-se como controladores de voo e balançando gravetos, na esperança de que isso faria com que aviões carregados de suprimentos descessem dos céus.
 
@@ -158,7 +158,7 @@ Isso vai ser no fim das contas traduzido para:
 
 A regra geral é: tudo bem usar concatenação simples se você sabe o número de strings a anexar em tempo de compilação. Do contrário, [o uso de `StringBuilder` provavelmente faz mais sentido](https://stackoverflow.com/a/21644889).
 
-Lógico, alguns cenários não são tão claros assim. O único conselho que faz sentido dar aqui é: faça seu devre de casa. Quando estiver com dúvida, pesquise e faça *benchmark* sem dó.
+Lógico, alguns cenários não são tão claros assim. O único conselho que faz sentido dar aqui é: faça seu dever de casa. Quando estiver com dúvida, pesquise e faça *benchmark* sem dó.
 
 Eu termino com mais uma dica sensata do Eric Lippert:
 
