@@ -105,7 +105,7 @@ So, pairing **requires synchronicity**, which might make it a non-option for rem
 
 Some people argue that pairing can **undermine creativity and prevent experimentation. **While pairing, it'd be rude to waste your pair's time trying some experimental approach that might ultimately end up not working. So, the safest possible design tends to always prevail, even if it's not the best possible one.
 
-Finally, pairing doesn't really provide one of the key benefits of the after-the-fact code review: a person with zero context analyzing the code. The two developers **share a context from the beginning of the session, **and the effect this has cannot be underestimated. People tend to [overvalue their contributions and get emotionally attached to what they create][9]; that's why it's so important to get a second person that doesn't have this attachment and is thus able to provide a clearer judgment.
+Finally, pairing doesn't really provide one of the key benefits of the after-the-fact code review: a person with zero context analyzing the code. The two developers **share a context from the beginning of the session**, and the effect this has cannot be underestimated. People tend to [overvalue their contributions and get emotionally attached to what they create][9]; that's why it's so important to get a second person that doesn't have this attachment and is thus able to provide a clearer judgment.
 
 ## Code Review vs Pair Programming: The Verdict?
 
