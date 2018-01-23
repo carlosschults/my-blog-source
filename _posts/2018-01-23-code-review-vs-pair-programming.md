@@ -73,7 +73,7 @@ Finally, people sometimes will waste ridiculous amounts of time **arguing on poi
 
 Pair programming is a technique in which two developers collaborate on the code together, sitting at one workstation.
 
-They periodically take turns in two roles. The _driver _writes the code, thinking out loud in order to explain their design decisions and thought process. The _navigator _observes the driver's work, giving real-time feedback and advice.
+They periodically take turns in two roles. The *driver* writes the code, thinking out loud in order to explain their design decisions and thought process. The *navigator* observes the driver's work, giving real-time feedback and advice.
 
 So, is it just "code review on steroids," [as put by Jeff Atwood][5]?
 
