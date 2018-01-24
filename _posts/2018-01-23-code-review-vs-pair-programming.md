@@ -42,7 +42,7 @@ Good news, then. That's *not* the kind of review I'm talking about. Instead, thi
 
 ### The Good
 
-After touching briefly on the _what_ and _how_ of a code review, let's get to the *why*. Why should your team adopt this practice? What are the benefits?
+After touching briefly on the *what* and *how* of a code review, let's get to the *why*. Why should your team adopt this practice? What are the benefits?
 
 The first reason is, not surprisingly, **to catch bugs**. I'd bet you're familiar with that old piece of software wisdom that says [that the later a defect is found, the higher the cost of fixing it][2]. Then why not use a relatively cheap process [that can catch up to 60% of defects][2]?
 
@@ -65,7 +65,7 @@ For the most part, their complaint is **time**. When you submit some code for re
 
 What should you do while waiting? Ideally, your team should break up the available work in small, discrete units so it can work on these pieces somewhat independently. That's not always feasible, though. And by the way, the **constant switching of tasks might be detrimental to the developer's focus and productivity**.
 
-Let's say Bob spends _x_ hours implementing a feature. Then Alice reviews his work and says his implementation is completely wrong, and he needs to start from scratch. **Those *x* development hours were just thrown away**.
+Let's say Bob spends *x* hours implementing a feature. Then Alice reviews his work and says his implementation is completely wrong, and he needs to start from scratch. **Those *x* development hours were just thrown away**.
 
 Finally, people sometimes will waste ridiculous amounts of time **arguing on pointless stylistic details**, such as the position of braces or whether or not to include an underscore before a private field's name. These debates can unfortunately escalate to levels that turn the workplace toxic.
 
@@ -119,7 +119,7 @@ Finally, there's nothing stopping you from using *both*. You could adopt pair pr
 
 ## No Matter What You Do, Embrace Automation
 
-Imagine you write for a publication, such as a magazine. After you have a draft, you submit it for review. Would it make sense for the editor to spend all their time looking for spelling errors? Of course not! We have automated spell-check for that, freeing the editor to look for more _high-level_ problems, such as poorly chosen words, lack of cohesion, inappropriate tone, and all those things your English teacher kept nagging you about in high school.
+Imagine you write for a publication, such as a magazine. After you have a draft, you submit it for review. Would it make sense for the editor to spend all their time looking for spelling errors? Of course not! We have automated spell-check for that, freeing the editor to look for more *high-level* problems, such as poorly chosen words, lack of cohesion, inappropriate tone, and all those things your English teacher kept nagging you about in high school.
 
 With software, things should not be so different. By using [an automated code review tool][11], you can eliminate a lot of the bickering that often occurs in code reviews or pair programming sessions. There will be no arguing about naming and formatting conventions, the position of brackets, and others pointless trivia.
 
