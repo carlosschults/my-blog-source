@@ -135,8 +135,6 @@ Precisely because we respect our developers—and our clients—we should employ
 
 It's not about lack of trust. It's about recognizing that programming is hard and sometimes, just one brain isn't up to the task.
 
-[Learn more how CodeIt.Right can help you automate code reviews and improve the quality of your code.][12]
-
 [2]: https://www.cs.umd.edu/projects/SoftEng/ESEG/papers/82.78.pdf
 [3]: https://blog.codinghorror.com/code-reviews-just-do-it/
 [4]: https://blog.nelhage.com/2010/06/i-hate-code-review/
