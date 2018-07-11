@@ -1,6 +1,6 @@
 ---
 title: "4 Common Datetime Mistakes in C# — And How to Avoid Them"
-ref: "datetime"
+ref: 4dtmistakes
 lang: en
 layout: post
 author: Carlos Schults
@@ -11,9 +11,7 @@ img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1531165684/4-datetime-mis
 tags:
 - csharp
 - best practices
-- datetime
 - time
-- date
 ---
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1531165684/4-datetime-mistakes-1038x437_nm6csc.jpg)

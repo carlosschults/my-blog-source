@@ -1,6 +1,6 @@
 ---
 title: "4 Erros Comuns Com Data e Hora no C# — E como evitá-los"
-ref: "datetime"
+ref: 4dtmistakes
 lang: pt
 layout: post
 author: Carlos Schults
@@ -10,9 +10,7 @@ img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1531165684/4-datetime-mis
 tags:
 - csharp
 - boas praticas
-- datetime
-- time
-- date
+- tempo
 ---
 
 ![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1531165684/4-datetime-mistakes-1038x437_nm6csc.jpg)
