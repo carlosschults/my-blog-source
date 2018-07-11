@@ -15,11 +15,13 @@ tags:
 - date
 ---
 
+![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1531165684/4-datetime-mistakes-1038x437_nm6csc.jpg)
+
 *NOTA: Eu escrevi este post originalmente para o blog da SubMain.  Você pode [conferir o original no site deles, em inglês](https://blog.submain.com/4-common-datetime-mistakes-c-avoid/). Enquanto estiver por lá, dê uma conferida no CodeIt.Right, uma ferramenta que pode lhe ajudar com problemas relacionados a tempo e muitos outros.*
 
 Você se lembra daqueles posts no estilo "inverdades que programadores acreditam sobre _X_" que ficaram bastante populares em blogs de software há alguns anos? O primeiro foi sobre [nomes](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), mas logo apareceram vários outros, cobrindo tópicos como [endereços](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/), [geografia](https://wiesmann.codiferes.net/wordpress/?p=15187&lang=en) e [compras online](https://wiesmann.codiferes.net/wordpress/?p=22201).
 
-O meu favorito era [o post sobre tempo](http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time). Até esse ponto, eu não havia pensado profundamente sobre tempo e e suas intricacies, e eu fiquei intrigado que um domínio tão fundamental pudesse ser um terreno tão fértil para bugs e confusões em geral.
+O meu favorito era [o post sobre tempo](http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time). Até esse ponto, eu não havia pensado profundamente sobre tempo e e suas intricacies, e eu fiquei intrigado em saber que um domínio tão fundamental pudesse ser um terreno tão fértil para bugs e confusões.
 
 Agora, mesmo eu tendo gostado do post, eu vejo um problema com ele: o post lista vários suposições erradas, e basicamente para por aí. Quem lê o artigo provavelmente termina se perguntando:
 

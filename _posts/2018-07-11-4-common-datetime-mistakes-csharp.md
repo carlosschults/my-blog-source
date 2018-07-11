@@ -16,6 +16,8 @@ tags:
 - date
 ---
 
+![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1531165684/4-datetime-mistakes-1038x437_nm6csc.jpg)
+
 *Editorial note: I originally wrote this post for the SubMain blog.  You can [check out the original here, at their site](https://blog.submain.com/4-common-datetime-mistakes-c-avoid/). While you’re there, have a look at CodeIt.Right, which can help you with time-related issues and much more.*
 
 Do you remember the "falsehoods programmers believe about _X_"  meme that became popular among software blogs a few years ago? The first one was about [names](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), but several others soon followed, covering topics such as [addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/), [geography,](https://wiesmann.codiferes.net/wordpress/?p=15187&lang=en) and [online shopping](https://wiesmann.codiferes.net/wordpress/?p=22201).
