@@ -44,6 +44,7 @@ Isso aconteceu há oito ou nove anos, o que significa que as coisas devem ter me
 
 ### Como proceder?
 
+<<<<<<< HEAD
 De agora em diante, eu vou assumir que você concorda que versionamento é uma boa prática fundamental. Caso esse não seja o caso, há muitos recursos pela web afora explicando [o que um versionador é](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/what-is-version-control#start) e [porque você deveria usar um.](https://www.atlassian.com/git/tutorials/what-is-version-control#benefits-of-version-control)
 
 Com isso resolvido, é hora de sermos mais específicos. Qual ferramenta usar? Como proceder com a sua adoção?
