@@ -108,7 +108,7 @@ Você talvez tenha se surpreendido por minha lista de boas práticas não inclui
 
 Infelizmente, adicionar testes unitários a uma aplicação legada é muito difícil, ao ponto de existir até [um livro famoso](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/ref=sr_1_1?ie=UTF8&qid=1515443597&sr=8-1&keywords=working+effectively+with+legacy+code) que foca apenas nisso. Não é uma tarefa fácil de se fazer em pouco tempo.
 
-Também é possível que muitos de vocês esperavam que eu falasse sobre código limpo ou os princípios [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design). Eu encorajo vocês a lerem e pesquisarem sobre esses tópicos, mas eu não acredito que eles encaixam no propósito do post de hoje. Como o próprio nome deixa claro, eles são *princípios*. Pense neles como diretrizes filosóficas. Úteis? Claro. Mas não tão fáceis de decompor em conselhos pequenos, simples e acionáveis.
+Também é possível que muitos de vocês esperavam que eu falasse sobre código limpo ou os princípios [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)). Eu encorajo vocês a lerem e pesquisarem sobre esses tópicos, mas eu não acredito que eles encaixam no propósito do post de hoje. Como o próprio nome deixa claro, eles são *princípios*. Pense neles como diretrizes filosóficas. Úteis? Claro. Mas não tão fáceis de decompor em conselhos pequenos, simples e acionáveis.
 
 ## Implemente Essas Práticas Para Ontem!
 
