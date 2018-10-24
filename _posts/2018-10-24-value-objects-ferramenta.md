@@ -12,7 +12,6 @@ tags:
 - boas praticas
 ---
 
-
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1540385528/value-object-tool/value-object-tool-1038x437.jpg)
 
 
@@ -20,10 +19,9 @@ tags:
 
 Você já ouviu falar de *value objects*? Eu imagino que sim. Apesar de não se falar tanto a respeito deles como eu gostaria, eles ainda são mencionados o bastante para que muitos desenvolvedores tenham no mínimo alguma familiaridade com o termo.
 
-
 Porém, "alguma familiaridade" não é bom o bastante. Então é isso que vamos consertar com esse post. Hoje vamos aprender o que *value objects* são e como você, por meio do C#, pode usar todo o poder deles para tornar seu código mais claro, auto-documentável e menos propenso a erros.
 
-##O que são Value Objects?
+## O que são Value Objects?
 
 *Value objects* são um dos blocos fundamentais do DDD (Domain Driven Design, ou Projeto Guiado por Domínio, em tradução livre), conforme proposto por Eric Evans em seu livro [Domain-Driven Design: Tackling Complexity in the Heart of Software.](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
@@ -43,7 +41,7 @@ Pergunta: faz alguma diferença para você o fato de que a nota que você tem em
 
 Em outras palavras, nós não damos a mínima para a *identidade* daquela cédula em particular. A única coisa com a qual nós nos importamos é o seu valor.
 
-Não é coincidência o fato de que dinheiro é um examplo clássico de value object na literatura.
+Não é coincidência o fato de que dinheiro é um exemplo clássico de value object na literatura.
 
 ### Value Objects São Imutáveis
 
@@ -62,12 +60,14 @@ Por outro lado, as pessoas mudam constantemente durante a vida, mas continuam se
 
 Você talvez esteja se perguntando se eu divaguei demais aqui, mas é tudo de propósito. Tudo isso serve apenas para ilustrar a diferença crucial entre entidades e value objects. Com as entidades, nós nos importamos com a  sua identidade, não com o valor de seus atributos. Com value objects, é exatamente o oposto.
 
-A implicação disso, em termos de programação, é que value objects tipicamente apresentam igualidade estrutural. Faz sentido compará-los pelos seus valores, não suas referências ou identidades. Então, quando for implementar um value object, sempre faça override dos métodos `Equals` e `GetHashCode`.
+A implicação disso, em termos de programação, é que value objects tipicamente apresentam igualidade estrutural. Faz sentido compará-los pelos seus valores, não suas referências ou identidades. Então, quando for implementar um value object, sempre faça *override* dos métodos `Equals` e `GetHashCode`.
 
 ## O que Você Ganha Com Isso?
 A essa altura você já deve ter uma boa ideia do que value objects são. O que ainda não está claro é: por que você deveria usá-los? Para responder isso, vamos dar uma olhada na linha de código a seguir:
 
+{% highlight c# %}
     double  distance  =  4.5;
+{% endhighlight %}
 
 Tem algo errado com a linha acima? Bom, eu poderia dar uma de *[Ben Kenobi](http://starwars.wikia.com/wiki/Wookieepedia:Quote_of_the_Day/Archive/Obi-Wan_Kenobi) *e dizer que está errada "de um certo ponto de vista." Mas eu não vou. Ao invés disso, vou dizer que está definitivamente, sem sombra de dúvidas, errada. Não importa que compila corretamente. Também não importa que funciona um pouco (ou até na maioria) do tempo.
 
@@ -81,15 +81,19 @@ Isso pode ser uma receita para o desastre. Tudo o que você precisa é alguém r
 
 Tudo bem, nada impede você de colocar essa informação no próprio nome da variável:
 
+{% highlight c# %}
 	double  distanceInKilometers  =  4.5;
+{% endhighlight %}
 
 Certo, isso é um pouco melhor do que a versão anterior, mas ainda é uma solução muito frágil. A qualquer momento o valor pode ser atribuído a outra variável ou passado como argumento para uma função, e aí a unidade de medida é perdida.
 
 Usando value objects, você pode eliminar esse problema facilmente. Você teria apenas que escolher uma unidade para ser a representação interna do tipo - para distância, faz sentido usar o metro, por ser uma unidade do Sistema Internacional de Medidas. E aí você pode implementar diversos métodos estáticos para fabricar valores para cada unidade necessária:
 
+{% highlight c# %}
 	var  distance  =  Distance.FromMeters(4000);
 	var  distance2  =  Distance.FromKilometers(4);
 	Assert.AreEqual(distance,  distance2);
+{% endhighlight %}
  
 Você poderia ainda sobrecarregar o operador "+" (ou criar um método `Plus`). Dessa forma seria possível somar duas distâncias que se originaram de diferentes unidades de medida já que a representação interna é a mesma.
 
@@ -97,16 +101,17 @@ Você poderia ainda sobrecarregar o operador "+" (ou criar um método `Plus`). D
 
 Digamos que você tem um método com a seguinte assinatura:
 
+{% highlight c# %}
 	double  PerformSomeImportantCalculation(double  distance,  double  temperature);
-
-
-What would happen if you made a mistake and inverted the values when calling the method? The program would silently misbehave, and you wouldn't even be aware. Hopefully, you'd have a good QA process in place that would catch this bug before it hits production, but hope isn't exactly a strategy, right?
+{% endhighlight %}
 
 O que aconteceria se você cometesse um erro e invertesse os valores ao chamar o método? O programa iria silenciosamente se comportar erro, e você nem ficaria sabendo. Com sorte, a sua empresa teria um bom processo de garantia de qualidade que poderia pegar esse erro antes de chegar no ambiente de produção. Mas ficar dependendo de sorte não é lá uma grande estratégia, concorda?
 
 Pois acontece que esse é o tipo de problema que value objects são ótimos em evitar. Você teria apenas que usar topos customizados para cada conceito em vez de tipos primitivos:
 
+{% highlight c# %}
 	double  PerformSomeImportantCalculation(Distance distance,  Temperature temperature);
+{% endhighlight %}
  
 Dessa forma, se torna impossível passar os parâmetros na ordem errada: o compilador simplesmente não deixa!
 

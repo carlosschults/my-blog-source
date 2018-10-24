@@ -13,7 +13,6 @@ tags:
 - best practices
 ---
 
-
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1540385528/value-object-tool/value-object-tool-1038x437.jpg)
 
 
@@ -24,7 +23,7 @@ Have you ever heard of value objects? I bet you have. Even though they're talked
 
 "Passing familiarity" isn't good enough, though. So that's what we're fixing with this post. Today you're going to learn what value objects are and how you, as a C# developer, can harness their power to make your code clearer, self-documenting, and less error-prone.
 
-##What Are Value Objects?
+## What Are Value Objects?
 
 *Value objects* are one of the building blocks of domain-driven design, as proposed by Eric Evans on his seminal book [Domain-Driven Design: Tackling Complexity in the Heart of Software.](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
@@ -68,11 +67,11 @@ The implication of this, in programming terms, is that value objects typically p
 
 ## What's in It for Me?
 
-
 By now you should have a pretty good idea of what value objects are. What's not clear yet is why you should use them.  To answer this, let's consider the following line of code:
 
+{% highlight c# %}
     double  distance  =  4.5;
-
+{% endhighlight %}
 
 Is there something wrong with this? Well, I could *[Ben Kenobi](http://starwars.wikia.com/wiki/Wookieepedia:Quote_of_the_Day/Archive/Obi-Wan_Kenobi) *you and say that it might be wrong "from a certain point of view." But I won't. Instead, I'll say it's definitely wrong. It doesn't matter that it compiles. It also doesn't matter that it actually works some or even most of the time.
 
@@ -88,37 +87,37 @@ Well, at least you're using [unit tests](https://blog.ndepend.com/unit-testing-
 
 Sure, nothing prevents you from encoding that information in the variable name itself:
 
-
+{% highlight c# %}
 	double  distanceInKilometers  =  4.5;
-
+{% endhighlight %}
 
 Yeah, this is slightly better than the previous version, but it's still a very brittle solution. At any moment, the value can be assigned to another variable or even passed as an argument to some function, and then the information is lost.
 
 By using value objects, you can eliminate this problem easily. You'd just have to choose a unit to be the internal representation of the type---for distance, it probably makes sense to use meter, since it's an SI unit. And then you can provide several static factory methods for each necessary unit:
 
-
+{% highlight c# %}
 	var  distance  =  Distance.FromMeters(4000);
 	var  distance2  =  Distance.FromKilometers(4);
 	Assert.AreEqual(distance,  distance2);
+{% endhighlight %}
  
-
 If you go on to overload the "+" operator (or create a "Plus" method), you can safely add two distances that originate from different units of measurement since the internal representation is the same.
 
 ### Value Objects Are Type Safe
 
 Let's say you have a method with this signature:
 
-
+{% highlight c# %}
 	double  PerformSomeImportantCalculation(double  distance,  double  temperature);
-
+{% endhighlight %}
 
 What would happen if you made a mistake and inverted the values when calling the method? The program would silently misbehave, and you wouldn't even be aware. Hopefully, you'd have a good QA process in place that would catch this bug before it hits production, but hope isn't exactly a strategy, right?
 
 Well, as it turns out, that's the exact kind of problem value types are great at preventing. You'd just have to use custom types for each concept instead of relying on primitives:
 
-
+{% highlight c# %}
 	double  PerformSomeImportantCalculation(Distance distance,  Temperature temperature);
- 
+{% endhighlight %}
 
 That way, you can't just pass the parameters in the wrong order: the compiler won't let you!
 
