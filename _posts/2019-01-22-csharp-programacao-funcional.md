@@ -27,7 +27,7 @@ Nós sabemos que o .NET framework oferece algumas capacidades funcionais na form
 
 Para responder bem essa pergunta, precisamos voltar um passo e entender os atrativos da programação funcional em si. Na minha opinião, para começar a entender os benefícios da programação funcional você precisa primeiro entender dois tópicos: **funções puras** e **imutabilidade**.
 
-**Funções puras são funções que apenas podem acessar os valores que receberam por argumentos e, como consequência, não podem ter nenhum efeito colateral. **Imutabilidade** se refere a objetos ou estruturas de dados que, uma vez inicializados, não podem sofrer nenhuma mudança em seus valores. Isso os torna mais fáceis de entender e seguros para serem usados em código com múltiplas threads.
+**Funções puras** são funções que apenas podem acessar os valores que receberam por argumentos e, como consequência, não podem ter nenhum efeito colateral. **Imutabilidade** se refere a objetos ou estruturas de dados que, uma vez inicializados, não podem sofrer nenhuma mudança em seus valores. Isso os torna mais fáceis de entender e seguros para serem usados em código com múltiplas threads.
 
 ## Operações Fundamentais da Programação Funcional e Como Executá-las Usando C#
 
