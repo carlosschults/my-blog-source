@@ -5,14 +5,14 @@ lang: pt
 layout: post
 author: Carlos Schults
 permalink: /pt/tipos-de-comentarios-a-evitar/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg
 tags:
 - code smell
 - BoasPraticas
 - iniciantes
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg)
 
 Alerta de Spoiler: Você deveria evitar a maioria.
 <!--more-->
@@ -110,7 +110,7 @@ E nós ainda ganhamos o benefício adicional da legibilidade: a nova instrução
 
 ## Conclusão
 
-Como vimos, há diversos tipos de comentários ruins com os quais você deve ficar alerta. Eles geralmente são sinais de que há algo errado no seu código. Talvez seus métodos são muito longos.Talvez [você não escolheu bons nomes para suas variáveis](http://carlosschults.net/pt/como-escolher-bons-nomes/).
+Como vimos, há diversos tipos de comentários ruins com os quais você deve ficar alerta. Eles geralmente são sinais de que há algo errado no seu código. Talvez seus métodos são muito longos.Talvez [você não escolheu bons nomes para suas variáveis](https://carlosschults.net/pt/como-escolher-bons-nomes/).
  
 Toda vez que você sentir a necessidade de escrever um comentário, pare e tente pensar em maneiras de melhorar o seu código para tornar o comentário desnecessário.
 
@@ -120,6 +120,6 @@ Até mais!
 
 ## Ler mais (todos os links em inglês)
 
-- [Apologies In Code, por Robert C. Martin](http://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode)
+- [Apologies In Code, por Robert C. Martin](https://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode)
 - [Write comments that matter, por Sander Rossel](https://www.codeproject.com/tips/467657/write-comments-that-matter)
 - [Please, don’t commit commented out code, por Kent C. Dodds](https://medium.com/@kentcdodds/please-don-t-commit-commented-out-code-53d0b5b26d5f#.yex54k2sg)

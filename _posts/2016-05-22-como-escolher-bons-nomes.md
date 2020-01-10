@@ -5,12 +5,12 @@ lang: pt
 ref: howtonamethings
 layout: post
 author: Carlos Schults
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1462225938/baby-name-min_nosetz.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1462225938/baby-name-min_nosetz.png
 tags:
 - boas práticas
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1462225938/baby-name-min_nosetz.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1462225938/baby-name-min_nosetz.png)
 
 > Só existem duas coisas difíceis em Ciência da Computação: invalidação de cache e escolher nomes das coisas.
 > 
@@ -108,7 +108,7 @@ Propriedades devem ser nomeadas com substantivos (`Nome`), frases adjetivas ou a
 
 Ainda com relação a propriedades booleanas, você pode usar os prefixos `Is`, `Can` ou `Get`, caso isso facilite o entendimento da propriedade.
 
-Abrindo um parênteses. Aqui entramos mais uma vez [naquela velha discussão sobre português x inglês]((http://carlosschults.net/pt/programar-portugues-ou-ingles/)). Muita gente vai dizer que misturar português e inglês como em `IsValido` é algo horrível e que jamais deveria ser feito. Outros vão argumentar que o uso de `Is` é um idioma facilmente reconhecível por qualquer programador e que tentar aportuguesá-lo como em `EValido` ou `EhValido` é bem pior. É uma discussão que dá pano pra manga. [Clique aqui para saber minha opinião a respeito.](http://carlosschults.net/pt/programar-portugues-ou-ingles/)
+Abrindo um parênteses. Aqui entramos mais uma vez [naquela velha discussão sobre português x inglês]((https://carlosschults.net/pt/programar-portugues-ou-ingles/)). Muita gente vai dizer que misturar português e inglês como em `IsValido` é algo horrível e que jamais deveria ser feito. Outros vão argumentar que o uso de `Is` é um idioma facilmente reconhecível por qualquer programador e que tentar aportuguesá-lo como em `EValido` ou `EhValido` é bem pior. É uma discussão que dá pano pra manga. [Clique aqui para saber minha opinião a respeito.](https://carlosschults.net/pt/programar-portugues-ou-ingles/)
 
 ## 9. Use nomes pronunciáveis e passíveis de busca
 

@@ -48,7 +48,7 @@ De agora em diante, eu vou assumir que você concorda que versionamento é uma b
 
 Com isso resolvido, é hora de sermos mais específicos. Qual ferramenta usar? Como proceder com a sua adoção?
 
-[Git](https://git-scm.com/) é uma escolha sólida. E apesar de ter uma curva de aprendizado mais acentuada para[quem já está mais acostumado com sistemas de controle de versão centralizados, como Subversion ou TFVC](http://carlosschults.net/en/git-basics-for-tfs-users), Git é o padrão *de facto* da indústria. Então, sem sombra de dúvidas, você deve aprender git. Não fazê-lo pode prejudicar a sua carreira no futuro.
+[Git](https://git-scm.com/) é uma escolha sólida. E apesar de ter uma curva de aprendizado mais acentuada para[quem já está mais acostumado com sistemas de controle de versão centralizados, como Subversion ou TFVC](https://carlosschults.net/en/git-basics-for-tfs-users), Git é o padrão *de facto* da indústria. Então, sem sombra de dúvidas, você deve aprender git. Não fazê-lo pode prejudicar a sua carreira no futuro.
 
 Mas é possível que o Git não seja a melhor escolha para o seu time **agora**. Lembre-se, você não tem muito tempo. Nós precisamos que a sua equipe adote as boas práticas o mais rápido possível.
 
@@ -56,7 +56,7 @@ Como nós podemos fazer isso? Suponha que você tenha experiência com [Subversi
 
 ## Revisão de Código
 
-Eu não vou mentir: eu sou um grande fã de revisão de código. E [eu não estou sozinho nisso.](http://www.codinghorror.com/blog/archives/000495.html). Eu já testemunhei em primeira mão como um bom processo de revisão de código pode reduzir o número de problemas em uma aplicação, tornar o código mais consistente e, mais importante ainda, espalhar conhecimento por todo o time de desenvolvimento.
+Eu não vou mentir: eu sou um grande fã de revisão de código. E [eu não estou sozinho nisso.](https://www.codinghorror.com/blog/archives/000495.html). Eu já testemunhei em primeira mão como um bom processo de revisão de código pode reduzir o número de problemas em uma aplicação, tornar o código mais consistente e, mais importante ainda, espalhar conhecimento por todo o time de desenvolvimento.
 
 E aqui vai uma ótima vantagem dessa prática: revisão de código é algo relativamente fácil de ser implementado. Comece da maneira mais simples possível, e então faça adaptações na sua abordagem conforme as necessidades aparecerem.
 
@@ -64,7 +64,7 @@ E aqui vai uma ótima vantagem dessa prática: revisão de código é algo relat
 
 Falar de revisão de código pode ser complicado. As pessoas às vezes tem ideias totalmente diferentes sobre o que a expressão significa. Então eu acho que uma clarificação se faz necessária.
 
-Eu **não** sou a favor de um processo de revisão de código altamente burocrático e estressante, no qual o seu código é esmiuçado, em público, durante horas. Eu não acredito que envergonhar as pessoas em público é uma forma eficaz de aumentar a qualidade de um projeto. Ao contrário, [o tipo de revisão de código que eu defendo](http://carlosschults.net/pt/revisao-codigo-vs-programacao-em-par/) é um processo simples, geralmente iniciado ao submeter um pull request ou usando sua IDE favorita.
+Eu **não** sou a favor de um processo de revisão de código altamente burocrático e estressante, no qual o seu código é esmiuçado, em público, durante horas. Eu não acredito que envergonhar as pessoas em público é uma forma eficaz de aumentar a qualidade de um projeto. Ao contrário, [o tipo de revisão de código que eu defendo](https://carlosschults.net/pt/revisao-codigo-vs-programacao-em-par/) é um processo simples, geralmente iniciado ao submeter um pull request ou usando sua IDE favorita.
 
 ### Como Proceder
 
@@ -98,7 +98,7 @@ Meu conselho aqui é o mesmo que na seção anterior: faça a coisa mais simples
 
 Se sua equipe já usa TFS, aprenda como [criar uma definição de build](https://docs.microsoft.com/en-us/vsts/build-release/actions/ci-cd-part-1). Se os seus projetos estão no GitHub, dê uma olhada no [Travis CI.](https://travis-ci.org/)
 
-Com o tempo, você vai melhorando a sua estratégia. Lembra dos analisadores de código que eu mencionei anteriormente? É possível integrá-los no seu processo de build. [Testes unitários](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte1) e outros tipos de testes automatizados também são uma valiosa adição.
+Com o tempo, você vai melhorando a sua estratégia. Lembra dos analisadores de código que eu mencionei anteriormente? É possível integrá-los no seu processo de build. [Testes unitários](https://carlosschults.net/pt/testes-unitarios-iniciantes-parte1) e outros tipos de testes automatizados também são uma valiosa adição.
 
 E por falar nisso...
 
@@ -114,7 +114,7 @@ Também é possível que muitos de vocês esperavam que eu falasse sobre código
 
 É possível que vários de vocês tenha achado essas práticas extremamente básicas e não dignas de um post. "Quem é que não usa controle de versão em 2018???"
 
-Bom, não é tão difícil assim encontrar evidência (anedótica, mas ainda assim) que [as coisas ainda não são tão perfeitas](http://softwareengineering.stackexchange.com/questions/65931/are-there-serious-companies-that-dont-use-version-control-and-continuous-integr). 
+Bom, não é tão difícil assim encontrar evidência (anedótica, mas ainda assim) que [as coisas ainda não são tão perfeitas](https://softwareengineering.stackexchange.com/questions/65931/are-there-serious-companies-that-dont-use-version-control-and-continuous-integr). 
 
 Acreditar que mesmo práticas tão fundamentais como versionamento de código ou testes automatizados são aplicadas universalmente é mais ingenuidade do que talvez queremos admitir.
 

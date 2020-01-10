@@ -5,7 +5,7 @@ lang: pt
 ref: unit1
 layout: post
 author: Carlos Schults
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
 tags:
 - testes de software
 - testes unitários
@@ -13,7 +13,7 @@ tags:
 - testes automatizados
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
 
 Você já deve ter trabalhado em um sistema assim: incrivelmente complexo, com uma base de código gigantesca, mal documentada, cheia de gambiarras, acoplamentos desnecessários, com arquitetura confusa, especificações inexistentes, onde era quase considerado um milagre que o software chegasse a funcionar. Talvez eu tenha acabado de descrever seu projeto atual!
 <!--more-->
@@ -48,15 +48,15 @@ A primeira coisa que chama a atenção é que os testes unitários **não têm o
 
 Logo a seguir, nós vemos que os testes unitários são tipicamente escritos e executados por programadores. Isso é interessante por dois motivos: primeiro, contradiz uma ideia antiga de que programadores não são bons testadores de software (vou voltar nesse ponto depois). E mais importante do que isso, ele deixa claro a principal característica dos testes unitários: eles são **automatizados**.
 
-Tenha em mente que existem diversos tipos de testes automatizados, mas aqui estamos tratando apenas de testes unitários (os quais, de acordo com diversos autores, tais como [Martin Fowler](http://martinfowler.com/bliki/TestPyramid.html), são os que trazem mais benefícios para uma aplicação).
+Tenha em mente que existem diversos tipos de testes automatizados, mas aqui estamos tratando apenas de testes unitários (os quais, de acordo com diversos autores, tais como [Martin Fowler](https://martinfowler.com/bliki/TestPyramid.html), são os que trazem mais benefícios para uma aplicação).
 
 Na prática, os testes unitários consistem de classes contendo métodos que testam partes pequenas e isoladas do sistema. Essas classes são criadas com o auxílio de um framework de testes (como o JUnit no Java, ou o NUnit ou o Microsoft Test no .Net). Esses testes podem então ser executados pela linha de comando, pela sua IDE ou mesmo por um serviço de build automatizado.
 
-![Exemplo de método de teste em C#](http://res.cloudinary.com/dz5ppacuo/image/upload/v1460211309/teste00_bnsbfl.png)
+![Exemplo de método de teste em C#](https://res.cloudinary.com/dz5ppacuo/image/upload/v1460211309/teste00_bnsbfl.png)
 
 Após a execução dos testes, você obtém um retorno imediato sobre quais testes passaram e quais falharam, acompanhado do tempo de execução de cada um dos testes.
 
-![Janela exibindo resultados da execução de testes unitários](http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979476/teste01_ciglca.png)
+![Janela exibindo resultados da execução de testes unitários](https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979476/teste01_ciglca.png)
 
 Com base nesse feedback, você decide o melhor curso de ação. Idealmente, um teste que falha deveria ser sinal de erro no código. O código de produção deveria então ser ajustado para que o teste volte a passar.
 
@@ -115,7 +115,7 @@ O que estamos propondo é simplesmente trocar o ciclo "escreve código de produ�
 
 Testes unitários não são os únicos tipos de testes que trazem benefícios a um projeto. Também podemos utilizar outros tipos de testes automatizados como **testes de integração** e **testes de aceitação**.
 
-![Triângulo dos testes, mostrando a razão ideal entre os diversos tipos de teste de software](http://res.cloudinary.com/dz5ppacuo/image/upload/v1460217453/testing_triangle-300x233_nzq8kx.jpg)
+![Triângulo dos testes, mostrando a razão ideal entre os diversos tipos de teste de software](https://res.cloudinary.com/dz5ppacuo/image/upload/v1460217453/testing_triangle-300x233_nzq8kx.jpg)
 
 Isso não significa que testes manuais devem ser extintos. Pelo contrário, eles continuam tendo um papel importante no processo de controle de qualidade. De preferência, os testes manuais devem se concentrar nas áreas que não podem ser automatizadas, como testes de usabilidade.
 

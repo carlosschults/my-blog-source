@@ -5,12 +5,12 @@ lang: en
 layout: post
 author: Carlos Schults
 permalink: /en/book-review-pragmatic-programmer/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1457998345/the-pragmatic-programmer-review-min_tulprt.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1457998345/the-pragmatic-programmer-review-min_tulprt.png
 tags:
 - book review
 - agile
 ---
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1457998345/the-pragmatic-programmer-review-min_tulprt.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1457998345/the-pragmatic-programmer-review-min_tulprt.png)
 If I had to choose one book, just one book, to elect as the number one must-read to every programmer, I'd choose "The Pragmatic Programmer". It's a no-brainer. It's just that good. 
 <!--more-->
 
@@ -31,7 +31,7 @@ I mean, come on! It's been almost two decades! It's amazing for a software devel
 
 In another point of the book, they explain a technique called "tracer-bullet development". The name may be a little strange, but when they start to explain it, you may find that it sounds a lot like the "minimum viable product" concept, that you may be familiar with from the agile methodologies. 
 
-Which shouldn't be a surprise at all, since Andy Thomas and Dave Hunt were among the signatories of the now legendary [Manifesto For Agile Software Development](http://agilemanifesto.org/). 
+Which shouldn't be a surprise at all, since Andy Thomas and Dave Hunt were among the signatories of the now legendary [Manifesto For Agile Software Development](https://agilemanifesto.org/). 
 
 ## Conclusion ##
 

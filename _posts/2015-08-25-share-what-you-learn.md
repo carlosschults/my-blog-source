@@ -5,19 +5,19 @@ ref: share
 permalink: /en/share-what-you-learn/
 lang: en
 author: Carlos Schults
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1440517439/share1038x437_mshqwf.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1440517439/share1038x437_mshqwf.jpg
 tags:
 - blogging
 - sharing
 - first post
 ---
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1440517439/share1038x437_mshqwf.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1440517439/share1038x437_mshqwf.jpg)
 Share what you learn. Write a blog post. Answer a question on Stack Overflow. Open-source your code. Create content! In our industry, this advice shows up very often, in all colours and shapes. And rightly so, I'd say. How many hours have you saved thanks to someone else's post on their blog? Or to a well-crafted answer on Stack Overflow?
 
 How many times an open-source tool/library/whatever spared you from having to code it's functionality from scratch? If I had to guess the answer to these questions, I'd say: a lot. 
 <!--more-->
 
-[Brazilian developer Rafael Rosa Fu talks about some of the benefits of content creation on this post](http://www.akitaonrails.com/2014/08/29/milesimo-1000-post-no-blog#.VdzH9peC7lc), originally written in Portuguese:
+[Brazilian developer Rafael Rosa Fu talks about some of the benefits of content creation on this post](https://www.akitaonrails.com/2014/08/29/milesimo-1000-post-no-blog#.VdzH9peC7lc), originally written in Portuguese:
 
 > - Learning - in order to fix new skills you must practice them, when we write about what we learn we are reinforcing and expanding our knowledge by being "forced" to explain it in a way that other people can  understand
 > - Memory - I don't know about you, but my memory is not that great, and I'm sure I'm no exception here. Write about that complex concept or write down the recipe to a sporadic procedure and when you need to remember it just open your blog, or even google it and you're going to find your own words to remind you. 

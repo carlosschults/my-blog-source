@@ -5,12 +5,12 @@ lang: pt
 layout: post
 author: Carlos Schults
 permalink: /pt/resenha-livro-programador-pragmatico/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1457998345/the-pragmatic-programmer-review-min_tulprt.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1457998345/the-pragmatic-programmer-review-min_tulprt.png
 tags:
 - livros
 - metodologias ágeis
 ---
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1457998345/the-pragmatic-programmer-review-min_tulprt.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1457998345/the-pragmatic-programmer-review-min_tulprt.png)
 Se eu tivesse que escolher apenas um livro como leitura obrigatória de todo programador, eu escolheria "O Programador Pragmático". Sem hesitar um segundo. Esse livro é simplesmente muito bom.
 <!--more-->
 
@@ -33,7 +33,7 @@ Tipo, dá um tempo. Já são quase duas décadas. É incrível um livro sobre de
 
 Em outro trecho do livro, eles explicam uma ténica chamado "desenvolvimento tracer-bullet". O nome pode ser um pouco estranho, mas quando eles começam a explicação, você pode perceber que é bastante parecido com o conceito de "mínimo produto viável", que você talvez tenha aprendido nas metodologias ágeis.
 
-O que não deveria ser uma empresa, já que Andy Thomas e Dave Hunt estavam entre os signatários do já lendário [Manifesto Para Desenvolvimento Ágil de Software](http://agilemanifesto.org/iso/ptbr/). 
+O que não deveria ser uma empresa, já que Andy Thomas e Dave Hunt estavam entre os signatários do já lendário [Manifesto Para Desenvolvimento Ágil de Software](https://agilemanifesto.org/iso/ptbr/). 
 
 ## Conclusão ##
 

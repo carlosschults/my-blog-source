@@ -5,7 +5,7 @@ lang: en
 layout: post
 author: Carlos Schults
 permalink: /en/unit-testing-for-beginners-part2/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
 tags:
 - software testing
 - unit testing
@@ -13,20 +13,20 @@ tags:
 - agile
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
 
 Better late than later! Time to continue our series on unit testing for beginners. Today you're going to write your first unit test.
 <!--more-->
 
 ## Introduction
 
-In the [previous article](http://carlosschults.net/en/unit-testing-for-beginners-part1/) you learned what unit tests are and what are the motivations for writing them.
+In the [previous article](https://carlosschults.net/en/unit-testing-for-beginners-part1/) you learned what unit tests are and what are the motivations for writing them.
 
 Today you're going to learn how to create unit tests. I'll show you how to install and use the a unit test framework called **NUnit**. Together, we're going to write some tests in order for you to know some of its features.
 
 ## NUnit Installation
 
-If you recall my [previous article](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte1), you'll remember that, in order to write and run unit tests, you need a **unit testing framework.**
+If you recall my [previous article](https://carlosschults.net/pt/testes-unitarios-iniciantes-parte1), you'll remember that, in order to write and run unit tests, you need a **unit testing framework.**
 
 The framework we're going to use is **NUnit**, based on **JUnit**, which is a test framework for the Java language. There are other testing frameworks available in the .Net world, such as MS Test, developed by Microsoft itself.
 Feel free to try other frameworks later on.
@@ -48,7 +48,7 @@ After creating the project, I delete the default class, same as before.
 
 Your solution should look like this:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498503229/unit2-img1_ugbo3b.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498503229/unit2-img1_ugbo3b.png)
 
 Let's install NUnit. Fortunately, NUnit is available as a Nuget package, which makes its installation a breeze.
 
@@ -60,7 +60,7 @@ Then type or copy-paste the following command:
 
 Double-check that you've got the right project selected, like in the image:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498503359/unit2-img2_nzedn5.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498503359/unit2-img2_nzedn5.png)
 
 And then press *ENTER*. The installation will be done in a few seconds.
 
@@ -100,11 +100,11 @@ The `Pass` method, not surprisingly, just forces the test to pass. Now you're go
 
 When the window is show, click on *Run All*. If everything goes right, you'll see this:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498507514/MyFirstTestPass_atkrjl.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498507514/MyFirstTestPass_atkrjl.png)
 
 When you click on the test's name, some additional information is shown, such as the test file and elapsed time:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498508050/MyFirstTestPass2_ageqqm.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498508050/MyFirstTestPass2_ageqqm.png)
 
 Notice the use of green to indicate the test's success.
 
@@ -114,7 +114,7 @@ Now let's do the opposite: force the test to fail. Replace the previous line for
 
 Run the test again and you'll see the failure message, this time with the red bar:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498508371/myfirsttestfail_xwuo5u.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498508371/myfirsttestfail_xwuo5u.png)
 
 Now that you're getting the hang of it, we're start testing our `Employee` class. Don't forget to switch the test method back to `Assert.Pass()`, otherwise it will continue to fail.
 
@@ -124,7 +124,7 @@ Before we do that, though, we must add a reference from the production project t
 
 To do that, right-click the **ApplicationTest** project, then go to **Add**, then **Reference**. In the opened window, choose the project, according to the following image:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498509304/Captura_de_tela_2017-06-26_17.34.04_hgianj.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498509304/Captura_de_tela_2017-06-26_17.34.04_hgianj.png)
 
 Then, click on **OK**.
 
@@ -169,7 +169,7 @@ As you can see, a unit test consists in a well defined sequence of steps: we **p
 
 Even though there are another naming conventions for the phases of a unit test, we'll adopt **Arrange-Act-Assert** , at least for now.
 
-You may be wondering why I gave the name "sut" to the variable at the start of the method. This is a naming convention that I learned while reading [Mark Seeman's blog](http://blog.ploeh.dk/). **SUT** stands for *System Under Test*, i.e. the thing you're testing.
+You may be wondering why I gave the name "sut" to the variable at the start of the method. This is a naming convention that I learned while reading [Mark Seeman's blog](https://blog.ploeh.dk/). **SUT** stands for *System Under Test*, i.e. the thing you're testing.
 
 There is nothing preventing you from naming the variable whatever you want. I really like to follow this convention, though, since it makes really clear what is being tested.
 

@@ -219,6 +219,6 @@ Muitas pessoas usam LINQ por anos sem nem perceber que estão usando conceitos d
 
 Alguns dos conceitos apresentados aqui não são novos nem restritos à programação funcional. Os benefícios de distinguir entre funções que causam efeitos colaterais e as que não causam é a base de princípios como [command-query separation (CQS)](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation), por exemplo.
 
-O objetivo desse post não é ensinar programação funcional para ninguém. Isso está além das minhas capacidades, já que eu ainda estou aprendendo. E além disso, [existem ótimos recursos para aprender programação funcional, para aqueles que se interessarem](http://fsharpforfunandprofit.com).
+O objetivo desse post não é ensinar programação funcional para ninguém. Isso está além das minhas capacidades, já que eu ainda estou aprendendo. E além disso, [existem ótimos recursos para aprender programação funcional, para aqueles que se interessarem](https://fsharpforfunandprofit.com).
 
 Ao contrário, o que eu queria fazer aqui era mostrar um pouco do que um estilo funcional pode fazer com seu código: torná-lo mais expressivo, conciso e declarativo. Agora depende de você aplicar o estilo funcional ao código que você escreve.

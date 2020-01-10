@@ -5,7 +5,7 @@ lang: pt
 layout: post
 author: Carlos Schults
 permalink: /pt/testes-unitarios-iniciantes-parte-2
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
 tags:
 - csharp
 - iniciantes
@@ -16,20 +16,20 @@ tags:
 - metodologias ágeis
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
 
 Antes tarde do que mais tarde! Hora de continuar nossa série sobre testes unitários para iniciantes. Hoje você vai escrever seu primeiro teste unitário.
 <!--more-->
 
 ## Introdução
 
-No [primeiro artigo nesta série](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte1) eu defini o que são testes unitários, e também falei dos benefícios de sua utilização.
+No [primeiro artigo nesta série](https://carlosschults.net/pt/testes-unitarios-iniciantes-parte1) eu defini o que são testes unitários, e também falei dos benefícios de sua utilização.
 
 Hoje você vai aprender, na prática, como criar testes unitários. Vou mostrar como instalar e utilizar o framework de testes **NUnit**. E depois vamos criar alguns testes para você conhecer algumas das features deste framework.
 
 ## Instalando o NUnit
 
-Como eu expliquei no [primeiro post da série](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte1), para utilizar testes unitários na sua aplicação você necessita de um **Framework de Testes**. 
+Como eu expliquei no [primeiro post da série](https://carlosschults.net/pt/testes-unitarios-iniciantes-parte1), para utilizar testes unitários na sua aplicação você necessita de um **Framework de Testes**. 
 
 O framework que vamos utilizar é o **NUnit**, que é baseado no JUnit, um framework de testes desenvolvido para a linguagem Java. Existem outros frameworks de teste disponíveis no mundo .Net, como o MS Test, desenvolvido pela própria Microsoft.
 Se for do seu interesse, você poderá experimentar os outros frameworks por conta própria mais tarde. 
@@ -51,7 +51,7 @@ Após a criação do projeto, vou remover a classe adicionada por padrão, assim
 
 Sua solução deveria estar desta forma:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498503229/unit2-img1_ugbo3b.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498503229/unit2-img1_ugbo3b.png)
 
 Chegou a hora de instalarmos o NUnit. Felizmente, o framework é disponibilizado como um pacote do Nuget, o que torna sua instalação trivial.
 
@@ -63,7 +63,7 @@ Quando o console estiver aberto, digite ou copie e cole o seguinte comando:
 
 Verifique que o projeto de testes é o que está selecionado, como na imagem:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498503359/unit2-img2_nzedn5.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498503359/unit2-img2_nzedn5.png)
 
 E pressione *ENTER*. A instalação será realizada em poucos segundos.
 
@@ -103,11 +103,11 @@ Esta é uma asserção que serve para forçar o teste a passar. Vamos agora roda
 
 Na janela exibida, clique em *Executar Tudo*. Caso tudo tenha funcionado da maneira correta, você verá isso:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498507514/MyFirstTestPass_atkrjl.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498507514/MyFirstTestPass_atkrjl.png)
 
 Ao clicar no nome do teste, serão exibidas algumas informações adicionais, como o arquivo do teste e tempo decorrido:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498508050/MyFirstTestPass2_ageqqm.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498508050/MyFirstTestPass2_ageqqm.png)
 
 Note o uso da cor verde para indicar o sucesso do teste.
 
@@ -117,7 +117,7 @@ Vamos agora fazer o contrário: forçar a falha do teste. Substitua a linha no m
 
 Execute o teste novamente e verá a mensagem de falha, dessa vez com a barra vermelha:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498508371/myfirsttestfail_xwuo5u.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498508371/myfirsttestfail_xwuo5u.png)
 
 Agora que você já está pegando o jeito, vamos começar a testar a nossa classe `Employee`. Não esqueça de voltar o método de teste que fizemos para `Assert.Pass` para que ele não fique falhando.
 
@@ -127,7 +127,7 @@ Antes de fazermos isso, porém, precisamos adicionar uma referência do projeto 
 
 Para isso, clique com o botão direito no projeto **ApplicationTest** > **Adicionar** > **Referência...**. Na janela exibida, selecione o projeto, conforme a imagem a seguir:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1498509304/Captura_de_tela_2017-06-26_17.34.04_hgianj.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1498509304/Captura_de_tela_2017-06-26_17.34.04_hgianj.png)
 
 E depois clique em OK.
 
@@ -178,7 +178,7 @@ Como você pode ver, um teste de unidade envolve uma sequência de passos bem de
 
 Embora existam outras nomenclaturas para as fases do teste de unidade, vamos adotar **Arrange-Act-Assert** como nossa nomenclatura padrão, ao menos por enquanto.
 
-Você talvez esteja se perguntando por qual motivo eu de o nome de "sut" à variável declarada no início do método. Este é um padrão de nomenclatura que aprendi lendo o blog do [Mark Seeman](http://blog.ploeh.dk/). **SUT** significa *System Under Test*, ou "Sistema Sob Teste", em tradução livre. É um termo usado para se referir à classe sendo testada no teste atual. Não há nada que obrigue a utilização de `sut` como o nome da variável, mas eu gosto de usar dessa forma, pois deixa evidente no teste quem é que está sendo testado.
+Você talvez esteja se perguntando por qual motivo eu de o nome de "sut" à variável declarada no início do método. Este é um padrão de nomenclatura que aprendi lendo o blog do [Mark Seeman](https://blog.ploeh.dk/). **SUT** significa *System Under Test*, ou "Sistema Sob Teste", em tradução livre. É um termo usado para se referir à classe sendo testada no teste atual. Não há nada que obrigue a utilização de `sut` como o nome da variável, mas eu gosto de usar dessa forma, pois deixa evidente no teste quem é que está sendo testado.
 
 > **Dica: Procure utilizar padrões de codificação que melhorem a legibilidade e deixem a intenção do autor explícita para o leitor do código.**
   

@@ -5,18 +5,18 @@ layout: post
 author: Carlos Schults
 ref: aprender-ingles2
 permalink: /pt/como-aprender-ingles-parte-2
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg
 tags: 
 - boas práticas
 - inglês
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg)
 
 *Parte 2: Pratique diariamente. Áudio em primeiro lugar.*
 <!--more-->
 
-No [post anterior](http://carlosschults.net/pt/como-aprender-ingles-parte-1) eu expliquei quais são, na minha opinião, os principais erros que as pessoas cometem ao tentar aprender inglês.
+No [post anterior](https://carlosschults.net/pt/como-aprender-ingles-parte-1) eu expliquei quais são, na minha opinião, os principais erros que as pessoas cometem ao tentar aprender inglês.
 
 Agora chegou a hora de fazer o oposto: vou detalhar o que você *deve* fazer para aprender inglês da forma correta, gastando pouco e se divertindo no processo.
 
@@ -71,7 +71,7 @@ Sendo assim, minha exposição ao inglês era rara e em doses minúsculas. Por e
 
 A TV era outra fonte de pequenos momentos de contato com o inglês, através de filmes e desenhos. Sim, eu assistia tudo dublado, claro (TV a cabo? O que é isso?). Mas ainda sim oportunidades surgiam; o exemplo típico é quando aparecia algo escrito em inglês no filme/desenho (letreiro de loja, rótulo de algum produto, sinal de trânsito, título do episódio) e o locutor falava em português a tradução.
 
-![Vitrine de loja com o sinal dizendo "Sorry, we're closed"](http://res.cloudinary.com/dz5ppacuo/image/upload/v1512431198/closed-min_fg1oge.jpg)
+![Vitrine de loja com o sinal dizendo "Sorry, we're closed"](https://res.cloudinary.com/dz5ppacuo/image/upload/v1512431198/closed-min_fg1oge.jpg)
 
 Foi em 2001, mas eu me lembro bem como estava ansioso para o início da quinta série. **Finalmente** iria ter aulas de inglês!
 
@@ -85,7 +85,7 @@ Em algum momento eu comprei um minidicionário de inglês, que embora fosse bem 
 
 Algo assim:
 
-![Página do dicionário de inglês](http://res.cloudinary.com/dz5ppacuo/image/upload/v1512430827/dictionary-min_vxoqp5.jpg)
+![Página do dicionário de inglês](https://res.cloudinary.com/dz5ppacuo/image/upload/v1512430827/dictionary-min_vxoqp5.jpg)
 
 Isso me ajudou a aprender a pronúncia aproximada de várias palavras, e ver que elas eram bem diferentes do que eu imaginava (e do que muitas pessoas pronunciavam).
 
@@ -99,7 +99,7 @@ Eu privilegiava alugar filmes mais antigos, que eram mais baratos que os lançam
 
 Com cerca de 14, 15 anos, uma nova paixão surgiu na minha vida: a música (ou para ser específico, o *rock*). Mais aprendizado veio na forma de tradução das letras das músicas nos encartes dos CD's.
 
-![Vários CD's e DVD's de Rock](http://res.cloudinary.com/dz5ppacuo/image/upload/v1512431618/rock_bmkbmu.jpg)
+![Vários CD's e DVD's de Rock](https://res.cloudinary.com/dz5ppacuo/image/upload/v1512431618/rock_bmkbmu.jpg)
 
 No final de 2006 eu consegui meu primeiro estágio na área da informática. Depois de algum tempo (provavelmente no começo do ano seguinte) comprei meu primeiro computador: um Positivo, com configurações risíveis. Mas era um sonho que eu tive por boa parte da minha vida e finalmente havia conseguido realizá-lo. 
 
@@ -124,7 +124,7 @@ Foi nesta época que eu comecei a acompanhar sites de dicas de aprendizado de in
 
 ### Podcasts!
 
-O primeiro podcast que passei a consumir regularmente foi o [ESL Podcast](http://eslpod.com/). Eu ouvia os episódios durante o horário do almoço, acompanhando a transcrição. O texto geralmente consistia de um diálogo entre dois personagens. Os leitores liam bem devagar e de maneira bem articulada, de modo que era fácil de entender o que eles estavam dizendo.
+O primeiro podcast que passei a consumir regularmente foi o [ESL Podcast](https://eslpod.com/). Eu ouvia os episódios durante o horário do almoço, acompanhando a transcrição. O texto geralmente consistia de um diálogo entre dois personagens. Os leitores liam bem devagar e de maneira bem articulada, de modo que era fácil de entender o que eles estavam dizendo.
 
 Não demorou muito tempo na verdade para que eu desse o próximo passo na minha evolução: **passei a conseguir entender 100% do áudio sem as transcrições**.
 
@@ -162,13 +162,13 @@ Você não vai sair falando inglês apenas com ele, mas você vai conseguir prat
 Estude com o Duolingo todo dia, até terminar o curso. Após isso, continue reforçando os pontos nos quais não estiver tão bem.
 
 #### Curso Inglês Online
-Depois do Duolingo, eu recomendo o [curso básico do site Inglês Online, da Ana Luiza](http://www.cursoinglesonline.com.br/curso-basico-informacoes/). O curso é pago, mas é um valor que considero acessível e vale muito a pena. 
+Depois do Duolingo, eu recomendo o [curso básico do site Inglês Online, da Ana Luiza](https://www.cursoinglesonline.com.br/curso-basico-informacoes/). O curso é pago, mas é um valor que considero acessível e vale muito a pena. 
 
 ### Prática diária do listening
 
 O próximo passo é integrar o áudio no seu dia-a-dia. Como já disse anteriormente, a situação ideal é chegar ao ponto de não precisar mais de transcrições, pois assim você terá liberdade para ouvir inglês praticamente em qualquer situação que sobrar um tempo.
 
-Chegar até esse ponto vai demandar um certo trabalho, no entanto. Para isso, eu sugiro a leitura da série de artigos ["Como Falar Inglês - As Dicas Essenciais"](http://www.inglesonline.com.br/como-falar-ingles-as-dicas-essenciais/), escrita pela Ana Luiza do site Inglês Online. É uma série um pouco extensa, mas que detalha passo a passo como evoluir no *listening*, inclusive com fontes de áudio adequados para cada nível do aprendizado.
+Chegar até esse ponto vai demandar um certo trabalho, no entanto. Para isso, eu sugiro a leitura da série de artigos ["Como Falar Inglês - As Dicas Essenciais"](https://www.inglesonline.com.br/como-falar-ingles-as-dicas-essenciais/), escrita pela Ana Luiza do site Inglês Online. É uma série um pouco extensa, mas que detalha passo a passo como evoluir no *listening*, inclusive com fontes de áudio adequados para cada nível do aprendizado.
 
 ### Não esqueça das outras áreas
 
@@ -199,7 +199,7 @@ Finalmente, aulas com professores nativos sempre é uma opção, caso esteja den
 
 Espero ter conseguido, através da minha história, mostrar que aprender inglês é possível sim, ainda que haja dificuldades. O meu aprendizado foi longo e inconsistente, por não ter tido as facilidades que existem hoje em dia. 
 
-Para te ajudar ainda mais, eu [criei uma página com recursos para estudar inglês online](http://carlosschults.net/como-aprender-ingles). Vou mantê-la atualizada constantemente.
+Para te ajudar ainda mais, eu [criei uma página com recursos para estudar inglês online](https://carlosschults.net/como-aprender-ingles). Vou mantê-la atualizada constantemente.
 
 Agradeço pelo seu tempo, e estou à disposição caso precise de mais alguma ajuda. A área de comentários está aí para isso.
 

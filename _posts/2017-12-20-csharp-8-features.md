@@ -6,12 +6,12 @@ layout: post
 author: Carlos Schults
 permalink: /en/csharp-8-features/
 canonical: https://blog.ndepend.com/c-8-0-features-glimpse-future/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1513817072/csharp8-1037x438_skogpz.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1513817072/csharp8-1037x438_skogpz.jpg
 tags:
 - csharp
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1513817072/csharp8-1037x438_skogpz.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1513817072/csharp8-1037x438_skogpz.jpg)
 
 C# 8.0 is coming and will bring some great new features. Let's check out what the future holds for us.
 <!--more-->
@@ -111,7 +111,7 @@ I bet you’re familiar with the phrase "the billion dollar mistake." On the off
 
 ### But why is that? Why is null so bad?
 
-You could make several arguments as to why, but the biggest problem is, of course, the risk of getting the infamous null-reference exception (aka null-pointer exception in Java-land). Since everything ("everything" in the context of C# meaning all [reference types](http://carlosschults.net/en/value-reference-types-in-csharp/)) can be null, you always run the risk of getting an exception when you try to access some member of the object.
+You could make several arguments as to why, but the biggest problem is, of course, the risk of getting the infamous null-reference exception (aka null-pointer exception in Java-land). Since everything ("everything" in the context of C# meaning all [reference types](https://carlosschults.net/en/value-reference-types-in-csharp/)) can be null, you always run the risk of getting an exception when you try to access some member of the object.
 
 One of the biggest issues here is that the language itself lacks a syntax that would allow the author to express their intent. It isn’t possible for you to say "This parameter can never be null" or “This property may be null sometimes, and that’s ok.”
 

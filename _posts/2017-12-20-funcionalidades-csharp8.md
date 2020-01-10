@@ -5,12 +5,12 @@ lang: pt
 layout: post
 author: Carlos Schults
 permalink: /pt/funcionalidades-csharp8/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1513817072/csharp8-1037x438_skogpz.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1513817072/csharp8-1037x438_skogpz.jpg
 tags:
 - csharp
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1513817072/csharp8-1037x438_skogpz.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1513817072/csharp8-1037x438_skogpz.jpg)
 
 C# 8.0 está chegando e vai trazer algumas funcionalidades muito interessantes. Vamos dar uma olhada no que o futuro reserva.
 <!--more-->
@@ -109,7 +109,7 @@ Eu aposto que você conhece a frase "o erro de um bilhão de dólares". Na remot
 
 ### Mas por que `null` é tão ruim?
 
-Existem várias possíveis respostas para essa pergunta mas o maior problema é, claro, o risco da famosa *null-reference exception* (também conhecida como *null-pointer exception* na Java-lândia). Já que tudo ("tudo" no contexto do C# significa tipos os [tipos de referência](http://carlosschults.net/pt/tipos-valor-referencia-em-csharp/)) pode ser nulo, você sempre corre o risco de receber uma exceção quando tenta acessar algum membro de um objeto.
+Existem várias possíveis respostas para essa pergunta mas o maior problema é, claro, o risco da famosa *null-reference exception* (também conhecida como *null-pointer exception* na Java-lândia). Já que tudo ("tudo" no contexto do C# significa tipos os [tipos de referência](https://carlosschults.net/pt/tipos-valor-referencia-em-csharp/)) pode ser nulo, você sempre corre o risco de receber uma exceção quando tenta acessar algum membro de um objeto.
 
 Um dos piores problemas que temos aqui é que a própria linguagem não oferece uma sintaxe que permita ao autor do código expressar sua intenção. Não tem como você dizer: "Este parâmetro nunca vai ser `null`" ou "Essa propriedade talvez seja `null` às vezes, e isso é OK".
 

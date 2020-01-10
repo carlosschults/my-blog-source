@@ -5,7 +5,7 @@ lang: pt
 layout: post
 permalink: /pt/basicos-do-git-usuarios-tfvc
 author: Carlos Schults
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1491343925/git-for-tfs-users-1038x437_ios03n.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1491343925/git-for-tfs-users-1038x437_ios03n.jpg
 tags:
 - controle-de-versao
 - git
@@ -13,7 +13,7 @@ tags:
 - tfvcs
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1491343925/git-for-tfs-users-1038x437_ios03n.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1491343925/git-for-tfs-users-1038x437_ios03n.jpg)
 
 Aprender Git pode ser desafiador para desenvolvedores com experiência em versionadores centralizados. Mas não precisa ser assim. 
 <!--more-->
@@ -68,7 +68,7 @@ Para começar [faça o download do Git para Windows](https://git-scm.com/downloa
 
 Clique duas vezes no arquivo baixado, next, next, você sabe. Em geral não deveria haver problema se você deixar todas as opções como default mesmo; no entanto, é interessante fazer uma alteração:
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1491350434/git1_xek0vv.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1491350434/git1_xek0vv.png)
 
 Quando chegar a esta tela, é interessante marcar a segunda opção para que você seja capaz de utilizar o Git a partir do prompt de comando do Windows, e não apenas a partir do Bash do Git.
 

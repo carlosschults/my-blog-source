@@ -5,13 +5,13 @@ lang: pt
 layout: post
 author: Carlos Schults
 permalink: /pt/funcionalidades-csharp-6/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg
 tags:
 - csharp
 - iniciantes
 ---
   
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg)
 
 A sétima versão do C# está chegando, e vai provavelmente trazer várias funcionalidades novas e úteis para nossas  caixas de ferramentas. Mas deixa eu perguntar uma coisa: você já está usando as funcionalidades da versão anterior?
  <!--more-->
@@ -101,6 +101,6 @@ Tudo isto dito, os detratores têm uma certa razão. É possível ser verboso *e
  
 ## Veja mais
  
-- [http://geekswithblogs.net/WinAZ/archive/2015/06/30/whatrsquos-new-in-c-6.0-auto-property-initializers.aspx](http://geekswithblogs.net/WinAZ/archive/2015/06/30/whatrsquos-new-in-c-6.0-auto-property-initializers.aspx)
+- [https://geekswithblogs.net/WinAZ/archive/2015/06/30/whatrsquos-new-in-c-6.0-auto-property-initializers.aspx](https://geekswithblogs.net/WinAZ/archive/2015/06/30/whatrsquos-new-in-c-6.0-auto-property-initializers.aspx)
 - [https://msdn.microsoft.com/en-us/magazine/dn802602.aspx](https://msdn.microsoft.com/en-us/magazine/dn802602.aspx)
-- [http://blog.caelum.com.br/novidades-do-c-6-0/](http://blog.caelum.com.br/novidades-do-c-6-0/)
+- [https://blog.caelum.com.br/novidades-do-c-6-0/](https://blog.caelum.com.br/novidades-do-c-6-0/)

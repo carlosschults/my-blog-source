@@ -5,7 +5,7 @@ lang: en
 layout: post
 author: Carlos Schults
 permalink: /en/value-reference-types-in-csharp-part-2/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png
 tags:
 - csharp
 - beginners
@@ -13,9 +13,9 @@ tags:
 - type system
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png)
 
-"Why is not allowed to assign `null` to a DateTime?" Again and again, this question keeps showing up on StackOverflow and similar sites. Different phrasing, maybe a different type [("Why type “int” is never equal to 'null'?")](http://stackoverflow.com/questions/6191339/why-type-int-is-never-equal-to-null), but the same question, in essence. Which is only natural, considering that probably thousands of developers join the field every year.
+"Why is not allowed to assign `null` to a DateTime?" Again and again, this question keeps showing up on StackOverflow and similar sites. Different phrasing, maybe a different type [("Why type “int” is never equal to 'null'?")](https://stackoverflow.com/questions/6191339/why-type-int-is-never-equal-to-null), but the same question, in essence. Which is only natural, considering that probably thousands of developers join the field every year.
 <!--more-->
 
 The short answer is: because DateTime/int/float/whatever is a **value type**, and value types can never be `null`. Only reference types can be `null`.
@@ -30,7 +30,7 @@ Well, I think before we try to answer those questions, it'd be helpful to get a 
 
 You probably think of `null` as a way to represent a missing piece of information. Something that is unknown, absent or irrelevant. Maybe a piece of information that isn't where it's supposed to be *yet*, but it might be in the future.
 
-[In the previous post about reference and value types](http://carlosschults.net/en/value-reference-types-in-csharp/), we learned that a variable of a reference type **contains a reference that points to an instance of that type**. But when `null` is assigned to the variable, what does the variable contain? Nothing?
+[In the previous post about reference and value types](https://carlosschults.net/en/value-reference-types-in-csharp/), we learned that a variable of a reference type **contains a reference that points to an instance of that type**. But when `null` is assigned to the variable, what does the variable contain? Nothing?
 
 Not exactly. Even though `null` basically means nothing, this "nothing" has to be represented in some way in the machine's memory.
 

@@ -6,14 +6,14 @@ layout: post
 author: Carlos Schults
 description: Já ouviu falar de programação cargo cult? No post de hoje eu vou mostrar o que é isso e porque você deveria se preocupar.
 permalink: /pt/cargo-cult-programming/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg
 tags:
 - csharp
 - boas praticas
 - programacao cargo cult
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg)
 
 *NOTA: Eu escrevi este post originalmente para o blog da NDepend. Você pode [clicar aqui para ler o artigo original no site deles, em inglês](https://blog.ndepend.com/cargo-cult-programming/). Enquanto estiver por lá, baixe e experimente o NDepend.*
 
@@ -78,11 +78,11 @@ O primeiro item é algo que me incomoda já que eu vejo isso bastante em código
 	}
 {% endhighlight %}
 
-Aqui nós temos o caso de um(a) desenvolvedor(a) que provavelmente não entende a [diferença entre tipos de valor e referência](http://carlosschults.net/pt/tipos-valor-referencia-em-csharp/). Seria completamente perdoável, no caso de um profissional iniciante, se não fosse pelo fato de que o compilador te avisa disso.
+Aqui nós temos o caso de um(a) desenvolvedor(a) que provavelmente não entende a [diferença entre tipos de valor e referência](https://carlosschults.net/pt/tipos-valor-referencia-em-csharp/). Seria completamente perdoável, no caso de um profissional iniciante, se não fosse pelo fato de que o compilador te avisa disso.
 
 Você pode achar isso um exagero da minha parte. Afinal de contas, o código vai rodar perfeitamente mesmo assim. Na verdade, a verificação não será nem ao mesma incluída no IL resultante, como você pode ver nesse print de uma ferramenta de descompilação:
 
-![Uma imagem mostrando um trecho de código que não contem a checagem de nulo.](http://res.cloudinary.com/dz5ppacuo/image/upload/v1515684957/just-decompile1_qk69k2.png)
+![Uma imagem mostrando um trecho de código que não contem a checagem de nulo.](https://res.cloudinary.com/dz5ppacuo/image/upload/v1515684957/just-decompile1_qk69k2.png)
 
 Você pode ver no trecho de código acima que o compilador otimizou o código, removendo a checagem por nulo.
 
@@ -177,12 +177,12 @@ Vamos ver algumas delas.
 A primeira medida que você pode tomar para evitar o cargo cult é simplesmente ter uma segunda pessoa olhando seu código. Os benefícios de ter uma outra pessoa revisando cada linha de código antes que ela chegue em produção não podem ser subestimados. E embora [revisão de código e programação em par não são exatamente equivalentes](https://blog.submain.com/code-review-vs-pair-programming-2/), ambas as práticas podem lhe trazer esse benefício.
 
 ### Sempre Teste Suas Hipóteses
-Escreva [testes de unidade](http://carlosschults.net/pt/testes-unitarios-iniciantes-parte1) (e outros tipos de testes também). Monitore sua aplicação em produção. Se algo não está tendo um bom desempenho, faça *benchmarks* exaustivos. Não faça só suposições. Testar as suas hipóteses pode trazer *insights* valiosos e salvar a sua pele naqueles momentos em que a sua intuição não for certeira.
+Escreva [testes de unidade](https://carlosschults.net/pt/testes-unitarios-iniciantes-parte1) (e outros tipos de testes também). Monitore sua aplicação em produção. Se algo não está tendo um bom desempenho, faça *benchmarks* exaustivos. Não faça só suposições. Testar as suas hipóteses pode trazer *insights* valiosos e salvar a sua pele naqueles momentos em que a sua intuição não for certeira.
 
 ### Leia Código de Outras Pessoas
 Ler código escrito por outras pessoas é uma ótima maneira de aprender. É uma ferramenta perfeita para comparar suas ideias e suposições contra o que outros desenvolvedores estão fazendo, expondo você a novos conceitos que podem lhe forçar a ganhar um entendimento maior dos problemas que está tentando resolver.
 
-Na era do [GitHub](http://github.com/), não tem muita desculpa para não fazer isso.
+Na era do [GitHub](https://github.com/), não tem muita desculpa para não fazer isso.
 
 ### Aprenda Com Suas Ferramentas
 Existe um número enorme de ferramentas que podem ajudar [sua equipe com a qualidade do seu código](https://www.ndepend.com/). Aqui vai a dica principal: você não deve só usar essas ferramentas. Você deve também aprender com elas. Se você usa NDepend, [leia sobre suas regras](https://www.ndepend.com/default-rules/webframe.html). Tente entender a justificativa por trás de cada uma delas. Quais são os princípios e boas práticas que guiaram seus autores durante a criação delas?

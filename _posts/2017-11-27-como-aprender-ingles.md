@@ -5,22 +5,22 @@ layout: post
 author: Carlos Schults
 ref: aprender-ingles1
 permalink: /pt/como-aprender-ingles-parte-1
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg
 tags: 
 - boas práticas
 - inglês
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1511826279/como-aprender-ingles-1038x437-min_cw47uj.jpg)
 
 *Parte 1: Não faça o que todo mundo faz.*
 <!--more-->
 
-*Esta é a primeira parte de uma série de dois posts. Veja [a segunda parte](http://carlosschults.net/pt/como-aprender-ingles-parte-2).*
+*Esta é a primeira parte de uma série de dois posts. Veja [a segunda parte](https://carlosschults.net/pt/como-aprender-ingles-parte-2).*
 
-Há quase dois anos, publiquei um post sobre um tema que costuma gerar discussões acaloradas na comunidade de desenvolvimento brasileira: [usar português ou inglês para nomear classes, variáveis, e demais artefatos no código](http://carlosschults.net/pt/programar-portugues-ou-ingles/). Aliás, este artigo continua sendo o que eu mais gostei de escrever até hoje.
+Há quase dois anos, publiquei um post sobre um tema que costuma gerar discussões acaloradas na comunidade de desenvolvimento brasileira: [usar português ou inglês para nomear classes, variáveis, e demais artefatos no código](https://carlosschults.net/pt/programar-portugues-ou-ingles/). Aliás, este artigo continua sendo o que eu mais gostei de escrever até hoje.
 
-Minha opinião atual continua praticamente a mesma da época. Prefiro que você [leia o post completo](http://carlosschults.net/pt/programar-portugues-ou-ingles/), mas aqui vai a versão resumida: tente usar inglês o máximo possível, porém vão existir situações nas quais o português faz mais sentido. Decida de acordo com as características do seu projeto e equipe.
+Minha opinião atual continua praticamente a mesma da época. Prefiro que você [leia o post completo](https://carlosschults.net/pt/programar-portugues-ou-ingles/), mas aqui vai a versão resumida: tente usar inglês o máximo possível, porém vão existir situações nas quais o português faz mais sentido. Decida de acordo com as características do seu projeto e equipe.
 
 Outra coisa que ainda não mudou é a minha opinião de que quem trabalha desenvolvendo software **definitivamente deve aprender inglês**.
 Se você tem uma lista de coisas para estudar, remova Kotlin/programação funcional/framework javascript da moda do topo da lista e coloque inglês no lugar.
@@ -35,7 +35,7 @@ Mas talvez você ainda precise de convencimento sobre a importância do inglês.
 
 ## Por que você deve aprender inglês (SPOILER: não é para "ganhar mais")
 
-Quando o assunto é o aprendizado de inglês, uma das razões mais citadas é o aumento de renda. Embora [existam estudos que sugerem aumento de salário para quem domina o idioma](http://g1.globo.com/concursos-e-emprego/noticia/2016/04/salario-e-ate-61-maior-entre-quem-fala-ingles-fluente-diz-pesquisa.html), este não deveria ser o seu maior (ou único) motivador.
+Quando o assunto é o aprendizado de inglês, uma das razões mais citadas é o aumento de renda. Embora [existam estudos que sugerem aumento de salário para quem domina o idioma](https://g1.globo.com/concursos-e-emprego/noticia/2016/04/salario-e-ate-61-maior-entre-quem-fala-ingles-fluente-diz-pesquisa.html), este não deveria ser o seu maior (ou único) motivador.
 
 Outro argumento bastante usado é de que o inglês torna mais fácil conseguir um emprego. Intuitivamente, parece fazer sentido, embora eu desconheça algum estudo demonstrando isso (fique a vontade para postar um link nos comentários, caso conheça). Como [evidência anedótica](https://pt.wikipedia.org/wiki/Evid%C3%AAncia_aned%C3%B3tica), acredito que todos nós conhecemos muitas pessoas que são profissionais competentes e não dominam o idioma. Quanto a isso, pode se tranquilizar: **sabendo programar minimamente bem, você vai conseguir um emprego mesmo sem saber inglês** (excluindo-se, obviamente, empresas no exterior ou cargos em empresas brasileiras que requerem comunicação com pessoas de fora). Poderíamos argumentar sobre a qualidade desses empregos, ou o salário que você poderá conseguir, mas não pretendo entrar neste mérito por enquanto.
 
@@ -45,7 +45,7 @@ Certo, mas... e aí? O que sobra? Colocando da maneira mais simples possível: v
 
 O inglês é, para todos os efeitos, a língua franca da tecnologia. E isto facilita muitas coisas.
 
-Um exemplo: eu gosto muito do [blog do Mark Seeman](http://blog.ploeh.dk/) e fico feliz por ele escrever em inglês, mesmo sendo da Dinamarca. [Também aprendi bastante coisa com seu livro sobre injeção de dependência](https://www.manning.com/books/dependency-injection-in-dot-net). Até onde eu sei, este livro nunca foi traduzido para português, apesar da primeira edição ter sido lançada em 2011 ([a segunda edição está prevista para janeiro de 2018](https://www.manning.com/books/dependency-injection-in-dot-net-second-edition)).
+Um exemplo: eu gosto muito do [blog do Mark Seeman](https://blog.ploeh.dk/) e fico feliz por ele escrever em inglês, mesmo sendo da Dinamarca. [Também aprendi bastante coisa com seu livro sobre injeção de dependência](https://www.manning.com/books/dependency-injection-in-dot-net). Até onde eu sei, este livro nunca foi traduzido para português, apesar da primeira edição ter sido lançada em 2011 ([a segunda edição está prevista para janeiro de 2018](https://www.manning.com/books/dependency-injection-in-dot-net-second-edition)).
 
 O criador do Ruby On Rails, David Heinemeier Hansson, também é dinamarquês, o que não o impede de [postar em inglês com frequência](https://medium.com/@dhh).
 
@@ -73,7 +73,7 @@ Mas é inegável que **é mais fácil encontrar material em qualidade e quantida
 E quem consegue entender o inglês falado? Esta pessoa já tem *muito* mais vantagens, pois pode assistir palestras no Youtube, [cursos no Pluralsight](https://www.pluralsight.com/) e similares, **ouvir a excelentes podcasts de tecnologia**, e muito mais.
 
 ## Por que as pessoas não aprendem inglês?
-Não é raro vermos [matérias](https://exame.abril.com.br/brasil/fluencia-do-brasileiro-no-ingles-so-piora-veja-ranking/) retratando o [péssimo desempenho](http://jovempan.uol.com.br/programas/jornal-da-manha/brasil-cai-de-posicao-e-sai-do-top-40-no-ranking-mundial-de-proficiencia-em-ingles.html) do Brasil nos rankings de proficiência no inglês.
+Não é raro vermos [matérias](https://exame.abril.com.br/brasil/fluencia-do-brasileiro-no-ingles-so-piora-veja-ranking/) retratando o [péssimo desempenho](https://jovempan.uol.com.br/programas/jornal-da-manha/brasil-cai-de-posicao-e-sai-do-top-40-no-ranking-mundial-de-proficiencia-em-ingles.html) do Brasil nos rankings de proficiência no inglês.
 
 Ao mesmo tempo, [redes de escolas de idiomas são negociadas por bilhões](https://g1.globo.com/economia/negocios/noticia/carlos-wizard-compra-35-da-wizeup-e-retoma-ao-setor-de-educacao.ghtml). 
 
@@ -98,7 +98,7 @@ Agora pense. E se esse meu amigo fosse abordado por um americano na rua pergunta
 ### Falta de prática
 Qualquer pessoa que já estudou algum instrumento musical sabe que não basta frequentar as aulas; é preciso praticar em casa, de acordo com o plano de estudos recebido. Fazer exercícios, treinar escalas, praticar percepção musical, **todos os dias**.
 
-![Músico tocando violino](http://res.cloudinary.com/dz5ppacuo/image/upload/v1511625841/musician.jpg)
+![Músico tocando violino](https://res.cloudinary.com/dz5ppacuo/image/upload/v1511625841/musician.jpg)
 
 É claro que a necessidade de praticar não se aplica somente à música, mas também aos esportes, à programação e muitas outras áreas.
 
@@ -107,11 +107,11 @@ Agora, quando o assunto é inglês, algumas pessoas parecem pensar que elas vão
 [Sorry to break it to you](https://forum.wordreference.com/threads/i-hate-to-break-it-to-you.1910645/), mas não vão.
 
 ### Não integrar o áudio ao aprendizado (ou integrá-lo tardiamente)
-[Este é um problema comum na área de TI](http://www.inglesonline.com.br/2014/01/22/o-perigo-de-aprender-ingles-so-lendo/). Inclusive, eu cometi este erro em uma etapa do meu aprendizado. Como precisamos constantemente ler textos técnicos em inglês, como manuais e documentações, muitos de nós conseguem ter um domínio razoável do inglês escrito ao longo dos anos. 
+[Este é um problema comum na área de TI](https://www.inglesonline.com.br/2014/01/22/o-perigo-de-aprender-ingles-so-lendo/). Inclusive, eu cometi este erro em uma etapa do meu aprendizado. Como precisamos constantemente ler textos técnicos em inglês, como manuais e documentações, muitos de nós conseguem ter um domínio razoável do inglês escrito ao longo dos anos. 
 
 O problema é quando chega a hora de *falar*, principalmente por conta da pronúncia do inglês, que é totalmente não intuitiva para nós falantes de português.
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1511826587/practice-listening-min_lzgqcr.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1511826587/practice-listening-min_lzgqcr.jpg)
 
 Na maioria das vezes, sem ter a referência da pronúncia correta, a pessoa acaba "aportuguesando" a pronúncia da palavra. Quantas pessoas você conhece que pronunciam 4Shared como "Quatro Xarédi", ou algo do tipo? 
 

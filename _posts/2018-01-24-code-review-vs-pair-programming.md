@@ -7,7 +7,7 @@ author: Carlos Schults
 description: Do code reviews and pair programming offer the same benefits? Find out on today's post.
 permalink: /en/code-review-vs-pair-programming/
 canonical: https://blog.submain.com/code-review-vs-pair-programming-2/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1516470435/code-review-vs-pair-programming1038x437_w99q2t.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1516470435/code-review-vs-pair-programming1038x437_w99q2t.jpg
 tags:
 - pair programming
 - best practices
@@ -15,7 +15,7 @@ tags:
 - agile
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1516470435/code-review-vs-pair-programming1038x437_w99q2t.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1516470435/code-review-vs-pair-programming1038x437_w99q2t.jpg)
 
 *Editorial note: I originally wrote this post for the SubMain blog.  You can [check out the original here, at their site](https://blog.submain.com/code-review-vs-pair-programming-2/). While you’re there, have a look at CodeIt.Right, which can help you with automated code reviews.*
 
@@ -145,4 +145,4 @@ It's not about lack of trust. It's about recognizing that programming is hard an
 [9]: https://en.wikipedia.org/wiki/IKEA_effect
 [10]: https://www.amazon.com/Quiet-Power-Introverts-World-Talking/dp/0307352153/ref=asap_bc?ie=UTF8
 [11]: https://submain.com/products/codeit.right.aspx
-[12]: http://submain.com/landing/codeit.right/
+[12]: https://submain.com/landing/codeit.right/

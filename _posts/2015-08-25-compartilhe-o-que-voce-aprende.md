@@ -5,14 +5,14 @@ lang: pt
 ref: share
 permalink: /pt/compartilhe-o-que-voce-aprende/
 author: Carlos Schults
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1440517439/share1038x437_mshqwf.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1440517439/share1038x437_mshqwf.jpg
 tags:
 - blog
 - compartilhar
 - primeiro post
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1440517439/share1038x437_mshqwf.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1440517439/share1038x437_mshqwf.jpg)
 
 Compartilhe o que você sabe. Escreva um blog. Responda uma pergunta no Stack Overflow. Abra a fonte do seu código. Cria conteúdo! Na nossa área, esse conselho aparece com muita frequência, em diversas formas .
 
@@ -21,7 +21,7 @@ E com razão, eu diria. Quantas horas de trabalho você já poupou graças a um 
 
 Quantas vezes uma biblioteca/ferramenta/app open-source salvou você de ter que codificar aquela funcionalidade do zero? Se eu fosse adivinhar a resposta pra cada uma dessas perguntas, provavelmente diria: muitas.
 
-[O desenvolvedor Rafael Rosa Fu falou um pouco sobre alguns dos benefícios da criação de conteúdo](http://www.akitaonrails.com/2014/08/29/milesimo-1000-post-no-blog#.Vd0nh5eC7lc) em um post no site do Fabio Akita:
+[O desenvolvedor Rafael Rosa Fu falou um pouco sobre alguns dos benefícios da criação de conteúdo](https://www.akitaonrails.com/2014/08/29/milesimo-1000-post-no-blog#.Vd0nh5eC7lc) em um post no site do Fabio Akita:
 
 > - Aprendizado. praticar novas habilidades é importante para fixá-las, ao escrever sobre o que aprendemos estamos reforçando e expandindo nosso conhecimento ao sermos "forçados" a explicá-lo de forma que possa ser consumido por outras pessoas.        
 > - Memória - não sei você, mas minha memória é igual a de um peixinho dourado, e tenho certeza que não sou exceção. Escreva sobre aquele conceito complicado ou deixe a receita para o procedimento esporádico e quando precisar se lembrar dele abra seu blog ou procure no Google e vai encontrar suas próprias palavras para lembrá-lo.
@@ -29,7 +29,7 @@ Quantas vezes uma biblioteca/ferramenta/app open-source salvou você de ter que 
 
 Jeff Atwood (co-foundador do Stack Overflow e do Discourse) diss que iniciar seu blog "foi a coisa mais importante que já fiz em toda a minha carreira". Então, parece razoável dizer que se nós encorajarmos mais e mais pessoas a compartilhar seus conhecimentos e experiências, toda a comunidade ganha, certo?
 
-[Nesse artigo publicado em 2012 pela Smashing Magazine, Louis Lazaris dá conselhos sobre como começar a publicar](http://www.smashingmagazine.com/2012/03/publish-what-you-learn/): publique as coisas que você aprende, não tenha medo de cometer erros, esteja aberto à colaboração de seus leitores.
+[Nesse artigo publicado em 2012 pela Smashing Magazine, Louis Lazaris dá conselhos sobre como começar a publicar](https://www.smashingmagazine.com/2012/03/publish-what-you-learn/): publique as coisas que você aprende, não tenha medo de cometer erros, esteja aberto à colaboração de seus leitores.
 
 Parece fácil, não é?
 

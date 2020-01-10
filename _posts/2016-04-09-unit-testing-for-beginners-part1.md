@@ -5,7 +5,7 @@ lang: en
 ref: unit1
 layout: post
 author: Carlos Schults
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
 tags:
 - software testing
 - unit testing
@@ -13,7 +13,7 @@ tags:
 - agile
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
 
 Maybe, some time in your career, you might have worked on an incredibly complex application, with an enormous, poorly-documented code base, full of hacks, unnecessary couplings, with a confused architecture and no specifications at all. That kind of app you'd call a miracle if it even works. Maybe I've just described your current project!
 <!--more-->
@@ -43,16 +43,16 @@ The first thing worth mentioning is that unit tests **don't have the goal of tes
 
 Right after this, we see that unit tests are usually written and run by programmers. This is interesting for two reasons: first, it apparently goes against the idea that programmers don't make good testers (I'm going back to this point later). And more importantly than that, it shows the principal feature of unit tests: they are **automated**.
 
-Bear in mind that there are a lot of types of automated tests, but here we're only talking about unit tests (which, according to several authors, such as [Martin Fowler](http://martinfowler.com/bliki/TestPyramid.html), are the ones who benefits the application the most).
+Bear in mind that there are a lot of types of automated tests, but here we're only talking about unit tests (which, according to several authors, such as [Martin Fowler](https://martinfowler.com/bliki/TestPyramid.html), are the ones who benefits the application the most).
 
 In practice, unit tests are classes that contains methods who test small and isolated pieces of functionality. These classes are created with the aid of a test framework (such as JUnit in Java, NUnit or Microsoft Test in .Net). Then, the tests can be run via command line, by your IDE or even by an automated build service.
 
 
-![Example of test case in C#](http://res.cloudinary.com/dz5ppacuo/image/upload/v1460211309/teste00_bnsbfl.png)
+![Example of test case in C#](https://res.cloudinary.com/dz5ppacuo/image/upload/v1460211309/teste00_bnsbfl.png)
 
 After the tests are run, you get an immediate feedback about which tests failed and which ones succeeded, along with the run time of each one of them.
 
-![Windows displaying the result of a test run](http://res.cloudinary.com/dz5ppacuo/image/upload/v1459979476/teste01_ciglca.png)
+![Windows displaying the result of a test run](https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979476/teste01_ciglca.png)
 
 With this feedback, you can decide on your best course of action. Ideally, a failing test should signal something wrong in the production code. The production code should then be fixed so the test can pass.
 
@@ -111,7 +111,7 @@ You could argue that the cycles are the same - they kind of are. But the big adv
 
 Unit tests are not the only types of tests that can be beneficial to a project. We can also use several other types of automated tests such as **integration tests** and *acceptance tests*.
 
-![Testing pyramid, showing the ideal ratio of different types of software testing](http://res.cloudinary.com/dz5ppacuo/image/upload/v1460217453/testing_triangle-300x233_nzq8kx.jpg)
+![Testing pyramid, showing the ideal ratio of different types of software testing](https://res.cloudinary.com/dz5ppacuo/image/upload/v1460217453/testing_triangle-300x233_nzq8kx.jpg)
 
 That doesn't mean that manual testing should be extinct. On the contrary, manual tests still have an important role in quality assurance processes. Ideally, manual tests should focus on the areas that can't be automated, like usability testing.
 

@@ -48,7 +48,7 @@ From now on, I'll just assume you agree that a VCS is a fundamental coding best 
 
 With that out of the way, it's time to get to specifics. Which tool should you use? How to go about its adoption?
 
-[Git](https://git-scm.com/) is a solid choice. And despite having a steeper learning curve for [those more used to centralized version control systems, such as Subversion or TFVC](http://carlosschults.net/en/git-basics-for-tfs-users), it's *de facto* standard in our industry. So by all means, learn it, since not doing so can harm your career in the future.
+[Git](https://git-scm.com/) is a solid choice. And despite having a steeper learning curve for [those more used to centralized version control systems, such as Subversion or TFVC](https://carlosschults.net/en/git-basics-for-tfs-users), it's *de facto* standard in our industry. So by all means, learn it, since not doing so can harm your career in the future.
 
 But it's possible that Git is not the best choice for your team **right now**. Remember, you're short on time. So we need to get your team to adopt these coding best practices ASAP.
 
@@ -57,7 +57,7 @@ How do we do this? So, let's say you have experience with [Subversion](https://
 ## Code Review
 
 
-I'm not going to lie: I *love *code reviews---and [I'm not alone in that](http://www.codinghorror.com/blog/archives/000495.html). I've witnessed firsthand how a good code review can reduce the number of bugs in a codebase, make the code look and feel more consistent, and perhaps best of all, spread knowledge throughout a development team.
+I'm not going to lie: I *love *code reviews---and [I'm not alone in that](https://www.codinghorror.com/blog/archives/000495.html). I've witnessed firsthand how a good code review can reduce the number of bugs in a codebase, make the code look and feel more consistent, and perhaps best of all, spread knowledge throughout a development team.
 
 And here's a major selling point: a code review practice is relatively easy to implement. Start as simple as you can, and then tweak and experiment with your approach as the need arises.
 
@@ -106,7 +106,7 @@ Speaking of which...
 
 ## Notable Absences
 
-You might be surprised to see that I haven't included unit testing in the list of coding best practices, [despite being myself a firm believer in the importance of automated testing](http://carlosschults.net/en/unit-testing-for-beginners-part1/) to the overall quality of a codebase. And why is that?
+You might be surprised to see that I haven't included unit testing in the list of coding best practices, [despite being myself a firm believer in the importance of automated testing](https://carlosschults.net/en/unit-testing-for-beginners-part1/) to the overall quality of a codebase. And why is that?
 
 Adding unit tests to a legacy application, unfortunately, is *hard*, to the point that there's even [a famous book](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/ref=sr_1_1?ie=UTF8&qid=1515443597&sr=8-1&keywords=working+effectively+with+legacy+code)that focuses solely on this. It's just not a feasible task for you to tackle quickly.
 
@@ -116,7 +116,7 @@ In a similar fashion, it's possible that a portion of readers expected me to tal
 
 It's possible that some of you found these practices to be extremely basic and not post-worthy. "Who doesn't use version control in twenty-freaking-eighteen???" I hear you saying.
 
-Well, it really doesn't take long to find evidence (anecdotal, but still) that [things are not all sunshine and rainbows](http://softwareengineering.stackexchange.com/questions/65931/are-there-serious-companies-that-dont-use-version-control-and-continuous-integr). To believe that even basic coding best practices, such as using version control or automated testing, are universally applied is probably more wishful thinking than what we'd like to believe.
+Well, it really doesn't take long to find evidence (anecdotal, but still) that [things are not all sunshine and rainbows](https://softwareengineering.stackexchange.com/questions/65931/are-there-serious-companies-that-dont-use-version-control-and-continuous-integr). To believe that even basic coding best practices, such as using version control or automated testing, are universally applied is probably more wishful thinking than what we'd like to believe.
 
 For the rest of you, I hope this list proves useful.
 

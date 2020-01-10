@@ -5,13 +5,13 @@ lang: en
 layout: post
 author: Carlos Schults
 permalink: /en/csharp-6-features/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg
 tags:
 - csharp
 - beginners
 ---
   
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1487896790/csharp6features_y5czrf.jpg)
 
 The 7th version of C# is coming, and it's expected to bring some new and exciting features to our tool sets. Here's the thing, though: Are you up to speed with its predecessor's features?
  <!--more-->
@@ -100,6 +100,6 @@ That being said, the detractors have a point. It is possible to be *too* verbose
  
 ## See more
  
-- [http://geekswithblogs.net/WinAZ/archive/2015/06/30/whatrsquos-new-in-c-6.0-auto-property-initializers.aspx](http://geekswithblogs.net/WinAZ/archive/2015/06/30/whatrsquos-new-in-c-6.0-auto-property-initializers.aspx)
+- [https://geekswithblogs.net/WinAZ/archive/2015/06/30/whatrsquos-new-in-c-6.0-auto-property-initializers.aspx](https://geekswithblogs.net/WinAZ/archive/2015/06/30/whatrsquos-new-in-c-6.0-auto-property-initializers.aspx)
 - [https://msdn.microsoft.com/en-us/magazine/dn802602.aspx](https://msdn.microsoft.com/en-us/magazine/dn802602.aspx)
-- [http://blog.caelum.com.br/novidades-do-c-6-0/](http://blog.caelum.com.br/novidades-do-c-6-0/)
+- [https://blog.caelum.com.br/novidades-do-c-6-0/](https://blog.caelum.com.br/novidades-do-c-6-0/)

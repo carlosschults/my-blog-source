@@ -5,14 +5,14 @@ lang: en
 layout: post
 author: Carlos Schults
 permalink: /en/types-of-comments-to-avoid/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg
 tags:
 - code smell
 - best practices
 - beginners
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg)
 
 Spoiler Alert: You should avoid most of them.
 <!--more-->
@@ -109,7 +109,7 @@ And we get the nice collateral benefit of readability: the new if statement read
 
 ## Conclusion
 
-As we've seen, there are several types of bad comments you should be weary of. They are often signs that there may be something wrong with your code. Maybe your methods are too long. Maybe [you didn't pick good names for your variables](http://carlosschults.net/en/how-to-choose-good-names/).
+As we've seen, there are several types of bad comments you should be weary of. They are often signs that there may be something wrong with your code. Maybe your methods are too long. Maybe [you didn't pick good names for your variables](https://carlosschults.net/en/how-to-choose-good-names/).
  
 Every time you feel the need to write a comment, stop and try to think about ways in which you could improve your code to render the comment unnecessary.
 
@@ -119,6 +119,6 @@ See you later!
 
 ## Read More
 
-- [Apologies In Code, by Robert C. Martin](http://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode)
+- [Apologies In Code, by Robert C. Martin](https://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode)
 - [Write comments that matter, by Sander Rossel](https://www.codeproject.com/tips/467657/write-comments-that-matter)
 - [Please, don’t commit commented out code, by Kent C. Dodds](https://medium.com/@kentcdodds/please-don-t-commit-commented-out-code-53d0b5b26d5f#.yex54k2sg)

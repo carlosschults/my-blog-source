@@ -7,20 +7,20 @@ author: Carlos Schults
 description: In this post I'll show you 4 mistakes C# developers make when dealing with time..and how to get rid of them!
 permalink: /en/4-common-datetime-mistakes-csharp/
 canonical: https://blog.submain.com/4-common-datetime-mistakes-c-avoid/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1531165684/4-datetime-mistakes-1038x437_nm6csc.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1531165684/4-datetime-mistakes-1038x437_nm6csc.jpg
 tags:
 - csharp
 - best practices
 - time
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1531165684/4-datetime-mistakes-1038x437_nm6csc.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1531165684/4-datetime-mistakes-1038x437_nm6csc.jpg)
 
 *Editorial note: I originally wrote this post for the SubMain blog.  You can [check out the original here, at their site](https://blog.submain.com/4-common-datetime-mistakes-c-avoid/). While you’re there, have a look at CodeIt.Right, which can help you with time-related issues and much more.*
 
-Do you remember the "falsehoods programmers believe about _X_"  meme that became popular among software blogs a few years ago? The first one was about [names](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), but several others soon followed, covering topics such as [addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/), [geography,](https://wiesmann.codiferes.net/wordpress/?p=15187&lang=en) and [online shopping](https://wiesmann.codiferes.net/wordpress/?p=22201).
+Do you remember the "falsehoods programmers believe about _X_"  meme that became popular among software blogs a few years ago? The first one was about [names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), but several others soon followed, covering topics such as [addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/), [geography,](https://wiesmann.codiferes.net/wordpress/?p=15187&lang=en) and [online shopping](https://wiesmann.codiferes.net/wordpress/?p=22201).
 
-My favorite was [the one about time](http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time). I hadn't thought deeply about time and its intricacies up until that point, and I was intrigued by how a fundamental domain could be such a fertile ground for misunderstandings.
+My favorite was [the one about time](https://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time). I hadn't thought deeply about time and its intricacies up until that point, and I was intrigued by how a fundamental domain could be such a fertile ground for misunderstandings.
 
 Now even though I like the post, I have a problem with it: it lists wrong assumptions, and then it basically stops there. The reader is likely to leave the article wondering:
 

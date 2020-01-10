@@ -5,23 +5,23 @@ lang: pt
 layout: post
 author: Carlos Schults
 permalink: /pt/metodos-privados-code-smell/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1485700794/capa-min_no1cci.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1485700794/capa-min_no1cci.jpg
 tags:
 - code smell
 - boas práticas
 - orientacao-a-objetos
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1485700794/capa-min_no1cci.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1485700794/capa-min_no1cci.jpg)
 
 Algumas pessoas acham que métodos privados devem ser evitados. Será que elas estão certas?
 <!--more-->
 
-Há uns dois meses, [Marcos Douglas](https://twitter.com/mdbs99) publicou um post [sobre como o uso de regras e restrições pode melhorar seu código](http://objectpascalprogramming.com/posts/menos-e-mais/). Essa [premissa](https://medium.com/@cscalfani/why-programmers-need-limits-3d96e1a0a6db#.rptqu89ec) costuma aparecer [de novo](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/) e [de novo](https://robots.thoughtbot.com/sandi-metz-rules-for-developers) pela web, e eu concordo totalmente com ela. 
+Há uns dois meses, [Marcos Douglas](https://twitter.com/mdbs99) publicou um post [sobre como o uso de regras e restrições pode melhorar seu código](https://objectpascalprogramming.com/posts/menos-e-mais/). Essa [premissa](https://medium.com/@cscalfani/why-programmers-need-limits-3d96e1a0a6db#.rptqu89ec) costuma aparecer [de novo](https://blog.ploeh.dk/2015/04/13/less-is-more-language-features/) e [de novo](https://robots.thoughtbot.com/sandi-metz-rules-for-developers) pela web, e eu concordo totalmente com ela. 
 
 Marcos mostra várias orientações úteis, tais como o número ideal de argumentos em um método, o número ideal de métodos, em uma classe, e assim por diante. O artigo é muito bom, e eu recomendo a todos vocês que o [leiam ](https://gist.github.com/carlosschults/5f4ba7cfb2453977c8d11424b2926686), mas ele não é o foco do meu post hoje.
 
-Hoje, o que eu realmente quero falar é de um assunto que surgiu na área de comentários do artigo do Marcos: que diversas pessoas consideram métodos privados como um [*Code Smell* (algo como "mau-cheiro de código")](http://www.pedromendes.com.br/2013/11/04/code-smells/).
+Hoje, o que eu realmente quero falar é de um assunto que surgiu na área de comentários do artigo do Marcos: que diversas pessoas consideram métodos privados como um [*Code Smell* (algo como "mau-cheiro de código")](https://www.pedromendes.com.br/2013/11/04/code-smells/).
 
 Como eu nunca tinha ouvido ou lido nada nesse sentido antes, fiquei bastante surpreso e decidi pesquisar mais.
 
@@ -35,7 +35,7 @@ Um argumento comum é que métodos privados violam o *Princípio da Responsabili
 
 > Private helper methods indicate classes are doing too many things. Moving private helper methods to different classes, including creating new classes if necessary, splits the original responsibilities across multiple classes leading to simpler, better designs.
 >
-> Kent R Spillner, em [Private Methods are a Code Smell](http://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html)
+> Kent R Spillner, em [Private Methods are a Code Smell](https://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html)
 
 Em tradução livre:
 
@@ -45,7 +45,7 @@ Aqui temos uma opinião bem parecida:
 
 > Private methods are not inherently bad, but they are a sign that you might be missing out on an opportunity to make a useful abstraction. If you have a private method that calls another private method, then there is almost certainly an area of responsibility that remains unidentified.
 >
-> John McDowall, em [Break. It. Up! – Private Method Access Modifiers as Code Smells](http://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/)
+> John McDowall, em [Break. It. Up! – Private Method Access Modifiers as Code Smells](https://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/)
 
 Em tradução livre:
 
@@ -69,7 +69,7 @@ Finalmente, pessoas também argumentam que métodos privados desempenham um pape
 
 >Functional programming teaches that state (in the form of member variables) is evil, because it makes your code more complex and harder to test.
 >
-> Ryan Ginstrom, em [Three reasons to avoid private class members](http://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/) 
+> Ryan Ginstrom, em [Three reasons to avoid private class members](https://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/) 
 
 Em tradução livre:
 
@@ -189,11 +189,11 @@ Este post ficou muito mais longo do que eu planejei. Agradeço caso tenha chegad
 
 ## Veja também
 
-- [http://stackoverflow.com/questions/2620699/why-private-methods-in-the-object-oriented](http://stackoverflow.com/questions/2620699/why-private-methods-in-the-object-oriented)
-- [http://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html](http://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html)
-- [http://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/](http://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/)
+- [https://stackoverflow.com/questions/2620699/why-private-methods-in-the-object-oriented](https://stackoverflow.com/questions/2620699/why-private-methods-in-the-object-oriented)
+- [https://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html](https://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html)
+- [https://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/](https://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/)
 - [https://jasonmbaker.wordpress.com/2009/01/08/enemies-of-test-driven-development-part-i-encapsulation/](https://jasonmbaker.wordpress.com/2009/01/08/enemies-of-test-driven-development-part-i-encapsulation/)
 - [https://medium.com/i-m-h-o/private-methods-smelly-ish-435e93ff8c39#.cl06rkgct](https://medium.com/i-m-h-o/private-methods-smelly-ish-435e93ff8c39#.cl06rkgct)
-- [http://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/](http://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/)
-- [http://rc3.org/2010/01/26/the-argument-against-private-methods/](http://rc3.org/2010/01/26/the-argument-against-private-methods/)
-- [http://naildrivin5.com/blog/2010/05/26/is-private-a-code-smell.html](http://naildrivin5.com/blog/2010/05/26/is-private-a-code-smell.html)
+- [https://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/](https://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/)
+- [https://rc3.org/2010/01/26/the-argument-against-private-methods/](https://rc3.org/2010/01/26/the-argument-against-private-methods/)
+- [https://naildrivin5.com/blog/2010/05/26/is-private-a-code-smell.html](https://naildrivin5.com/blog/2010/05/26/is-private-a-code-smell.html)

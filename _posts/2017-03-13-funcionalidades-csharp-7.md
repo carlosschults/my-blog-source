@@ -5,18 +5,18 @@ lang: pt
 layout: post
 author: Carlos Schults
 permalink: /pt/funcionalidades-csharp-7/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg
 tags:
 - csharp
 - iniciantes
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg)
 
 C# 7 está finalmente entre nós. Hora de conhecer algumas de suas features.
 <!--more-->
 
-No meu [último post](http://carlosschults.net/pt/funcionalidades-csharp-6/) eu escrevi sobre algumas das funcionalidades mais interessantes (para mim, pelo menos) do C# 6. Visual Studio 2017 e C# 7 foram oficialmente lançados no dia seguinte, então eu acredito que agora é o momento perfeito para batermos um papo sobre a nova versão da linguagem.
+No meu [último post](https://carlosschults.net/pt/funcionalidades-csharp-6/) eu escrevi sobre algumas das funcionalidades mais interessantes (para mim, pelo menos) do C# 6. Visual Studio 2017 e C# 7 foram oficialmente lançados no dia seguinte, então eu acredito que agora é o momento perfeito para batermos um papo sobre a nova versão da linguagem.
 
 Eu acho que é justo dizer que, em sua sétima versão, o C# continua a tendência iniciada na versão anterior. Ao invés de adicionar novas capacidades radicalmente novas na linguagem, o time de design escolheu incluir funcionalidades que podem tornar seu código mais limpo e simples.
 
@@ -59,7 +59,7 @@ Algumas coisas importantes para se ter em mente:
 
 No começo deste post, eu disso que C# 7 expande algumas features do seu antecessor, lembra? Bom, este é um destes casos.
 
-No post anterior, nós vimos que [o C# 6 nos trouxe membros "Expression-bodied"](http://carlosschults.net/pt/funcionalidades-csharp-6/#mtodos-e-propriedades-expression-bodied), que é uma maneira mais legal e mais curta de declarar membros de classe, usando a sintaxe das expressões lambda. 
+No post anterior, nós vimos que [o C# 6 nos trouxe membros "Expression-bodied"](https://carlosschults.net/pt/funcionalidades-csharp-6/#mtodos-e-propriedades-expression-bodied), que é uma maneira mais legal e mais curta de declarar membros de classe, usando a sintaxe das expressões lambda. 
 
 Porém, você só podia utilizar essa funcionalidade com **métodos, propriedades somente leitura e indexadores**.
 

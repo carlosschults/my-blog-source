@@ -5,13 +5,13 @@ lang: pt
 layout: post
 author: Carlos Schults
 permalink: /pt/escrevendo-codigo-bom/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1490471059/escrevendo-codigo-bom-1038x437_e4oy0i.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1490471059/escrevendo-codigo-bom-1038x437_e4oy0i.jpg
 tags:
 - traducoes
 - boas-praticas
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1490471059/escrevendo-codigo-bom-1038x437_e4oy0i.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1490471059/escrevendo-codigo-bom-1038x437_e4oy0i.jpg)
 
 **NOTA**: O artigo a seguir foi originalmente escrito por [Christian Maioli M.](https://chrismm.com/), que gentilmente me autorizou a fazer esta tradução. Caso seja do seu interesse, [confira o artigo original](https://chrismm.com/blog/writing-good-code-reduce-the-cognitive-load/).
 
@@ -23,7 +23,7 @@ Baixo número de bugs, boa performance, facilidade de modificação. Código bem
 
 **Eu acredito que é possível construir um framework mental simples que pode ser usado com qualquer linguagem ou biblioteca e que vai resultar em código de boa qualidade por padrão.** Há cinco conceitos principais sobre os quais vou falar aqui. Basta mantê-los em mente e escrever código de boa qualidade será moleza.
 
-Update: Mia Li fez a gentileza de disponibilizar uma tradução deste artigo para o Chinês [aqui](http://www.inside.com.tw/2016/07/05/writing-good-code-how-to-reduce-the-cognitive-load-of-your-code).
+Update: Mia Li fez a gentileza de disponibilizar uma tradução deste artigo para o Chinês [aqui](https://www.inside.com.tw/2016/07/05/writing-good-code-how-to-reduce-the-cognitive-load-of-your-code).
 
 ## Mantenha suas peculiaridades pessoais de fora
 
@@ -31,7 +31,7 @@ Você lê um artigo que explode a sua mente com truques novos. Agora você vai e
 
 O problema é que as pessoas só querem corrigir seus bugs e ir em frente. Seu truquezinho esperto é, com frequência, pouco mais que uma distração. Como eu falei em "[Applying neuroscience to software development](https://chrismm.com/blog/applying-neuroscience-to-software-development/)“, quando as pessoas têm que digerir  seu código, as “pilhas mentais" enchem depressa e se torna difícil fazer progresso.
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1490470570/image_0_fzqyo8.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1490470570/image_0_fzqyo8.png)
 
 <figcaption>Não personalize seu trabalho em maneiras que irão precisar de explicações. 
 
@@ -44,9 +44,9 @@ Não codifique "do seu jeito". Apenas siga a padronização de código. Este tip
 
 Código complexo frequentemente pode ser clarificado por meio da modularização, e existem mais maneiras de se fazer isso do que apenas criando mais funções. Gravar o resultado de longas condicionais em uma variável ou duas é uma grande maneira de modularizar sem o overhead de chamar uma função. Isso irá inclusive lhe permitir compô-las em condicionais maiores, ou reutilizar o resultado em algum outro lugar.
 
-**A abordagem ao se dividir um problema deve ser tornar cada seção o mais focada possível, afetando apenas estado local, sem misturar com assuntos irrelevantes, e se possível sem nenhum efeito colateral.** Linguagens de programação e bibliotecas muitas vezes têm seus próprios problemas, e abstraí-los pode ajudar a fazer com que seu código cuide apenas dos assuntos dele. O [Princípio da Responsabilidade Única](http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074) é outro exemplo de como código focado e localizado resulta em bom design.
+**A abordagem ao se dividir um problema deve ser tornar cada seção o mais focada possível, afetando apenas estado local, sem misturar com assuntos irrelevantes, e se possível sem nenhum efeito colateral.** Linguagens de programação e bibliotecas muitas vezes têm seus próprios problemas, e abstraí-los pode ajudar a fazer com que seu código cuide apenas dos assuntos dele. O [Princípio da Responsabilidade Única](https://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074) é outro exemplo de como código focado e localizado resulta em bom design.
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1490470570/image_1_rfmnyv.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1490470570/image_1_rfmnyv.png)
 
 <figcaption>Eu gosto de utilizar variáveis para compartimentar lógica.
 Tradução do comentário: Isso pode ser uma boa maneira para modularizar sem o peso excessivo de chamadas de funções</figcaption>
@@ -62,7 +62,7 @@ Vamos deixar de lado os possíveis benefícios destas ferramentas de build adici
 
 Evite usar extensões de linguagens e bibliotecas que não trabalham bem com sua IDE. O impacto que eles terão na sua produtividade bate de longe o pequeno benefício de uma configuração mais fácil ou a economia de algumas poucas teclas com uma sintaxe mais concisa.
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1490470570/image_2_pn1dp4.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1490470570/image_2_pn1dp4.png)
 
 <figcaption>
 O uso de Service Locator é um exemplo de design que resulta em integração ruim com a maioria das IDEs.
@@ -80,7 +80,7 @@ Eu falei sobre modularização. Também é possível existir modularização em 
 
 Bibliotecas e ferramentas também podem ser uma barreira a novos desenvolvedores. Eu recentemente fiz um projeto usando EcmaScript 7 (babel), apenas para depois perceber que nosso desenvolvedor júnior estava tendo problemas para entender o que tudo aquilo significava.  Uma penalidade pesada para a produtividade do time. Eu subestimei o potencial daquilo de sobrecarregar uma pessoa que está só começando. Não use ferramentas que ainda são difíceis demais de aprender. Espere por uma época melhor.
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1490470570/image_3_vdvcrz.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1490470570/image_3_vdvcrz.png)
 <figcaption>Código real de um makefile que escrevi. Desenvolvedores juniores não conseguem lidar com o uso excessivo de novas ferramentas.</figcaption><p>&nbsp;</p>
 
 ## Torne seu código fácil de digerir
@@ -89,9 +89,9 @@ Se você chegou até aqui, eu tenho boas notícias: esta é provavelmente a part
 
 **Você precisa documentar o porquê. Nomes de variáveis e funções relevantes e contextuais são uma ótima maneira de se fazer isso.** Nomes que transmitem propósito podem até reduzir a necessidade de documentação.
 
-O uso de prefixos em nomes é uma boa maneira de adicionar sentido a eles. É uma prática que costumava ser popular, e eu penso que o mau uso foi o motivo dela não continuar a ser usada. Sistemas de prefixos como  [notação húngara](http://www.joelonsoftware.com/articles/Wrong.html) inicialmente tinham a intenção de adicionar sentido, mas com o tempo eles acabaram sendo usado em maneiras menos contextuais, tais como para adicionar informação de tipo.
+O uso de prefixos em nomes é uma boa maneira de adicionar sentido a eles. É uma prática que costumava ser popular, e eu penso que o mau uso foi o motivo dela não continuar a ser usada. Sistemas de prefixos como  [notação húngara](https://www.joelonsoftware.com/articles/Wrong.html) inicialmente tinham a intenção de adicionar sentido, mas com o tempo eles acabaram sendo usado em maneiras menos contextuais, tais como para adicionar informação de tipo.
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1490470570/image_4_x8oly3.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1490470570/image_4_x8oly3.png)
 <figcaption>Interfaces fluentes tem sido abusadas frequentemente em tempos recentes.</figcaption>
 Tradução do comentário: Use nomes que transmitam propósito, não tome vantagem da linguagem apenas para parecer inteligente
 

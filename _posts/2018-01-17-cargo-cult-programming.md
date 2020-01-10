@@ -7,14 +7,14 @@ author: Carlos Schults
 description: Have you heard of cargo cult programming? In this post I'm going to show you what this is and why you, as a developer, should care.
 permalink: /en/cargo-cult-programming/
 canonical: https://blog.ndepend.com/cargo-cult-programming/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg
 tags:
 - csharp
 - best practices
 - cargo cult programming
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1516152067/cargo-cult-programming-1037x438_spoxet.jpg)
 
 *Editorial note: I originally wrote this post for the NDepend blog.  You can [check out the original here, at their site](https://blog.ndepend.com/cargo-cult-programming/). While you’re there, download NDepend and give it a try.*
 
@@ -68,11 +68,11 @@ This one is a pet peeve of mine since I see it a lot in production code. It goes
 	}
 {% endhighlight %}
 
-Here we have a developer that probably doesn’t grok the [difference between value and reference types](http://carlosschults.net/en/value-reference-types-in-csharp/). It would be completely forgivable, in the case of a junior developer, except for the fact that the compiler warns you about that.
+Here we have a developer that probably doesn’t grok the [difference between value and reference types](https://carlosschults.net/en/value-reference-types-in-csharp/). It would be completely forgivable, in the case of a junior developer, except for the fact that the compiler warns you about that.
 
 You could argue that I’m nitpicking. After all, the code will run fine in spite of this. In fact, the check won’t even be included in the resulting IL, as you can see from this print of a decompiling tool:
 
-![An image depicting a code excerpt that does not contain the null check.](http://res.cloudinary.com/dz5ppacuo/image/upload/v1515684957/just-decompile1_qk69k2.png)
+![An image depicting a code excerpt that does not contain the null check.](https://res.cloudinary.com/dz5ppacuo/image/upload/v1515684957/just-decompile1_qk69k2.png)
 
 You can see in this code snippet that the compiler has optimized the null check out.
 
@@ -172,7 +172,7 @@ Write unit tests (and other types of tests as well). Monitor your application in
 ### Read Other People’s Code
 Reading other people’s code is a great way to learn. It’s a perfect tool to compare your own ideas and assumptions against what other developers are doing, exposing you to novel concepts that can force you to gain a deeper understanding of the issues at hand.
 
-In the era of [GitHub](http://github.com/), there isn’t much of an excuse for not doing that.
+In the era of [GitHub](https://github.com/), there isn’t much of an excuse for not doing that.
 
 ### Learn From Your Tools
 There are currently a plethora of tools that can help [your team improve the quality of their code](https://www.ndepend.com/). Here’s the thing, though: you shouldn’t just use these tools. You should also learn from them. If you use NDepend, [read about its rules](https://www.ndepend.com/default-rules/webframe.html). Try and understand the rationale behind them. What are the principles and best practices that guided its authors when coming up with the rules?

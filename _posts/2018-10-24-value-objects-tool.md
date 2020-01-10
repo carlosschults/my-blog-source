@@ -73,7 +73,7 @@ By now you should have a pretty good idea of what value objects are. What's not 
     double  distance  =  4.5;
 {% endhighlight %}
 
-Is there something wrong with this? Well, I could *[Ben Kenobi](http://starwars.wikia.com/wiki/Wookieepedia:Quote_of_the_Day/Archive/Obi-Wan_Kenobi) *you and say that it might be wrong "from a certain point of view." But I won't. Instead, I'll say it's definitely wrong. It doesn't matter that it compiles. It also doesn't matter that it actually works some or even most of the time.
+Is there something wrong with this? Well, I could *[Ben Kenobi](https://starwars.wikia.com/wiki/Wookieepedia:Quote_of_the_Day/Archive/Obi-Wan_Kenobi) *you and say that it might be wrong "from a certain point of view." But I won't. Instead, I'll say it's definitely wrong. It doesn't matter that it compiles. It also doesn't matter that it actually works some or even most of the time.
 
 The problem here is the code smell known as "primitive obsession," i.e., modeling domain concepts using primitive types. The next few sections will dive in into why is this such a problem and how the use of value objects can help.
 
@@ -129,7 +129,7 @@ This could be prevented by creating a "LicensePlate" class and performing the ne
 
 ## Value Objects and Value Types Aren't Synonymous
 
-This section is necessary in order to clarify a common misconception, which is to mix up value objects with the concept of value types in C#. See, in C#, we have [two categories of types: reference types and value types.](http://carlosschults.net/en/value-reference-types-in-csharp/)
+This section is necessary in order to clarify a common misconception, which is to mix up value objects with the concept of value types in C#. See, in C#, we have [two categories of types: reference types and value types.](https://carlosschults.net/en/value-reference-types-in-csharp/)
 
 While you certainly can use structs (value types) to implement value objects---examples in the BCL would be DateTime or the primitive numeric types--- there's nothing preventing you from using classes.
 

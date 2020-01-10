@@ -5,18 +5,18 @@ lang: en
 layout: post
 author: Carlos Schults
 permalink: /en/csharp-7-features-part-2/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg
 tags:
 - csharp
 - beginners
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg)
 
 In this post we'll see some more new features from C# 7.0.
 <!--more-->
 
-In [the first part of this series](http://carlosschults.net/en/csharp-7-features/), we talked about some new features from C#, namely: literal improvements, out variables, more *expression-bodied* members and throw expressions.
+In [the first part of this series](https://carlosschults.net/en/csharp-7-features/), we talked about some new features from C#, namely: literal improvements, out variables, more *expression-bodied* members and throw expressions.
 
 Today we'll see: **Tuples** and **Local Functions**. But before we go on, I'd like to thank my friend Gunter Italiano Ribeiro for reviewing this article.
 
@@ -44,7 +44,7 @@ Nice, but what about the other side? How the function caller deals with this sor
 
 If you hover over the variable name, you'll see its type described, unsurprisingly, as `(ZipCode, bool)`.
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1495494940/csharp7-part2-fig1_pnmlx5.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1495494940/csharp7-part2-fig1_pnmlx5.png)
 
 You can access each tuple element by using `zipParsingResult.Item1`, `zipParsingResult.Item2`, and son on.
 
@@ -72,7 +72,7 @@ You don't even need to declare the variables at the deconstruction moment. It's 
 
 ### Some notes
 
-Tuples are [*Value Types*](http://carlosschults.net/en/value-reference-types-in-csharp//). Equality for tuples works in the way you'd probably expect: two tuples are considered equals if their items have the same values and they return the same `HashCode`. The names of the items are not relevant
+Tuples are [*Value Types*](https://carlosschults.net/en/value-reference-types-in-csharp//). Equality for tuples works in the way you'd probably expect: two tuples are considered equals if their items have the same values and they return the same `HashCode`. The names of the items are not relevant
 
 <script src="https://gist.github.com/carlosschults/c8200f265b19c59a117d8ad5c347805b.js"></script>
 
@@ -88,7 +88,7 @@ The Package Manager Console Windows will be shown. Type `Install-Package System.
 
 Maybe you're wondering: why so much noise about tuples, if the .Net Framework has had the `System.Tuple` reference type since its 4.0 version? Why don't we just stick to the older type?
 
-Well, [this Stack Overflow answers it pretty well](http://stackoverflow.com/questions/41084411/whats-the-difference-between-system-valuetuple-and-system-tuple), but I'll try to summarize it here.
+Well, [this Stack Overflow answers it pretty well](https://stackoverflow.com/questions/41084411/whats-the-difference-between-system-valuetuple-and-system-tuple), but I'll try to summarize it here.
 
 Firstly, as already mentioned, the older type is a *reference type*, and the new one is a *value type*, with all the usual implications.
 
@@ -152,7 +152,7 @@ Not everything is perfect though. Some developers already express concerns with 
 
 Tuples, on the other hand, could be over-used in situations that require *objects*, making the code more procedural.
 
-My opinion about all of this is very simple: every tool can be abused. It's up to us, professionals, and to our teams, to exercise our common-sense while using these (and other) features. By the way, as I mentioned in [my article about private methods](http://carlosschults.net/en/are-private-methods-a-code-smell/), code review and/or pair-programming can be of invaluable help in situations like these.
+My opinion about all of this is very simple: every tool can be abused. It's up to us, professionals, and to our teams, to exercise our common-sense while using these (and other) features. By the way, as I mentioned in [my article about private methods](https://carlosschults.net/en/are-private-methods-a-code-smell/), code review and/or pair-programming can be of invaluable help in situations like these.
 
 Thanks for reading. See you next time.
 

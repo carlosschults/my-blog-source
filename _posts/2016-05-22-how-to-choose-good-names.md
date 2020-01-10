@@ -5,12 +5,12 @@ lang: en
 ref: howtonamethings
 layout: post
 author: Carlos Schults
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1462225938/baby-name-min_nosetz.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1462225938/baby-name-min_nosetz.png
 tags:
 - best practices
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1462225938/baby-name-min_nosetz.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1462225938/baby-name-min_nosetz.png)
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 > 

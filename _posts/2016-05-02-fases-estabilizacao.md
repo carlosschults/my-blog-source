@@ -5,7 +5,7 @@ lang: pt
 ref: estabilizacao
 layout: post
 author: Carlos Schults
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1462111255/balance-min_qkdhxx.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1462111255/balance-min_qkdhxx.png
 tags:
 - traduções
 - metodologias ágeis
@@ -14,9 +14,9 @@ tags:
 - testes automatizados
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1462111255/balance-min_qkdhxx.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1462111255/balance-min_qkdhxx.png)
 
-**NOTA**: O artigo a seguir foi originalmente escrito por Robert C. Martin, mais conhecido como Uncle Bob. Bob é um programador com décadas de experiência, autor de diversos livros (Código Limpo, por exemplo) e foi o organizador do encontro em 2001 que deu origem ao [Manifesto Para Desenvolvimento Ágil de Software](http://agilemanifesto.org/iso/ptbr/). Ele gentilmente me autorizou a fazer essa tradução. Caso lhe interesse, [clique aqui para ler o artigo original](http://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html).
+**NOTA**: O artigo a seguir foi originalmente escrito por Robert C. Martin, mais conhecido como Uncle Bob. Bob é um programador com décadas de experiência, autor de diversos livros (Código Limpo, por exemplo) e foi o organizador do encontro em 2001 que deu origem ao [Manifesto Para Desenvolvimento Ágil de Software](https://agilemanifesto.org/iso/ptbr/). Ele gentilmente me autorizou a fazer essa tradução. Caso lhe interesse, [clique aqui para ler o artigo original](https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html).
 <!--more-->
 <hr>
 

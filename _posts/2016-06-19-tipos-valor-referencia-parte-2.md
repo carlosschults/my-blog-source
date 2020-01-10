@@ -5,7 +5,7 @@ lang: pt
 layout: post
 permalink: /pt/tipos-valor-referencia-em-csharp-parte-2/
 author: Carlos Schults
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png
 tags:
 - csharp
 - iniciantes
@@ -13,7 +13,7 @@ tags:
 - tipagem
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1466341001/csharp-min_buiizq.png)
 
 "Por que uma variável DateTime não pode receber `null`?" Esta é uma pergunta que vive aparecendo no *StackOverflow* e site similares. Às vezes escrita de modo um pouco diferente, às vezes com um tipo diferente, mas no fundo é a mesma dúvida. O que é natural, se você considerar que provavelmente milhares de pessoas entram na área a cada ano.
 <!--more-->
@@ -30,7 +30,7 @@ Eu acho que antes de tentarmos responder essas questões, seria interessar volta
 
 Você provavelmente pensa em `null` como uma maneira de representar uma informação que está faltando. Algo desconhecido, ausente ou irrelevante. Talvez um dado que não está onde deveria *ainda*, mas talvez esteja no futuro.
 
-Lembra do meu [post anterior sobre tipos de valor e referência](http://carlosschults.net/pt/tipos-valor-referencia-em-csharp/)? Nele nós vimos que uma variável de um tipo de referência **contém uma referência que aponta para uma instância daquele tipo específico**. Mas quando a variável recebe *null*, seu conteúdo passa a ser o quê? Nada?
+Lembra do meu [post anterior sobre tipos de valor e referência](https://carlosschults.net/pt/tipos-valor-referencia-em-csharp/)? Nele nós vimos que uma variável de um tipo de referência **contém uma referência que aponta para uma instância daquele tipo específico**. Mas quando a variável recebe *null*, seu conteúdo passa a ser o quê? Nada?
 
 Não exatamente. Ainda que `null` essencialmente signifique nada, esse "nada" precisa ser representado de alguma forma na memória do computador.
 

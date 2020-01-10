@@ -5,7 +5,7 @@ lang: en
 layout: post
 permalink: /en/git-basics-for-tfs-users
 author: Carlos Schults
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1491343925/git-for-tfs-users-1038x437_ios03n.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1491343925/git-for-tfs-users-1038x437_ios03n.jpg
 tags:
 - version-control-system
 - git
@@ -13,7 +13,7 @@ tags:
 - tfvcs
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1491343925/git-for-tfs-users-1038x437_ios03n.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1491343925/git-for-tfs-users-1038x437_ios03n.jpg)
 
 Learning Git can be a bit challenging for developers with a background in centralized version control systems. But it doesn't have to be that way.
 <!--more-->
@@ -69,7 +69,7 @@ Some people say that using Git on Windows used to be a pain. Fortunately, that i
 First, [download Git for Windows](https://git-scm.com/download/win).
 
 Double-click, next, next, you know the drill. There shouldn't be a problem if you just choose all the default options. However, the following option might be useful:
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1491350434/git1_xek0vv.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1491350434/git1_xek0vv.png)
 
 When you get to this screen, choosing the second option you allow you to use Git from the Windows command prompt, and not only from Git Bash.
 

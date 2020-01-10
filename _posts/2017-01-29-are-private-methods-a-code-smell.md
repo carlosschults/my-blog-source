@@ -5,19 +5,19 @@ lang: en
 layout: post
 author: Carlos Schults
 permalink: /en/are-private-methods-a-code-smell/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1485700794/capa-min_no1cci.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1485700794/capa-min_no1cci.jpg
 tags:
 - code smell
 - best practices
 - oop
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1485700794/capa-min_no1cci.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1485700794/capa-min_no1cci.jpg)
 
 Some people believe private methods should be avoided. Are they right?
 <!--more-->
 
-A couple of months ago, [Marcos Douglas](https://twitter.com/mdbs99) published a post about [how the use of rules and constraints can help you keep your code clean and maintainable](https://gist.github.com/carlosschults/5f4ba7cfb2453977c8d11424b2926686)*. This [premise](https://medium.com/@cscalfani/why-programmers-need-limits-3d96e1a0a6db#.rptqu89ec) keeps showing up [again](http://blog.ploeh.dk/2015/04/13/less-is-more-language-features/) and [again](https://robots.thoughtbot.com/sandi-metz-rules-for-developers) around the web, and I totally agree with it. 
+A couple of months ago, [Marcos Douglas](https://twitter.com/mdbs99) published a post about [how the use of rules and constraints can help you keep your code clean and maintainable](https://gist.github.com/carlosschults/5f4ba7cfb2453977c8d11424b2926686)*. This [premise](https://medium.com/@cscalfani/why-programmers-need-limits-3d96e1a0a6db#.rptqu89ec) keeps showing up [again](https://blog.ploeh.dk/2015/04/13/less-is-more-language-features/) and [again](https://robots.thoughtbot.com/sandi-metz-rules-for-developers) around the web, and I totally agree with it. 
 
 Marcos lays out several useful guidelines such as the ideal number of arguments in a method, the ideal numbers of methods in a class, and so on. The post is very good, and I think you should all [check it out](https://gist.github.com/carlosschults/5f4ba7cfb2453977c8d11424b2926686), but it is not the focus of today's post. 
 
@@ -33,13 +33,13 @@ One common argument is that private methods violate the Single Responsibility Pr
 
 > Private helper methods indicate classes are doing too many things. Moving private helper methods to different classes, including creating new classes if necessary, splits the original responsibilities across multiple classes leading to simpler, better designs.
 >
-> Kent R Spillner, in [Private Methods are a Code Smell](http://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html)
+> Kent R Spillner, in [Private Methods are a Code Smell](https://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html)
 
 Here is another similar view:
 
 > Private methods are not inherently bad, but they are a sign that you might be missing out on an opportunity to make a useful abstraction. If you have a private method that calls another private method, then there is almost certainly an area of responsibility that remains unidentified.
 >
-> John McDowall, in [Break. It. Up! – Private Method Access Modifiers as Code Smells](http://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/)
+> John McDowall, in [Break. It. Up! – Private Method Access Modifiers as Code Smells](https://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/)
 
 Another argument is that private methods make unit testing difficult:
 
@@ -53,7 +53,7 @@ Finally, people also argue that private methods play an important role in messin
 
 >Functional programming teaches that state (in the form of member variables) is evil, because it makes your code more complex and harder to test.
 >
-> Ryan Ginstrom, in [Three reasons to avoid private class members](http://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/) 
+> Ryan Ginstrom, in [Three reasons to avoid private class members](https://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/) 
 
 I've just outlined some of the common arguments against the creation of private methods, so now it's time to show my opinions on this.
 
@@ -81,7 +81,7 @@ I really like unit tests (and automated tests in general). I helped evangelize u
 
 And one of the first questions that people ask when you're teaching unit testing to them is: How do I unit test private methods?
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1485701114/unicorn_dies-min_epffty.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1485701114/unicorn_dies-min_epffty.jpg)
 
 My answer usually is: **you shouldn't**. IMHO, it's just not that productive to put a lot of effort into testing private methods: since they are called by the public ones, they're going to be exercised by your tests anyway.
 
@@ -93,7 +93,7 @@ API stands for "Application Programming Interface". This term can mean a bunch o
 
 The API acts as a kind of contract between you and your consumers. It's a deal. If you alter the deal, the other party won't be happy.
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1485701325/deal-min_th2zxm.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1485701325/deal-min_th2zxm.jpg)
 
 Your public API should be as stable as possible. This is specially true when you're writing a web service, a library, or any kind of tool that other parties depend on.
 
@@ -156,15 +156,15 @@ This post turned out way longer than I intended. Thanks if you've made this far.
 
 ## References
 
-- [http://stackoverflow.com/questions/2620699/why-private-methods-in-the-object-oriented](http://stackoverflow.com/questions/2620699/why-private-methods-in-the-object-oriented)
-- [http://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html](http://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html)
-- [http://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/](http://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/)
+- [https://stackoverflow.com/questions/2620699/why-private-methods-in-the-object-oriented](https://stackoverflow.com/questions/2620699/why-private-methods-in-the-object-oriented)
+- [https://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html](https://kent.spillner.org/blog/work/2009/11/12/private-methods-stink.html)
+- [https://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/](https://blog.stormid.com/2015/03/method-access-modifiers-as-code-smells/)
 - [https://jasonmbaker.wordpress.com/2009/01/08/enemies-of-test-driven-development-part-i-encapsulation/](https://jasonmbaker.wordpress.com/2009/01/08/enemies-of-test-driven-development-part-i-encapsulation/)
 - [https://medium.com/i-m-h-o/private-methods-smelly-ish-435e93ff8c39#.cl06rkgct](https://medium.com/i-m-h-o/private-methods-smelly-ish-435e93ff8c39#.cl06rkgct)
-- [http://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/](http://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/)
-- [http://rc3.org/2010/01/26/the-argument-against-private-methods/](http://rc3.org/2010/01/26/the-argument-against-private-methods/)
-- [http://naildrivin5.com/blog/2010/05/26/is-private-a-code-smell.html](http://naildrivin5.com/blog/2010/05/26/is-private-a-code-smell.html)
+- [https://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/](https://ginstrom.com/scribbles/2007/11/12/three-reasons-to-avoid-private-class-members/)
+- [https://rc3.org/2010/01/26/the-argument-against-private-methods/](https://rc3.org/2010/01/26/the-argument-against-private-methods/)
+- [https://naildrivin5.com/blog/2010/05/26/is-private-a-code-smell.html](https://naildrivin5.com/blog/2010/05/26/is-private-a-code-smell.html)
 
 
-\* The author has given me permission to translate the article to English. [Here is the original version, in Portuguese](http://objectpascalprogramming.com/posts/menos-e-mais/).
+\* The author has given me permission to translate the article to English. [Here is the original version, in Portuguese](https://objectpascalprogramming.com/posts/menos-e-mais/).
 

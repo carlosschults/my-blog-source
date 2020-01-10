@@ -69,7 +69,7 @@ A essa altura você já deve ter uma boa ideia do que value objects são. O que 
     double  distance  =  4.5;
 {% endhighlight %}
 
-Tem algo errado com a linha acima? Bom, eu poderia dar uma de *[Ben Kenobi](http://starwars.wikia.com/wiki/Wookieepedia:Quote_of_the_Day/Archive/Obi-Wan_Kenobi) *e dizer que está errada "de um certo ponto de vista." Mas eu não vou. Ao invés disso, vou dizer que está definitivamente, sem sombra de dúvidas, errada. Não importa que compila corretamente. Também não importa que funciona um pouco (ou até na maioria) do tempo.
+Tem algo errado com a linha acima? Bom, eu poderia dar uma de *[Ben Kenobi](https://starwars.wikia.com/wiki/Wookieepedia:Quote_of_the_Day/Archive/Obi-Wan_Kenobi) *e dizer que está errada "de um certo ponto de vista." Mas eu não vou. Ao invés disso, vou dizer que está definitivamente, sem sombra de dúvidas, errada. Não importa que compila corretamente. Também não importa que funciona um pouco (ou até na maioria) do tempo.
 
 O problema aqui é o *code smell* conhecido como "obsessão primitiva", isto é, a modelagem de conceitos de domínio usando tipos primitivos. As próximas seções vão explicar melhor porque isso é um problema tão sério e como o uso de *value objects* podem ajudar.
 
@@ -123,7 +123,7 @@ Isso seria evitado criando uma classe chamada `LicensePlate` e fazendo todas as 
 
 ## Value Objects e Tipos de Valor Não São Sinônimos
 
-Essa seção é necessária para clarificar um erro comum, que é confundir  value objects com o conceito de value types (tipos de valor) que existe no C#. É assim: na linguagem C# nós temos [duas categorias de tipos: tipos de referência e tipos de valor.](http://carlosschults.net/pt/tipos-valor-referencia-em-csharp/)
+Essa seção é necessária para clarificar um erro comum, que é confundir  value objects com o conceito de value types (tipos de valor) que existe no C#. É assim: na linguagem C# nós temos [duas categorias de tipos: tipos de referência e tipos de valor.](https://carlosschults.net/pt/tipos-valor-referencia-em-csharp/)
 
 Sim, não há nada que impeça você de usar structs (tipos de valor) para implementar value objects - exemplos na Base Class Library (BCL) seriam o tipo `DateTime` ou os tipos numéricos primitivos. Mas você também pode usar classes tranquilamente.
 

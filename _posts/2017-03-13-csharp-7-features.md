@@ -5,18 +5,18 @@ lang: en
 layout: post
 author: Carlos Schults
 permalink: /en/csharp-7-features/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg
 tags:
 - csharp
 - beginners
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg)
 
 C# 7 is finally among us. Time to check out some of its features.
 <!--more-->
 
-In my [last post](http://carlosschults.net/en/csharp-6-features/) I've written about some of the more interesting (for me, at least) features of C# 6. Visual Studio 2017 and C# 7 were officially released the following day, so I guess now it's the perfect time for us to discuss the new version of the language.
+In my [last post](https://carlosschults.net/en/csharp-6-features/) I've written about some of the more interesting (for me, at least) features of C# 6. Visual Studio 2017 and C# 7 were officially released the following day, so I guess now it's the perfect time for us to discuss the new version of the language.
 
 I think it's fair to say that the seventh version of C# continues the trend started by its predecessor. Instead of adding radically new capabilities to the language, the design team again chose to include features meant to make your code cleaner and more concise.
 
@@ -59,7 +59,7 @@ Some important things to bear in mind:
 
 At the beginning of this post, I said that C# 7 expands some of its predecessor's features, remember? Well, this is one of those cases.
 
-In the last post, we've seen that [C# 6 brought us Expression-bodied members](http://carlosschults.net/en/csharp-6-features/#expression-bodied-methods-and-properties), which is a nice and shorter way of writing members of the class, using the lambda expression syntax.
+In the last post, we've seen that [C# 6 brought us Expression-bodied members](https://carlosschults.net/en/csharp-6-features/#expression-bodied-methods-and-properties), which is a nice and shorter way of writing members of the class, using the lambda expression syntax.
 
 However, you could only use this feature with **methods, read-only properties and indexers**. 
 

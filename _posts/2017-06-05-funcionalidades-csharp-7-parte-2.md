@@ -5,19 +5,19 @@ lang: pt
 layout: post
 author: Carlos Schults
 permalink: /pt/funcionalidades-csharp-7-parte-2
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg
 tags:
 - csharp
 - iniciantes
 ---
 
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1489452722/charp7-features-cover_ciekql.jpg)
 
 Neste artigo, vamos continuar a ver algumas das features mais interessantes do C# 7.
 <!--more-->
 
-Na [primeira parte da série](http://carlosschults.net/pt/funcionalidades-csharp-7/), nós falamos sobre algumas das novas features do C#, a saber: melhorias em literais, variáveis de saída, mais membros "*expression-bodied*" e throw expressions.
+Na [primeira parte da série](https://carlosschults.net/pt/funcionalidades-csharp-7/), nós falamos sobre algumas das novas features do C#, a saber: melhorias em literais, variáveis de saída, mais membros "*expression-bodied*" e throw expressions.
 
 Hoje nós veremos: **Tuplas** e **Funções locais**. Mas antes de continuarmos, quero deixar meu agradecimento ao amigo Gunter Italiano Ribeiro, que gentilmente revisou este artigo.
 
@@ -45,7 +45,7 @@ Legal, mas e o outro lado? Como o chamador da função lida com este tipo de ret
 
 Se você colocar o cursor sobre o nome da variável, você verá seu tipo descrito, não surpreendentemente, como `(ZipCode, bool)`.
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1495494940/csharp7-part2-fig1_pnmlx5.png)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1495494940/csharp7-part2-fig1_pnmlx5.png)
 
 Você pode acessar cada elemento da tupla utilizando `zipParsingResult.Item1`, `zipParsingResult.Item2`, e assim por diante.
 
@@ -73,7 +73,7 @@ Você não precisa realmente declarar as variáveis no momento da desconstruçã
 
 ### Algumas notas
 
-Tuplas são [*Tipos de Valor*](http://carlosschults.net/pt/tipos-valor-referencia-em-csharp/). A igualdade nas tuplas é implementada da maneira que você provavelmente esperaria: duas tuplas são iguais se seus valores são iguais e elas retornam o mesmo `HashCode`. O nome dos elementos não é relevante.
+Tuplas são [*Tipos de Valor*](https://carlosschults.net/pt/tipos-valor-referencia-em-csharp/). A igualdade nas tuplas é implementada da maneira que você provavelmente esperaria: duas tuplas são iguais se seus valores são iguais e elas retornam o mesmo `HashCode`. O nome dos elementos não é relevante.
 
 <script src="https://gist.github.com/carlosschults/4da3e29f9346a45aab9b5d9a583c6ac1.js"></script>
 
@@ -89,7 +89,7 @@ A janela do Console do Gerenciador de Pacotes será exibida. Digite (ou copie e 
 
 Você talvez esteja se perguntando: qual a razão de tanto barulho sobre tuplas, já que o .Net Framework tem o tipo de referência `System.Tuple` desde a versão 4.0? Por que não continuamos com o tipo mais antigo?
 
-Bem, [esta resposta no Stack Overflow explica muito bem (em inglês)](http://stackoverflow.com/questions/41084411/whats-the-difference-between-system-valuetuple-and-system-tuple), então eu vou tentar resumir aqui.
+Bem, [esta resposta no Stack Overflow explica muito bem (em inglês)](https://stackoverflow.com/questions/41084411/whats-the-difference-between-system-valuetuple-and-system-tuple), então eu vou tentar resumir aqui.
 
 Primeiramente, conforme já mencionado, o tipo mais antigo é um tipo de referência, e o novo tipo é um tipo de valor, com todas as implicações usuais que isso traz.
 
@@ -148,7 +148,7 @@ Nem tudo são flores, infelizmente. Alguns desenvolvedores já expressaram preoc
 
 As tuplas, por sua vez, podem ser exageradamente utilizadas em situações que requerem *objetos*, tornando o código mais procedural.
 
-Minha opinião com relação à isso é simples: toda e qualquer feature pode ser abusada. Cada a nós, profissionais, e às nossas equipe, exercermos o senso crítico na hora de utilizar essas (e outras) funcionalidades. Aliás, conforme mencionei no [meu artigo sobre métodos privados](http://carlosschults.net/pt/metodos-privados-code-smell/), revisão de código e/ou programação em par são de ótima ajuda em momentos como esse.
+Minha opinião com relação à isso é simples: toda e qualquer feature pode ser abusada. Cada a nós, profissionais, e às nossas equipe, exercermos o senso crítico na hora de utilizar essas (e outras) funcionalidades. Aliás, conforme mencionei no [meu artigo sobre métodos privados](https://carlosschults.net/pt/metodos-privados-code-smell/), revisão de código e/ou programação em par são de ótima ajuda em momentos como esse.
 
 Obrigado pela leitura, e até a próxima. 
 

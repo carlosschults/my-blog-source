@@ -5,17 +5,17 @@ lang: pt
 layout: post
 author: Carlos Schults
 permalink: /pt/blogs-desenvolvimento-portugues/
-img: http://res.cloudinary.com/dz5ppacuo/image/upload/v1486838693/capa-min_gdaepw.jpg
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1486838693/capa-min_gdaepw.jpg
 tags:
 - recomendacoes
 ---
 
-![](http://res.cloudinary.com/dz5ppacuo/image/upload/v1486838693/capa-min_gdaepw.jpg)
+![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1486838693/capa-min_gdaepw.jpg)
 
 Para o bem ou para o mal, o idioma da tecnologia é o inglês. Mas isso não significa que não existe conteúdo de qualidade sendo produzido na nossa língua.
 <!--more-->
 
-O inglês é a língua franca da tecnologia, como eu já [disse quando expus minha opinião sobre a controvérsia de se programar em inglês ou português.](http://carlosschults.net/pt/programar-portugues-ou-ingles/) 
+O inglês é a língua franca da tecnologia, como eu já [disse quando expus minha opinião sobre a controvérsia de se programar em inglês ou português.](https://carlosschults.net/pt/programar-portugues-ou-ingles/) 
 
 Além das oportunidades que saber inglês pode lhe trazer, eu acredito que o maior benefício que você consegue é ter acesso a muita informação de qualidade.
 
@@ -23,7 +23,7 @@ Porém, isso não quer dizer que não exista informação de qualidade sendo pub
 
 ## Object Pascal Programming
 
-Vamos começar a lista com o [Object Pascal Programming](http://objectpascalprogramming.com/), blog do [Marcos Douglas Santos](https://github.com/mdbs99/), o qual eu citei no meu [último post](carlosschults.net/pt/metodos-privados-code-smell/).
+Vamos começar a lista com o [Object Pascal Programming](https://objectpascalprogramming.com/), blog do [Marcos Douglas Santos](https://github.com/mdbs99/), o qual eu citei no meu [último post](carlosschults.net/pt/metodos-privados-code-smell/).
 
 Conheci esse site há cerca de dois meses, por acaso, e desde então tenho lido todos os artigos, que são publicados assiduamente toda semana.
 
@@ -33,7 +33,7 @@ Quando há exemplos de código, esses são escritos em Object Pascal, mas são s
 
 Além da qualidade dos artigos em si, é importante citar ótimo trabalho que Marcos tem feito em fomentar uma comunidade em torno do blog, com o uso de redes sociais, chat e lista de e-mail.
 
-[Recomendadíssimo](http://objectpascalprogramming.com/)!
+[Recomendadíssimo](https://objectpascalprogramming.com/)!
 
 ## Robson Castillo
 
@@ -49,7 +49,7 @@ Embora existam alguns posts que são específicos a .Net e C#, a grande maioria 
 
 ## Elemar Jr
 
-[Elemar Jr](https://twitter.com/elemarjr) é um nome bastante conhecido na comunidade .NET. Assim como Robson, ele [publica em seu blog desde 2010](http://elemarjr.com/pt/home/). 
+[Elemar Jr](https://twitter.com/elemarjr) é um nome bastante conhecido na comunidade .NET. Assim como Robson, ele [publica em seu blog desde 2010](https://elemarjr.com/pt/home/). 
 
 Elemar é conhecido por ser incrivelmente prolífico, escrevendo sobre um número impressionante de tópicos. Existe um certo viés para C#, mas ele também aborda diversas outras linguagens, tecnologias e técnicas, como C++, F#, Haskell, HTML, Javascript, testes automatizados, arquitetura, e muito mais.
 
@@ -57,9 +57,9 @@ Um aspecto interessante do blog do Elemar é que ele não para no conteúdo téc
 
 Nos reconectar com o mundo ao nosso redor é necessário para uma vida equilibrada. E no lado profissional, nos envolver com as humanidades também melhora a nossa visão do negócio e de como o código que escrevemos é apenas um meio para gerar valor para nossos clientes e nossas empresas.
 
-Recentemente, Elemar [começou a blogar também em inglês](http://elemarjr.com/pt/2016/04/17/por-que-comecei-a-blogar-em-ingles/), o que é uma iniciativa com a qual eu naturalmente [concordo](http://carlosschults.net) ;)
+Recentemente, Elemar [começou a blogar também em inglês](https://elemarjr.com/pt/2016/04/17/por-que-comecei-a-blogar-em-ingles/), o que é uma iniciativa com a qual eu naturalmente [concordo](https://carlosschults.net) ;)
 
-[Boa leitura](http://elemarjr.com/pt/home/)!
+[Boa leitura](https://elemarjr.com/pt/home/)!
 
 ## Conclusão
 
