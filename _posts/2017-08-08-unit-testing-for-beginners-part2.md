@@ -7,9 +7,12 @@ author: Carlos Schults
 permalink: /en/unit-testing-for-beginners-part2/
 img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
 tags:
-- software testing
-- unit testing
-- automated tests
+- software-testing
+- beginners
+- unit-testing
+- unit-testing-series
+- automated-tests
+- csharp
 - agile
 ---
 
@@ -19,6 +22,8 @@ Better late than later! Time to continue our series on unit testing for beginner
 <!--more-->
 
 ## Introduction
+
+*This post is part of a series. [See all the articles in the series.](http://carlosschults.net/tag/unit-testing-series/)*
 
 In the [previous article](https://carlosschults.net/en/unit-testing-for-beginners-part1/) you learned what unit tests are and what are the motivations for writing them.
 

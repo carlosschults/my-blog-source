@@ -7,16 +7,22 @@ layout: post
 author: Carlos Schults
 img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
 tags:
-- testes de software
-- testes unitários
-- metodologias ágeis
-- testes automatizados
+- csharp
+- iniciantes
+- testes-de-software
+- testes-unitarios
+- testes-automatizados
+- csharp
+- metodologias-ageis
+- serie-testes-unitarios
 ---
 
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
 
 Você já deve ter trabalhado em um sistema assim: incrivelmente complexo, com uma base de código gigantesca, mal documentada, cheia de gambiarras, acoplamentos desnecessários, com arquitetura confusa, especificações inexistentes, onde era quase considerado um milagre que o software chegasse a funcionar. Talvez eu tenha acabado de descrever seu projeto atual!
 <!--more-->
+
+*Este post faz parte de uma série. [Veja os outros artigos.](http://carlosschults.net/tag_ptbr/serie-testes-unitarios/)*
 
 Nesse tipo de projeto, é comum que os desenvolvedores fiquem com receio de mexer no código, pois sabem que, inevitavelmente, algo vai quebrar. E provavelmente, o erro só vai ser descoberto em produção.
 

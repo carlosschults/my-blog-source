@@ -9,11 +9,12 @@ img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitar
 tags:
 - csharp
 - iniciantes
-- testes de software
-- testes unitários
-- testes automatizados
+- testes-de-software
+- testes-unitarios
+- testes-automatizados
 - csharp
-- metodologias ágeis
+- metodologias-ageis
+- serie-testes-unitarios
 ---
 
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
@@ -22,6 +23,8 @@ Antes tarde do que mais tarde! Hora de continuar nossa série sobre testes unit�
 <!--more-->
 
 ## Introdução
+
+*Este post faz parte de uma série. [Veja os outros artigos.](http://carlosschults.net/tag_ptbr/serie-testes-unitarios/)*
 
 No [primeiro artigo nesta série](https://carlosschults.net/pt/testes-unitarios-iniciantes-parte1) eu defini o que são testes unitários, e também falei dos benefícios de sua utilização.
 

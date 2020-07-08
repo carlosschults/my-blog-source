@@ -7,9 +7,11 @@ layout: post
 author: Carlos Schults
 img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
 tags:
-- software testing
-- unit testing
-- automated tests
+- software-testing
+- beginners
+- unit-testing
+- unit-testing-series
+- automated-tests
 - agile
 ---
 
@@ -17,6 +19,8 @@ tags:
 
 Maybe, some time in your career, you might have worked on an incredibly complex application, with an enormous, poorly-documented code base, full of hacks, unnecessary couplings, with a confused architecture and no specifications at all. That kind of app you'd call a miracle if it even works. Maybe I've just described your current project!
 <!--more-->
+
+*This post is part of a series. [See all the articles in the series.](http://carlosschults.net/tag/unit-testing-series/)*
 
 In this type of project, it's very common for the developers to get afraid of touching the code, cause they know that if they do, something is going to break for sure. And worse: it's going to break in production, most likely.
 

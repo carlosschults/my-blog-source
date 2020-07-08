@@ -9,10 +9,12 @@ img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitar
 description: You've probably heard of TDD. In this post, learn how to start doing it in practice.
 tags:
 - software-testing
+- beginners
 - unit-testing
 - unit-testing-series
 - automated-tests
 - csharp
+- agile
 ---
 
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png)
@@ -128,7 +130,7 @@ public class Tests
 
 {% endhighlight %}
 
-Let's do a few things. First, get rid of the Setup() method. We won't need it. Then, add a new method with the code below:
+Let's do a few things. First, get rid of the `Setup()` method. We won't need it. Then, add a new method with the code below:
 
 {% highlight csharp %}
 [Test]
@@ -363,9 +365,9 @@ public static int Add(string numbers)
 }
 {% endhighlight %}
 
-By leveraging the TryParse method from the System.Int32 type, I've managed to get rid of the first if instruction. We've also used a feature introduced in [C# 7](https://carlosschults.net/en/csharp-7-features/) called "out variables." This feature allows us to use out parameters without having to declare them beforehand.
+By leveraging the `TryParse` method from the `System.Int32` type, I've managed to get rid of the first if instruction. We've also used a feature introduced in [C# 7](https://carlosschults.net/en/csharp-7-features/) called "out variables." This feature allows us to use out parameters without having to declare them beforehand.
 
-All tests still pass, so I can't write more production code. What should the next text be?
+All tests still pass, so I can't write more production code. What should the next test be?
 
 ### Testing More Than Three Numbers
 
@@ -409,8 +411,6 @@ public static int Add(string numbers)
 {% endhighlight %}
 
 The code above should be easy to understand. We just split the string into parts using the comma as the delimiter. Then, for each part, we parse it to an integer, verify whether it's equal or less than a thousand, and, if so, we add it to the result variable. Finally, we return the result.
-
-It's possible to make this code even shorter and more expressive, using LINQ. I'll leave that as an exercise for the reader.
 
 ## We're Not Done Yet
 
@@ -458,7 +458,7 @@ public static int Add(string numbers)
 }
 {% endhighlight %}
 
-As you can see, right at the beginning, we define a List<int> to store the negatives we find while iterating over all the numbers. Inside the loop, we verify whether the current number is negative. If it is, we add it to the list. If it isn't, we verify whether it's less than or equals to 1000, in which we case we add it to the result variable.
+As you can see, right at the beginning, we define a `List<int>` to store the negatives we find while iterating over all the numbers. Inside the loop, we verify whether the current number is negative. If it is, we add it to the list. If it isn't, we verify whether it's less than or equals to 1000, in which we case we add it to the result variable.
 
 After the loop, we verify whether the negatives list has any elements. If it has, we create an exception message that includes the specified negatives and then throw a new ArgumentException. Otherwise, we return the result.
 
