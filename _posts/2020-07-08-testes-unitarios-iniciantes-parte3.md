@@ -28,7 +28,7 @@ Você provavelmente já ouviu falar de TDD, mas pode ficar confuso quanto ao que
 
 Começamos o post com uma breve definição de TDD. Você aprenderá não apenas que TDD significa Desenvolvimento Orientado por Testes, mas também que não é uma técnica de teste, apesar do nome. Depois disso, eu explico o que é TDD e quais são seus benefícios.
 
-Após o "o quê" e o "porquê" estarem ambos fora do nosso caminho, estaremos prontos para nos divertir um pouco. Vou lhes mostrar, na prática, como começar com a TDD, desenvolvendo uma solução para um famoso exercício de programação. Soa bem? Então, vamos cavar.
+Após o "o quê" e o "porquê" estarem ambos fora do nosso caminho, estaremos prontos para nos divertir um pouco. Vou lhes mostrar, na prática, como começar com a TDD, desenvolvendo uma solução para um famoso exercício de programação. Soa bem? Então, vamos começar.
 
 ## Testes Unitários em C# & TDD: Começando Pelo Básico
 
@@ -391,7 +391,7 @@ public void Add_MoreThanThreeNumbersSeparatedByComma_ReturnsTheirSum(
 
 Observe que o terceiro caso de teste exemplifica a exigência que diz que devemos ignorar números superiores a 1000. O próximo caso de teste, no entanto, mostra que 1000 não deve ser ignorado. Se você executar os testes, verá que o test explorer mostra cada caso de teste como um teste distinto.
 
-Como podemos fazer este teste passar? Honestamente, por este posto, é muito mais fácil ir para a implementação correta do que trapacear. Então, vamos fazer exatamente isso:
+Como podemos fazer este teste passar? Honestamente, a essa altura, é muito mais fácil ir para a implementação correta do que trapacear. Então, vamos fazer exatamente isso:
 
 {% highlight csharp %}
 public static int Add(string numbers)
@@ -465,13 +465,15 @@ Após o loop, verificamos se a lista negativa tem algum elemento. Se tiver, cria
 
 ## Conclusão
 
-Este posto foi um guia prático sobre como começar com o TDD em C#. Então, para onde você vai a partir daqui?
+Este post foi um guia prático sobre como começar com o TDD em C#. Então, para onde você vai a partir daqui?
 
 Bem, a maioria das coisas na vida você aprende fazendo. A programação é certamente uma dessas coisas. Portanto, se você quer que os conceitos que você viu hoje realmente se afundem, você tem que praticar.
 
-O código que escrevi durante este post está disponível como [um repositório público no GitHub.](https://github.com/carlosschults/string-calculator-kata) Vá lá, clone-o usando [Git,](https://carlosschults.net/en/git-basics-for-tfs-users), e comece a brincar com ele. 
+O código que escrevi durante este post está disponível como [um repositório público no GitHub.](https://github.com/carlosschults/string-calculator-kata) Vá lá, clone-o usando [Git,](https://carlosschults.net/pt/basicos-do-git-usuarios-tfvc), e comece a brincar com ele. 
 
 Você verá que eu criei um compromisso para cada etapa do ciclo TDD. Dessa forma, torna-se mais fácil para os futuros leitores visualizar todas as etapas do processo, percorrendo a história do projeto, um compromisso de cada vez.
+
+É possível melhorar o código que eu usei hoje. Por exemplo, o código do método `Add` pode ser escrito de uma forma mais curta, clara e eficiente, usando [LINQ](https://carlosschults.net/pt/programacao-funcional-csharp/.) Você pode criar mais testes. Os requisitos do exercício que apresentamos no início pedem por uma mensagem de erro específica ao lançar a exceção quando há números negativos na string. Apesar de termos implementado a mensagem como pedido, nós não criamos um teste pra isso. Você pode fazer isso, como forma de praticar.
 
 Finalmente, fique atento a este blog. Este post é parte de uma série, à qual pretendo acrescentar mais partes.
 

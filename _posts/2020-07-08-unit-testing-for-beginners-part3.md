@@ -472,6 +472,8 @@ The code I've written during this post is available as [a public repository on G
 
 You'll see that I created one commit for each step in the TDD cycle. That way, it becomes easier for future readers to visualize all the steps in the process by going through the project's history, one commit at a time.
 
+There are improvements that can be made to the code I shared today. For instance, the final `Add` method could be written in a shorter, clearer, more efficient way, using [LINQ](https://carlosschults.net/en/functional-programming-csharp/). You could add more test cases. Also, the kata requirements ask for a specific exception message in the case of negative numbers. Even though we've implemented the message as specified, we didn't write a test for it. We could do that as part of your practice.
+
 Finally, stay tuned to this blog. This post is part of a series, to which I intend to add more parts.
 
 Thanks for reading, and until the next time!
