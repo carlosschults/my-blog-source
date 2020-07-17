@@ -5,6 +5,7 @@ lang: en
 ref: unit1
 layout: post
 author: Carlos Schults
+description: Learn what unit tests are and the benefits they can bring to your apps.
 img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1459979937/testes-unitarios-iniciantes-min_povcse.png
 tags:
 - software-testing
