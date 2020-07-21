@@ -5,16 +5,19 @@ layout: post
 author: Carlos Schults
 permalink: /pt/programar-portugues-ou-ingles/
 ref: idioma
-img: ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1458429920/portugues-ou-ingles-1038x437_izhi3i.png)
+img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1458429920/portugues-ou-ingles-1038x437_izhi3i.png
+description: Ao programar, devemos usar inglês ou português para nomear classes, funções e variáveis? Aprenda a resposta neste post.
 tags: 
-- boas práticas
-- inglês
+- boas-praticas
+- ingles
 ---
 
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1458429920/portugues-ou-ingles-1038x437_izhi3i.png)
 
-No contexto de boas práticas de desenvolvimento, um ponto que gera controvérsia é a escolha do idioma no qual codificar. Uma rápida busca no Google por "programar em português ou inglês" retorna 535 mil resultados, o que mostra que o tema realmente causa bastante discussão. 
-<!--more-->
+**UPDATE 2020: Em breve estarei lançando meu curso *Inglês Para Desenvolvedores.* [Acesse o site](https://ingles4devs.com/) e assine a newsletter para ser avisado(a) assim que as incrições forem abertas.**
+
+No contexto de boas práticas de desenvolvimento, um ponto que gera controvérsia é a escolha do idioma no qual codificar. Uma rápida busca no Google por "programar em português ou inglês" retorna 535 mil resultados, o que mostra que o tema realmente causa bastante discussão.
+
 Recentemente conversei com um colega de trabalho e também com meu chefe a respeito desse assunto. Esse post é consequência dessas conversas e das pesquisas que fiz depois.
 
 Parece ser uma visão bastante comum na nossa área que programar em inglês é a melhor opção. Fabio Akita, grande referência na comunidade Ruby On Rails do Brasil, [inclui codificar em português - ou melhor dizendo, qualquer idioma que não o inglês - na sua lista de piores práticas de desenvolvimento](https://www.akitaonrails.com/2013/03/24/quais-sao-algumas-das-piores-praticas-para-aplicacoes-ruby-on-rails--2):

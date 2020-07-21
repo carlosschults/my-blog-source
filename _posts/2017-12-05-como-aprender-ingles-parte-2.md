@@ -16,6 +16,8 @@ tags:
 *Parte 2: Pratique diariamente. Áudio em primeiro lugar.*
 <!--more-->
 
+**UPDATE 2020: Em breve estarei lançando meu curso *Inglês Para Desenvolvedores.* [Acesse o site](https://ingles4devs.com/) e assine a newsletter para ser avisado(a) assim que as incrições forem abertas.**
+
 No [post anterior](https://carlosschults.net/pt/como-aprender-ingles-parte-1) eu expliquei quais são, na minha opinião, os principais erros que as pessoas cometem ao tentar aprender inglês.
 
 Agora chegou a hora de fazer o oposto: vou detalhar o que você *deve* fazer para aprender inglês da forma correta, gastando pouco e se divertindo no processo.
