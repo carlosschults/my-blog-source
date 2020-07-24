@@ -10,10 +10,10 @@ module Jekyll
       self.data['tag'] = tag
       tag_title_prefix = site.config['tag_title_prefix'] || 'Tag: &ldquo;'
       tag_title_suffix = site.config['tag_title_suffix'] || '&rdquo;'
-      self.data['title'] = "Tag: #{tag}"      
+      self.data['title'] = "Tag: #{tag} | carlos schults / blog"     
       self.data['lang'] = 'pt'
       self.data['ref'] = tag
-      self.data['excerpt'] = "Veja os posts marcados com '#{tag}'"
+      self.data['excerpt'] = "Post marcados com '#{tag}'"
     end
   end
   class TagGeneratorPt < Generator
