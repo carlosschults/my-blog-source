@@ -7,40 +7,19 @@ lang: en
 menuitem: true
 ---
 
-<h3>Who I am</h3>
-<p>Hi. My name is Carlos Schults. I'm a Brazilian software developer, born and raised in the beautiful Adamantina, 
-first among the cities in the São Paulo state (in alphabetical order, but I think that counts, doesn't it?)</p>
+## Hi. I'm Carlos.
 
-<h3>What I do</h3>
+My name is Carlos Schults, and this is my professional blog (not that I have a personal blog.) I'm a software developer, consultant, instructor, and technical author. As a programmer, most of my experience is with C#
+and the .NET framework, but I've also worked with PHP, Java, Python, Ruby, Kotlin and other languages.
 
-<p>I work at SmartBio Tecnologia, where we do amazing things to improve agriculture by using technology. </p>
-<p>I am primarily a C# developer, but the circumstances  turned me into a kinda-sorta-dba, so I deal a lot with Databases, specially MS SQLServer and Oracle DataBase.</p>
-<p>I also love automation, so I'm always looking for ways of automating our processes, like the build, release and deploy of our main product, for instance.</p>
+Most of my work as a technical writer has been done in partnership with [Hit Subscribe](https://hitsubscribe.com), for which I work as a freelance author, having written close to 200 article for clients such as NDepend, NCrunch, Submain, Testim.io, TechBeacon, and many more.
 
-<h3>A little bit of history</h3>
+As an instructor, I've taught for [ASPE Training](https://aspetraining.com/) and I've recently created an English course targeted at Brazilian software developers.
 
-<p>I always loved computers, since a very early age. When I was little, I used to go behind the cashier's desk in stores,
-just to stare at one of those fascinating machines. At that time, mid-90's, my parents just couldn't afford one.</p>
+## Get In Touch
 
-<p>Fast-forward to the past decade. When I was 17, a few months after I bought my first computer, 
-I started studying Information Technology at the "Centro Paula Souza". (I don't know if there is an equivalent to this in the
-educational systems of the English speaking countries, but here in Brazil there is this thing we call "curso técnico", 
-which translates roughly as "technical course". It's a quick course (about 18 months) meant to teach you skills so you can get a job.)</p>
+If you want to get in touch, e-mail me at:
 
-<p>Was at that time that I had my first contact with programming. Wrote my first "Hello World" in Pascal, and that's it. I'm hooked to this very day.</p>
+`carlos at carlosschults dot net`
 
-<p>After that I went to college, where I got a bachelor's degree in Computer Science.</p>
-
-<h3>About this blog</h3>
-
-<p>I've been thinking about having a blog for a long time. Actually, this is my second try at blogging. I had another blog, some 4 years ago,
-but I decided to shut it down and focus on my studies and my job at the time.</p>
-<p>So, now I think it's the perfect time to try again. I intend to write primarily about C# and databases,
-because these are the tools that I use on a day-to-day basis, so I hope I'll have plenty of interesting things to share.</p>
-<p>Every now and then, some off-topic articles will pop up, but they'll be interesting as well. Promise. I mean, really. You can trust me.</p>
-
-<h3>Disclaimer</h3>
-
-<p>The views expressed on this blog are those of the respective author’s own and do not reflect the views of their employers by any means.</p>
-<p>All of the information on this blog is  provided as is with no warranties, and confers no rights. 
-You can freely use any code that is posted here (except when explicitly expressed the contrary), but use it at your own risk. Deal? Deal. :D</p>
+You can also follow me on [Twitter](https://twitter.com/carlosschults) or [GitHub](https://github.com/carlosschults).

@@ -10,6 +10,9 @@ lang: pt
 
 O objetivo desta página é reunir recursos relacionados ao aprendizado de inglês, conforme abordo na minha série de duas partes.
 
+## Curso "Inglês Para Desenvolvedores"
+- [Meu curso voltado para programadores e outros profissionais da área de TI](https://ingles4devs.com)
+
 ## Série *Como Aprender Inglês - Um Guia Para Desenvolvedores*
 - [Parte 1](http://carlosschults.net/pt/como-aprender-ingles-parte-1)
 - [Parte 2](http://carlosschults.net/pt/como-aprender-ingles-parte-2)
