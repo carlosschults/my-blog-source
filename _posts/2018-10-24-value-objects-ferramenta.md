@@ -9,13 +9,16 @@ permalink: /pt/value-objects-ferramenta/
 img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1540385528/value-object-tool/value-object-tool-1038x437.jpg
 tags:
 - csharp
-- boas praticas
+- boas-praticas
+- ddd
+- orientacao-a-objetos
+- modelagem-de-software
 ---
 
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1540385528/value-object-tool/value-object-tool-1038x437.jpg)
 
 
-*NOTA: Eu escrevi este post originalmente para o blog da NDepend. Você pode [conferir o artigo original, em inglês, no site deles](https://blog.ndepend.com/value-objects-tool-self-documented-code-fewer-errors/). Aproveite que está lá e faça o download do NDepend.*
+*NOTA: Eu escrevi este post originalmente para o blog da NDepend. Você pode [conferir o artigo original, em inglês, no site deles](https://blog.ndepend.com/value-objects-tool-self-documented-code-fewer-errors/). Ainda não consegue ler em inglês? Então, o meu novo curso [Inglês Para Desenvolvedores](https://ingles4devs.com) pode ser o que você precisa. Acesse o site, cadastre-se na newsletter e fique por dentro das novidades!*
 
 Você já ouviu falar de *value objects*? Eu imagino que sim. Apesar de não se falar tanto a respeito deles como eu gostaria, eles ainda são mencionados o bastante para que muitos desenvolvedores tenham no mínimo alguma familiaridade com o termo.
 
@@ -77,7 +80,7 @@ O problema aqui é o *code smell* conhecido como "obsessão primitiva", isto é,
 
 Por que [obsessão primitiva é algo ruim](https://blog.ndepend.com/easy-miss-code-smells/)? Há várias razões, mas um dos principais problemas com a linha de código que você viu na seção anterior é que há uma informação extremamente importante faltando. Como você pode ver, o código atribui o valor 4.5 à variável. Mas 4.5 o que? Metros? Quilômetros? Milhas? Parsecs? Em outras palavras, falta uma **unidade de medida**.
 
-Isso pode ser uma receita para o desastre. Tudo o que você precisa é alguém recuperar um valor do banco de dados ou de um arquivo, pensando que representa metros mas na verdade são quilômetros. Quando a pessoa resolve usar o valor em um cálculo, adicionando quilômetros com metros...silêncio. Você agora tem um programa que, no lugar de falhar rápido como deveria, se comporta de maneira errada silenciosamente enquanto corrompe dados e gera resultados inconsistentes. Ainda bem que você usa [testes unitários](https://blog.ndepend.com/unit-testing-affect-codebases/)...certo?
+Isso pode ser uma receita para o desastre. Tudo o que você precisa é alguém recuperar um valor do banco de dados ou de um arquivo, pensando que representa metros mas na verdade são quilômetros. Quando a pessoa resolve usar o valor em um cálculo, adicionando quilômetros com metros...silêncio. Você agora tem um programa que, no lugar de falhar rápido como deveria, se comporta de maneira errada silenciosamente enquanto corrompe dados e gera resultados inconsistentes. Ainda bem que você usa [testes unitários](https://carlosschults.net/pt/testes-unitarios-csharp-intro-tdd/)...certo?
 
 Tudo bem, nada impede você de colocar essa informação no próprio nome da variável:
 

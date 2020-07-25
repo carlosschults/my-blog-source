@@ -10,14 +10,16 @@ canonical: https://blog.ndepend.com/value-objects-tool-self-documented-code-fewe
 img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1540385528/value-object-tool/value-object-tool-1038x437.jpg
 tags:
 - csharp
-- best practices
+- best-practices
+- ddd
+- oop
+- software-design
 ---
 
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1540385528/value-object-tool/value-object-tool-1038x437.jpg)
 
 
 *Editorial note: I originally wrote this post for the NDepend blog.  You can [check out the original here, at their site](https://blog.ndepend.com/value-objects-tool-self-documented-code-fewer-errors/). While you’re there, take a look at NDepend.*
-
 
 Have you ever heard of value objects? I bet you have. Even though they're talked about a lot less than I'd like, they're still talked about *enough *that many developers have at least some passing familiarity with the term.
 
