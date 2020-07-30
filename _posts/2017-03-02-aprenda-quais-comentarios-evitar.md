@@ -7,9 +7,10 @@ author: Carlos Schults
 permalink: /pt/tipos-de-comentarios-a-evitar/
 img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg
 tags:
-- code smell
-- BoasPraticas
+- code-smell
+- boas-práticas
 - iniciantes
+- comentários
 ---
 
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg)
@@ -122,4 +123,6 @@ Até mais!
 
 - [Apologies In Code, por Robert C. Martin](https://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode)
 - [Write comments that matter, por Sander Rossel](https://www.codeproject.com/tips/467657/write-comments-that-matter)
-- [Please, don’t commit commented out code, por Kent C. Dodds](https://medium.com/@kentcdodds/please-don-t-commit-commented-out-code-53d0b5b26d5f#.yex54k2sg)
+- [Please, don’t commit commented out code, por Kent C. Dodds](https://kentcdodds.com/blog/please-dont-commit-commented-out-code)
+
+**PS:** Ainda não consegue ler em inglês? Meu novo curso, *Inglês Para Desenvolvedores*, pode ser a solução que você procura. [Acesse o site](https://ingles4devs.com), cadastre seu e-mail e fique por dentro das novidades!

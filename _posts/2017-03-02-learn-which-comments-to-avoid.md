@@ -7,9 +7,10 @@ author: Carlos Schults
 permalink: /en/types-of-comments-to-avoid/
 img: https://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg
 tags:
-- code smell
-- best practices
+- code-smell
+- best-practices
 - beginners
+- comments
 ---
 
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1488499558/comments-1038x437.jpg)
@@ -121,4 +122,4 @@ See you later!
 
 - [Apologies In Code, by Robert C. Martin](https://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode)
 - [Write comments that matter, by Sander Rossel](https://www.codeproject.com/tips/467657/write-comments-that-matter)
-- [Please, don’t commit commented out code, by Kent C. Dodds](https://medium.com/@kentcdodds/please-don-t-commit-commented-out-code-53d0b5b26d5f#.yex54k2sg)
+- [Please, don’t commit commented out code, by Kent C. Dodds](https://kentcdodds.com/blog/please-dont-commit-commented-out-code)
