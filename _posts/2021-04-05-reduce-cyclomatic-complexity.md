@@ -18,7 +18,7 @@ tags:
 
 ![](https://res.cloudinary.com/dz5ppacuo/image/upload/v1617641333/reduce-cyclomatic-complexity/reduce-cyclomatic-complexity-1038x437.jpg)
 
-*Editorial note: I originally wrote this post for the LinearB blog.  You can [check out the original here, at their site](https://linearb.io/blog/reduce-cyclomatic-complexity/). While you’re there, take a look at their product, a software intelligence solution that uses Git and project statistics to help dev teams improve their productivity. *
+*Editorial note: I originally wrote this post for the LinearB blog.  You can [check out the original here, at their site](https://linearb.io/blog/reduce-cyclomatic-complexity/). While you’re there, take a look at their product, a software intelligence solution that uses Git and project statistics to help dev teams improve their productivity.*
 
 Software engineers worth their salt are always searching for ways to improve their code. Fortunately for them, there’s a reliable way to evaluate the health of a codebase and project, and that’s through the use of [metrics](https://linearb.io/metrics-modern-dev-leaders/). Today’s post is all about a specific metric. You’ll learn how to reduce cyclomatic complexity and, more importantly, why you would want to do it.
 
