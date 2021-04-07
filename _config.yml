@@ -10,10 +10,10 @@ author: Carlos Schults
 title:
   en: carlos schults / blog
   pt: carlos schults / blog
-email: carlos.schults@gmail.com
+email: carlos@carlosschults.net
 description:
-  en: Articles on software development, databases and several tech related subjects.
-  pt: Artigos sobre desenvolvimento de software, banco de dados e vários assuntos ligados à tecnologia.
+  en: Articles on software development and technology.
+  pt: Artigos sobre desenvolvimento de software e tecnologia.
 index:
   en:
   pt: pt.html
@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 homeurl:
     en: ""
     pt: "/pt"
-url: "http://carlosschults.net" # the base hostname & protocol for your site
+url: "https://carlosschults.net" # the base hostname & protocol for your site
 twitter_username: carlosschults
 github_username:  carlosschults
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
