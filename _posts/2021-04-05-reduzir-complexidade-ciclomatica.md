@@ -69,7 +69,7 @@ Como já mencionamos, valores mais altos de complexidade ciclomática resultam n
 
 ### A Complexidade Ciclomática Contribui para Maior Risco de Defeitos
 
-Você é mais gostoso de introduzir defeitos em uma área da base de código que você muda muito do que a uma que você raramente toca. Além disso, quanto mais complexo for um determinado pedaço de código, mais provável é que você o entenda mal e introduza um defeito a ele.
+É mais provável que você introduza defeitos em uma área da base de código que você muda muito do que a uma que você raramente toca. Além disso, quanto mais complexo for um determinado pedaço de código, mais provável é que você o entenda mal e introduza um defeito a ele.
 
 Portanto, código complexo que sofre muito [churn](https://linearb.io/blog/what-is-code-churn/)- mudanças freqüentes pela equipe - representa mais risco de defeitos. Ao reduzir a complexidade ciclomática - e, idealmente, também a rotatividade do código - você estará mitigando esses riscos.
 
